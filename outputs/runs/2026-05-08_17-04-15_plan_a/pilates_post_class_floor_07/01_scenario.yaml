@@ -1,0 +1,25 @@
+{
+  "id": "pilates_post_class_floor_07",
+  "category": "pilates",
+  "archetype": "flat_lay",
+  "difficulty": "easy",
+  "scene": "Pilates studio floor, a sage-green reformer slightly out of focus behind, a rolled cream-colored pilates mat at the upper-left, a stainless steel water bottle, a small grippy black yoga towel, and the Alluvi box arranged on the warm wood floor in front of the reformer.",
+  "outfit": null,
+  "pose": null,
+  "hand_assignment": {
+    "phone_hand": null,
+    "product_hand": null,
+    "other_hand": null,
+    "other_hand_does": "persona not in frame"
+  },
+  "grip_or_placement": "The Alluvi box sits at the center of the composition on the warm wood floor, front face angled toward the camera at a three-quarter angle, the water bottle tucked behind it, the rolled mat to its left, the towel to its right, a single sprig of eucalyptus along the lower edge.",
+  "lighting": "Soft natural daylight from a window behind the reformer, late-afternoon warm wash on the wood floor, gentle warm glow on the box surface.",
+  "mood": "post-class quiet, intentional, calm",
+  "palette": "sage green, cream, warm wood, muted eucalyptus",
+  "framing": "three-quarter angle on the floor (low angle, product at center)",
+  "camera_height": "floor level, slight tilt up",
+  "resolves_failure_modes": [
+    "flat-lay easy case in pilates context"
+  ],
+  "notes": "No persona, low risk. Pilates equivalent of the gym bag flat-lay. Both validate Step 2 product rendering fidelity in clean compositions."
+}

@@ -1,0 +1,26 @@
+{
+  "id": "pilates_studio_post_class_mirror_10",
+  "category": "pilates",
+  "archetype": "held_product_high",
+  "difficulty": "hard",
+  "scene": "Same premium pilates studio as scenario 06 but viewed from a different angle. Warm marble floor, sage-green reformer behind, exposed brick wall on the right side. The persona stands in front of the floor-to-ceiling mirror with the reformer behind her reflected back.",
+  "outfit": "Slate grey seamless ribbed cropped long-sleeve top with thumbholes, matching slate grey high-waist seamless leggings, a thin silver chain necklace, small silver hoops. Hair pulled into a low slick ponytail with a small gold clip securing it. Bare feet. Subtle natural makeup.",
+  "pose": "Standing in three-quarter angle to the mirror, weight on her right leg, free hand on her hip, posture confident and relaxed.",
+  "hand_assignment": {
+    "phone_hand": null,
+    "product_hand": "right",
+    "other_hand": "left",
+    "other_hand_does": "rests lightly on her left hip"
+  },
+  "grip_or_placement": "Right hand at upper-chest level, the box held in a clear pinch grip — thumb on the front face near the bottom edge, index and middle fingers on the back, ring and pinky tucked under, box angled slightly toward the camera (not toward the mirror this time — direct camera engagement).",
+  "lighting": "Soft warm late-afternoon daylight pouring through a tall window on her left, warm bone tones across the marble floor, gentle warm glow on the box surface, subtle rim light on her left shoulder.",
+  "mood": "post-class polished, mid-thirties poised energy",
+  "palette": "slate grey, warm marble bone, sage green, soft amber",
+  "framing": "medium close-up (chest up)",
+  "camera_height": "chest level",
+  "resolves_failure_modes": [
+    "persona face fidelity at medium close-up — face is dominant in frame",
+    "explicit non-mirror-selfie pilates pose to vary from scenario 06"
+  ],
+  "notes": "Twin to scenario 06 but no phone, slightly tighter framing. Tests face fidelity at chest-up framing where the face is the second-largest element."
+}

@@ -1,0 +1,25 @@
+{
+  "id": "hero_marble_studio_29",
+  "category": "hero_flat_lay",
+  "archetype": "flat_lay",
+  "difficulty": "easy",
+  "scene": "Clean overhead flat-lay on a polished white marble surface with grey veining. Centered: the Alluvi box. Around it: a small dish of dried rose petals at the upper-left, a clear glass of water at the upper- right, a thin gold chain necklace coiled at the lower-left, a small sprig of dried lavender at the lower-right. Minimalist, spacious composition with negative space.",
+  "outfit": null,
+  "pose": null,
+  "hand_assignment": {
+    "phone_hand": null,
+    "product_hand": null,
+    "other_hand": null,
+    "other_hand_does": "persona not in frame"
+  },
+  "grip_or_placement": "The Alluvi box sits at the center of the composition, perfectly centered, front face up to the camera, oriented with its long side horizontal. The surrounding items frame it symmetrically with generous negative space around the box.",
+  "lighting": "Soft even natural daylight from above, very gentle diffuse shadows, bright clean wash across the marble, gentle warm glow on the box.",
+  "mood": "editorial product feature, premium hero",
+  "palette": "white marble, soft pink dried rose, brushed gold, sage lavender",
+  "framing": "overhead flat-lay (centered hero)",
+  "camera_height": "directly overhead",
+  "resolves_failure_modes": [
+    "centered hero composition — minimal compositing complexity"
+  ],
+  "notes": "The cleanest possible Step 2 test. If the product doesn't render perfectly here, it won't render perfectly anywhere. Minimum-complexity diagnostic."
+}

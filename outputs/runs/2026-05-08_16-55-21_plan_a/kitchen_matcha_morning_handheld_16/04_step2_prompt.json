@@ -1,0 +1,35 @@
+{
+  "scenario_id": "kitchen_matcha_morning_handheld_16",
+  "step_2_image_prompt": "Take the persona reference photo as the locked source for her face, hair color and styling in the messy low bun, body proportions, oversized butter-yellow waffle-knit pullover falling off one shoulder with white camisole strap visible, cream linen drawstring shorts, bare feet, and the entire minimalist kitchen island scene including the white marble countertop, light wood stools, cream wall, ceramic potted plant, and the bamboo whisk in the matcha bowl with dusted matcha powder — all of these must remain faithful to the reference. She is now holding the Alluvi product in her left hand at hip level resting against the counter edge: her left arm relaxed and slightly bent, wrist softly angled, fingers in a casual grip with thumb along the top edge of the box, four fingers along the bottom edge, the box held flat horizontally with the front face angled three-quarters toward the camera so the packaging is clearly visible. The product is approximately 7 inches wide, sized realistically relative to her hand and hip. Her body posture and arm angle may shift slightly to make the holding pose look natural and not stamped on. Both hands must remain visible in the frame — her left hand visibly grips the product at hip level, her right hand continues to hold the bamboo whisk poised over the matcha bowl. Do not hide either hand in pockets, behind her back, behind her body, or crop them out of the frame. The Alluvi product packaging must match the product reference photo exactly — every text element, color, graphic, and certification badge as shown. Preserve the packaging's natural white base color; the scene's warm morning light should illuminate the white surface as light, not tint the white yellow or cream. Match the lighting direction of the persona scene: soft morning daylight pouring through a window slightly out of frame on the left, warm bone tones across the marble countertop, gentle warm side-light on her left arm and on the box's front face, with a soft shadow falling toward the right.",
+  "word_count": 332,
+  "structure_breakdown": {
+    "sentence_1_identity_and_scene_lock": "Take the persona reference photo as the locked source for her face, hair color and styling in the messy low bun, body proportions, oversized butter-yellow waffle-knit pullover falling off one shoulder with white camisole strap visible, cream linen drawstring shorts, bare feet, and the entire minimalist kitchen island scene including the white marble countertop, light wood stools, cream wall, ceramic potted plant, and the bamboo whisk in the matcha bowl with dusted matcha powder — all of these must remain faithful to the reference.",
+    "sentence_2_product_holding_pose": "She is now holding the Alluvi product in her left hand at hip level resting against the counter edge: her left arm relaxed and slightly bent, wrist softly angled, fingers in a casual grip with thumb along the top edge of the box, four fingers along the bottom edge, the box held flat horizontally with the front face angled three-quarters toward the camera so the packaging is clearly visible. The product is approximately 7 inches wide, sized realistically relative to her hand and hip. Her body posture and arm angle may shift slightly to make the holding pose look natural and not stamped on.",
+    "sentence_3_hand_visibility_rule": "Both hands must remain visible in the frame — her left hand visibly grips the product at hip level, her right hand continues to hold the bamboo whisk poised over the matcha bowl. Do not hide either hand in pockets, behind her back, behind her body, or crop them out of the frame.",
+    "sentence_4_product_fidelity_and_lighting": "The Alluvi product packaging must match the product reference photo exactly — every text element, color, graphic, and certification badge as shown. Preserve the packaging's natural white base color; the scene's warm morning light should illuminate the white surface as light, not tint the white yellow or cream. Match the lighting direction of the persona scene: soft morning daylight pouring through a window slightly out of frame on the left, warm bone tones across the marble countertop, gentle warm side-light on her left arm and on the box's front face, with a soft shadow falling toward the right."
+  },
+  "fal_nano_banana_params": {
+    "aspect_ratio": "9:16",
+    "resolution": "1K",
+    "num_images": 1,
+    "output_format": "png",
+    "safety_tolerance": "4"
+  },
+  "image_inputs_required": {
+    "persona_scene_role": "Step 1 output — the locked persona, outfit, and scene",
+    "product_reference_role": "assets/product.jpg — the Alluvi Tirzepatide packaging reference",
+    "product_reference_path": "assets/product.jpg"
+  },
+  "compliance_check": {
+    "no_model_specific_syntax": true,
+    "no_packaging_text_described": true,
+    "no_packaging_design_described": true,
+    "identity_locked_explicitly": true,
+    "posture_explicitly_free_for_holding": true,
+    "hand_visibility_rule_present": true,
+    "scale_anchor_present": true,
+    "lighting_direction_only": true,
+    "white_base_preservation_present": true,
+    "compliance_clean": true
+  }
+}

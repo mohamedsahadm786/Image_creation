@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>kitchen_island_overhead_flat_lay_17 — chain</title>
+<style>
+  *{box-sizing:border-box}
+  body{font-family:-apple-system,BlinkMacSystemFont,system-ui,sans-serif;
+       margin:0;padding:24px;background:#F4F6F8;color:#1F2937}
+  h1{margin:0 0 6px 0;font-size:18px}
+  .meta{color:#6B7280;font-size:13px;margin-bottom:24px}
+  .meta-pill{display:inline-block;background:#fff;padding:3px 10px;
+             border-radius:4px;border:1px solid #E5E7EB;margin-right:6px;font-size:12px}
+  .stage-row{display:grid;grid-template-columns:repeat(3,1fr);gap:14px;margin-bottom:28px}
+  .stage{background:#fff;border:1px solid #E5E7EB;border-radius:8px;overflow:hidden}
+  .stage-label{padding:10px 12px;border-bottom:1px solid #E5E7EB;font-size:12px;
+               font-weight:600;background:#F9FAFB}
+  .stage img{width:100%;display:block;aspect-ratio:9/16;object-fit:cover;background:#F3F4F6}
+  .stage-empty{aspect-ratio:9/16;background:#F3F4F6;display:flex;
+               align-items:center;justify-content:center;color:#9CA3AF;font-size:12px}
+  .prompts{background:#fff;border:1px solid #E5E7EB;border-radius:8px;padding:18px}
+  .prompts h3{margin:0 0 8px;font-size:13px;color:#374151;text-transform:uppercase;
+              letter-spacing:.5px}
+  .prompt-block{background:#F9FAFB;border:1px solid #E5E7EB;border-radius:6px;
+                padding:12px;font-size:12.5px;line-height:1.55;
+                font-family:ui-monospace,'SF Mono',Menlo,monospace;
+                margin-bottom:18px;white-space:pre-wrap}
+  .badge{display:inline-block;padding:3px 9px;border-radius:12px;
+         font-size:10.5px;font-weight:600;margin-left:6px}
+  .badge-ok{background:#D1FAE5;color:#065F46}
+  .badge-fail{background:#FEE2E2;color:#991B1B}
+  .error-block{background:#FFF7ED;border-left:3px solid #F97316;padding:10px 14px;
+                margin-bottom:18px;border-radius:4px;font-size:13px;color:#7C2D12}
+</style>
+</head>
+<body>
+<h1>kitchen_island_overhead_flat_lay_17 <span class="badge badge-ok">SUCCESS</span></h1>
+<div class="meta">
+  <span class="meta-pill"><strong>kitchen</strong></span>
+  <span class="meta-pill">flat_lay</span>
+  <span class="meta-pill">easy</span>
+  <span class="meta-pill">plan: plan_a</span>
+</div>
+
+
+
+<div class="stage-row">
+<div class="stage">
+  <div class="stage-label">Step 0 — (no persona — flat-lay scenario)</div>
+  <div class="stage-empty">no persona in this scenario</div>
+</div><div class="stage">
+  <div class="stage-label">Step 1 — Scene with empty product slot</div>
+  <img src="03_step1_persona.jpg" alt="Scene with empty product slot"
+       onerror="this.outerHTML='<div class=stage-empty>not generated</div>'">
+</div><div class="stage">
+  <div class="stage-label">Step 2 — Final composite</div>
+  <img src="05_step2_final.jpg" alt="Final composite"
+       onerror="this.outerHTML='<div class=stage-empty>not generated</div>'">
+</div>
+</div>
+
+<div class="prompts">
+  <h3>Step 1 prompt → fal-ai/flux-pulid (or kontext for Plan B)</h3>
+  <div class="prompt-block">An overhead flat-lay shot on a polished white marble kitchen island with subtle grey veining. Arranged across the composition: a ceramic matcha bowl with a bamboo whisk resting inside at the upper-left, a clear glass of water with subtle condensation at the upper-right, an open leather journal with a brass pen resting diagonally across the spread at the center-right, a small beige plate with a folded linen napkin and two slices of avocado toast at the lower-right, and a single sprig of fresh eucalyptus at the upper-center. The lower-left third of the composition is intentionally empty — clean marble surface with generous negative space, perfectly framed by the surrounding items in a relaxed asymmetric triangle arrangement. Soft natural morning daylight from the right side of the frame, throwing long gentle diagonal shadows across the marble, warm bone tones, gentle warm glow across the surface. Shot on Sony A7IV 50mm lens directly overhead. Real photograph, not AI-generated, candid moment. Real surface texture and grain on the marble, slow Saturday morning breakfast ritual mood, palette of warm bone marble, oat ceramics, sage green, matcha green, brass. Minimalist editorial composition with deliberate emptiness at the lower-left.</div>
+
+  <h3>Step 2 prompt → fal-ai/nano-banana-2/edit</h3>
+  <div class="prompt-block">Take the persona reference photo as the locked source for the entire overhead flat-lay scene — the white marble kitchen island with grey veining, the ceramic matcha bowl with bamboo whisk at upper-left, the clear glass of water at upper-right, the open leather journal with brass pen at center-right, the beige plate with linen napkin and avocado toast at lower-right, and the eucalyptus sprig at upper-center must all remain faithful to the reference. Place the Alluvi product into the empty lower-left third of the marble surface, with its front face up to the camera and the box angled slightly toward the upper right so it reads cleanly into the relaxed asymmetric triangle of surrounding items. The product is approximately 7 inches wide, sized realistically in proportion to the matcha bowl, water glass, plate, and journal around it. Do not enlarge the product beyond its natural proportions. The Alluvi product packaging must match the product reference photo exactly — every text element, color, graphic, gradient, and certification badge as shown. Preserve the packaging&#x27;s natural white base color — apply only the scene&#x27;s directional lighting on top of the white, do not tint the white to match the warm marble tones. Match the lighting direction of the scene: soft natural morning daylight from the right side of the frame, throwing long gentle diagonal shadows across the marble toward the lower-left, warm bone tones, gentle warm glow on the box surface.</div>
+</div>
+</body>
+</html>

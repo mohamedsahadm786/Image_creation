@@ -1,0 +1,9 @@
+{
+  "local_path": "outputs\\runs\\2026-05-08_17-04-15_plan_a\\recovery_blanket_reading_23\\05_step2_final.jpg",
+  "fal_url": "https://v3b.fal.media/files/b/0a996423/aDErtWTP_E4XP_-W2AHkl_L2Y1hHTH.png",
+  "seed": null,
+  "request_id": "unknown",
+  "elapsed_seconds": 29.100738048553467,
+  "endpoint": "fal-ai/nano-banana-2/edit",
+  "cost_usd": 0.04
+}

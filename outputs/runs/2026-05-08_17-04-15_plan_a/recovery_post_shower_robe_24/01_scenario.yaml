@@ -1,0 +1,26 @@
+{
+  "id": "recovery_post_shower_robe_24",
+  "category": "recovery",
+  "archetype": "held_product_high",
+  "difficulty": "medium",
+  "scene": "Bedroom or living room corner, soft natural daylight from a large window on the left, a wooden chair with a folded cashmere throw draped over it, a small green plant in a ceramic pot beside the chair. Warm wood floor.",
+  "outfit": "Long ivory waffle-knit robe tied loosely at the waist, sleeves pushed up to her elbows, the robe falling to mid-shin. White spaghetti-strap camisole visible at the V-neckline. Hair damp and slicked back into a low loose bun. Small gold studs. Bare face, dewy fresh-shower skin.",
+  "pose": "Standing in three-quarter angle to the camera, weight on her right leg, one foot slightly forward, looking softly down at the box with a calm content smile.",
+  "hand_assignment": {
+    "phone_hand": null,
+    "product_hand": "right",
+    "other_hand": "left",
+    "other_hand_does": "rests at her left hip, gently touching the robe sash"
+  },
+  "grip_or_placement": "Right hand at chest level, thumb on the front face of the box, four fingers wrapping around the back edge, box held vertically (long side vertical) with the front face directly toward the camera.",
+  "lighting": "Soft cool morning daylight from a large window on the left, balanced diffuse wash across her face and the robe, gentle cool-neutral tone on the box surface.",
+  "mood": "post-shower fresh, calm beginning",
+  "palette": "ivory waffle, warm wood, sage green plant, soft daylight white",
+  "framing": "medium full (mid-thigh up)",
+  "camera_height": "chest level",
+  "resolves_failure_modes": [
+    "outfit lock — robe + damp hair completely different from reference",
+    "vertically oriented box hold (long side vertical instead of horizontal)"
+  ],
+  "notes": "Tests vertical box orientation in a held grip. Most scenarios use horizontal orientation; this one rotates the box 90 degrees."
+}

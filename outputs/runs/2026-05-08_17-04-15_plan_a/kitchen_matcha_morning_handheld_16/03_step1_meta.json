@@ -1,0 +1,9 @@
+{
+  "local_path": "outputs\\runs\\2026-05-08_17-04-15_plan_a\\kitchen_matcha_morning_handheld_16\\03_step1_persona.jpg",
+  "fal_url": "https://v3b.fal.media/files/b/0a9963d1/dRi7JOmdh2I_zeri3jAad.png",
+  "seed": 2446447190,
+  "request_id": "unknown",
+  "elapsed_seconds": 25.451531410217285,
+  "endpoint": "fal-ai/flux-pulid",
+  "cost_usd": 0.04
+}

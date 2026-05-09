@@ -1,0 +1,35 @@
+{
+  "scenario_id": "kitchen_coffee_bar_moment_18",
+  "step_2_image_prompt": "Take the persona reference photo as the locked source for her face, hair color and styling, body proportions, charcoal grey ribbed pullover and dark wash jeans outfit, gold jewelry, and the entire modern kitchen coffee bar scene including the espresso machine, ceramic mugs on the open shelf, marble counter, and ceramic tray with linen napkin and wood spoon — all of these must remain faithful to the reference. She is now holding the Alluvi product in her right hand at upper-chest level: her right arm bent naturally at the elbow, wrist relaxed, fingers curved around the box with thumb on the front face near the top edge, index and middle fingers on the back, ring and pinky tucked under the bottom, the box angled forty-five degrees toward the camera so the front face is clearly visible. The product is approximately 7 inches wide, sized realistically relative to her hand. Her body posture and arm angle may shift slightly to make the holding pose look natural and not stamped on. Both hands must remain visible in the frame — her right hand visibly grips the product, her left hand continues to rest lightly on the marble counter edge. Do not hide either hand in pockets, behind her back, or crop them out of the frame. The Alluvi product packaging must match the product reference photo exactly — every text element, color, graphic, and certification badge as shown. Preserve the packaging's natural white base color; the scene's mixed light should illuminate the white surface as light, not tint the white. Match the lighting direction of the persona scene: cool overhead pendant lighting on the coffee bar combined with warm morning daylight from a window on the right side of the frame, with a warm rim on the right side of the box and a cooler ambient fill from above.",
+  "word_count": 296,
+  "structure_breakdown": {
+    "sentence_1_identity_and_scene_lock": "Take the persona reference photo as the locked source for her face, hair color and styling, body proportions, charcoal grey ribbed pullover and dark wash jeans outfit, gold jewelry, and the entire modern kitchen coffee bar scene including the espresso machine, ceramic mugs on the open shelf, marble counter, and ceramic tray with linen napkin and wood spoon — all of these must remain faithful to the reference.",
+    "sentence_2_product_holding_pose": "She is now holding the Alluvi product in her right hand at upper-chest level: her right arm bent naturally at the elbow, wrist relaxed, fingers curved around the box with thumb on the front face near the top edge, index and middle fingers on the back, ring and pinky tucked under the bottom, the box angled forty-five degrees toward the camera so the front face is clearly visible. The product is approximately 7 inches wide, sized realistically relative to her hand. Her body posture and arm angle may shift slightly to make the holding pose look natural and not stamped on.",
+    "sentence_3_hand_visibility_rule": "Both hands must remain visible in the frame — her right hand visibly grips the product, her left hand continues to rest lightly on the marble counter edge. Do not hide either hand in pockets, behind her back, or crop them out of the frame.",
+    "sentence_4_product_fidelity_and_lighting": "The Alluvi product packaging must match the product reference photo exactly — every text element, color, graphic, and certification badge as shown. Preserve the packaging's natural white base color; the scene's mixed light should illuminate the white surface as light, not tint the white. Match the lighting direction of the persona scene: cool overhead pendant lighting on the coffee bar combined with warm morning daylight from a window on the right side of the frame, with a warm rim on the right side of the box and a cooler ambient fill from above."
+  },
+  "fal_nano_banana_params": {
+    "aspect_ratio": "9:16",
+    "resolution": "1K",
+    "num_images": 1,
+    "output_format": "png",
+    "safety_tolerance": "4"
+  },
+  "image_inputs_required": {
+    "persona_scene_role": "Step 1 output — the locked persona, outfit, and scene",
+    "product_reference_role": "assets/product.jpg — the Alluvi Tirzepatide packaging reference",
+    "product_reference_path": "assets/product.jpg"
+  },
+  "compliance_check": {
+    "no_model_specific_syntax": true,
+    "no_packaging_text_described": true,
+    "no_packaging_design_described": true,
+    "identity_locked_explicitly": true,
+    "posture_explicitly_free_for_holding": true,
+    "hand_visibility_rule_present": true,
+    "scale_anchor_present": true,
+    "lighting_direction_only": true,
+    "white_base_preservation_present": true,
+    "compliance_clean": true
+  }
+}

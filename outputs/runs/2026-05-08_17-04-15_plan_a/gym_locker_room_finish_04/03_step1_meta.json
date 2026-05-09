@@ -1,0 +1,9 @@
+{
+  "local_path": "outputs\\runs\\2026-05-08_17-04-15_plan_a\\gym_locker_room_finish_04\\03_step1_persona.jpg",
+  "fal_url": "https://v3b.fal.media/files/b/0a996349/X9WblQvrCIiE6hErdAXxr.png",
+  "seed": 4022138146,
+  "request_id": "unknown",
+  "elapsed_seconds": 24.4121413230896,
+  "endpoint": "fal-ai/flux-pulid",
+  "cost_usd": 0.04
+}

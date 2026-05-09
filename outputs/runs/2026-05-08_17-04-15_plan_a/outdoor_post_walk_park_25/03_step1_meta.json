@@ -1,0 +1,9 @@
+{
+  "local_path": "outputs\\runs\\2026-05-08_17-04-15_plan_a\\outdoor_post_walk_park_25\\03_step1_persona.jpg",
+  "fal_url": "https://v3b.fal.media/files/b/0a996433/L7d_2mqGUGi4wWyOSaqVW.png",
+  "seed": 118209735,
+  "request_id": "unknown",
+  "elapsed_seconds": 24.08220887184143,
+  "endpoint": "fal-ai/flux-pulid",
+  "cost_usd": 0.04
+}

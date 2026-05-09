@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>kitchen_coffee_bar_moment_18 — chain</title>
+<style>
+  *{box-sizing:border-box}
+  body{font-family:-apple-system,BlinkMacSystemFont,system-ui,sans-serif;
+       margin:0;padding:24px;background:#F4F6F8;color:#1F2937}
+  h1{margin:0 0 6px 0;font-size:18px}
+  .meta{color:#6B7280;font-size:13px;margin-bottom:24px}
+  .meta-pill{display:inline-block;background:#fff;padding:3px 10px;
+             border-radius:4px;border:1px solid #E5E7EB;margin-right:6px;font-size:12px}
+  .stage-row{display:grid;grid-template-columns:repeat(3,1fr);gap:14px;margin-bottom:28px}
+  .stage{background:#fff;border:1px solid #E5E7EB;border-radius:8px;overflow:hidden}
+  .stage-label{padding:10px 12px;border-bottom:1px solid #E5E7EB;font-size:12px;
+               font-weight:600;background:#F9FAFB}
+  .stage img{width:100%;display:block;aspect-ratio:9/16;object-fit:cover;background:#F3F4F6}
+  .stage-empty{aspect-ratio:9/16;background:#F3F4F6;display:flex;
+               align-items:center;justify-content:center;color:#9CA3AF;font-size:12px}
+  .prompts{background:#fff;border:1px solid #E5E7EB;border-radius:8px;padding:18px}
+  .prompts h3{margin:0 0 8px;font-size:13px;color:#374151;text-transform:uppercase;
+              letter-spacing:.5px}
+  .prompt-block{background:#F9FAFB;border:1px solid #E5E7EB;border-radius:6px;
+                padding:12px;font-size:12.5px;line-height:1.55;
+                font-family:ui-monospace,'SF Mono',Menlo,monospace;
+                margin-bottom:18px;white-space:pre-wrap}
+  .badge{display:inline-block;padding:3px 9px;border-radius:12px;
+         font-size:10.5px;font-weight:600;margin-left:6px}
+  .badge-ok{background:#D1FAE5;color:#065F46}
+  .badge-fail{background:#FEE2E2;color:#991B1B}
+  .error-block{background:#FFF7ED;border-left:3px solid #F97316;padding:10px 14px;
+                margin-bottom:18px;border-radius:4px;font-size:13px;color:#7C2D12}
+</style>
+</head>
+<body>
+<h1>kitchen_coffee_bar_moment_18 <span class="badge badge-ok">SUCCESS</span></h1>
+<div class="meta">
+  <span class="meta-pill"><strong>kitchen</strong></span>
+  <span class="meta-pill">held_product_high</span>
+  <span class="meta-pill">hard</span>
+  <span class="meta-pill">plan: plan_a</span>
+</div>
+
+
+
+<div class="stage-row">
+<div class="stage">
+  <div class="stage-label">Step 0 — Source persona.jpg</div>
+  <img src="../../../../assets/persona.jpg" alt="Source persona.jpg"
+       onerror="this.outerHTML='<div class=stage-empty>not generated</div>'">
+</div><div class="stage">
+  <div class="stage-label">Step 1 — Persona scene (no product)</div>
+  <img src="03_step1_persona.jpg" alt="Persona scene (no product)"
+       onerror="this.outerHTML='<div class=stage-empty>not generated</div>'">
+</div><div class="stage">
+  <div class="stage-label">Step 2 — Final composite</div>
+  <img src="05_step2_final.jpg" alt="Final composite"
+       onerror="this.outerHTML='<div class=stage-empty>not generated</div>'">
+</div>
+</div>
+
+<div class="prompts">
+  <h3>Step 1 prompt → fal-ai/flux-pulid (or kontext for Plan B)</h3>
+  <div class="prompt-block">A 25-year-old Mediterranean woman with sun-kissed deep-tan skin, green almond eyes, and brunette-with-blonde-balayage waves to her mid-back, captured in a candid amateur smartphone snapshot with natural skin texture and visible pores. She is wearing a charcoal grey ribbed long-sleeve cropped pullover with sleeves long enough to cover her hands partially, high-waisted dark wash relaxed jeans with a slight crop hem, white minimalist sneakers, hair down in soft waves, layered thin gold necklaces, small gold huggie hoops. She stands at a sleek built-in coffee bar in a modern kitchen, espresso machine on the counter behind her, a small open shelf above with arranged ceramic mugs, white marble counter surface in front of the espresso machine, a small ceramic tray on the counter with a folded linen napkin and a small wood spoon. Standing facing the coffee bar at a three-quarter angle to the camera, weight on her right leg, looking down toward chest level with a soft confident smile. Both hands are visible in the frame, not in her pockets, not behind her back, not cropped out of frame. Her left hand rests lightly on the marble counter edge. Her right hand is at upper-chest level, palm angled inward, fingers in a relaxed open pinch position, currently empty. Cool overhead pendant lighting on the coffee bar combined with warm morning daylight from a window on the right side of the frame, mixed cool and warm wash on her face. Shot on Sony A7IV 35mm lens shallow depth of field. Real photograph, not AI-generated, no model pose, candid moment. Morning ritual polished casual energy mood, palette of charcoal grey, dark denim, warm marble, espresso brown, brass accents. Reference image is the persona — preserve her face, eye color, eye shape, brow shape, nose shape, lip shape, jaw line, and hair color exactly. Do not improvise her face.</div>
+
+  <h3>Step 2 prompt → fal-ai/nano-banana-2/edit</h3>
+  <div class="prompt-block">Take the persona reference photo as the locked source for her face, hair color and styling, body proportions, charcoal grey ribbed pullover and dark wash jeans outfit, gold jewelry, and the entire modern kitchen coffee bar scene including the espresso machine, ceramic mugs on the open shelf, marble counter, and ceramic tray with linen napkin and wood spoon — all of these must remain faithful to the reference. She is now holding the Alluvi product in her right hand at upper-chest level: her right arm bent naturally at the elbow, wrist relaxed, fingers curved around the box with thumb on the front face near the top edge, index and middle fingers on the back, ring and pinky tucked under the bottom, the box angled forty-five degrees toward the camera so the front face is clearly visible. The product is approximately 7 inches wide, sized realistically relative to her hand. Her body posture and arm angle may shift slightly to make the holding pose look natural and not stamped on. Both hands must remain visible in the frame — her right hand visibly grips the product, her left hand continues to rest lightly on the marble counter edge. Do not hide either hand in pockets, behind her back, or crop them out of the frame. The Alluvi product packaging must match the product reference photo exactly — every text element, color, graphic, and certification badge as shown. Preserve the packaging&#x27;s natural white base color; the scene&#x27;s mixed light should illuminate the white surface as light, not tint the white. Match the lighting direction of the persona scene: cool overhead pendant lighting on the coffee bar combined with warm morning daylight from a window on the right side of the frame, with a warm rim on the right side of the box and a cooler ambient fill from above.</div>
+</div>
+</body>
+</html>

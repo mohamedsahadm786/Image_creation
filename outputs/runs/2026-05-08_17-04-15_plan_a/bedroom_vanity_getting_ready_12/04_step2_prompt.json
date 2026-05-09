@@ -1,0 +1,35 @@
+{
+  "scenario_id": "bedroom_vanity_getting_ready_12",
+  "step_2_image_prompt": "Take the persona reference photo as the locked source for her face, hair color and styling, body proportions, pale blush pink linen robe outfit, and the entire bedroom vanity scene including the round arched mirror, warm walnut vanity, ceramic skincare bottles, gold tray dish, and linen-shaded corner lamp — all of these must remain faithful to the reference. The Alluvi product is now placed on the walnut vanity surface to her right, nestled between the ceramic skincare bottle and the open glass jar of cotton pads, with the front face angled roughly three-quarters toward the camera so it reads as the visual anchor of the styled vanity arrangement. The product is approximately 7 inches wide and 3 inches tall, sized realistically relative to the surrounding skincare bottles and ceramic dish on the vanity. Do not enlarge the product beyond its actual proportions. Both hands must remain visible in the frame — her right hand stays lifted to her cheek mid-skincare-application with fingertips lightly pressing into her cheekbone, her left hand rests gently on her thigh. Do not hide either hand in pockets, behind her back, or crop them out of the frame. The Alluvi product packaging must match the product reference photo exactly — every text element, color, graphic, and certification badge as shown. Preserve the packaging's natural white base color; the scene's warm amber light should illuminate the white surface as light, not tint the white amber. Match the lighting direction of the persona scene: warm bedside lamp from the corner combined with soft morning daylight from a window slightly out of frame on the left, with a soft warm shadow falling toward the right across the walnut vanity surface.",
+  "word_count": 269,
+  "structure_breakdown": {
+    "sentence_1_identity_and_scene_lock": "Take the persona reference photo as the locked source for her face, hair color and styling, body proportions, pale blush pink linen robe outfit, and the entire bedroom vanity scene including the round arched mirror, warm walnut vanity, ceramic skincare bottles, gold tray dish, and linen-shaded corner lamp — all of these must remain faithful to the reference.",
+    "sentence_2_product_holding_pose": "The Alluvi product is now placed on the walnut vanity surface to her right, nestled between the ceramic skincare bottle and the open glass jar of cotton pads, with the front face angled roughly three-quarters toward the camera so it reads as the visual anchor of the styled vanity arrangement. The product is approximately 7 inches wide and 3 inches tall, sized realistically relative to the surrounding skincare bottles and ceramic dish on the vanity. Do not enlarge the product beyond its actual proportions.",
+    "sentence_3_hand_visibility_rule": "Both hands must remain visible in the frame — her right hand stays lifted to her cheek mid-skincare-application with fingertips lightly pressing into her cheekbone, her left hand rests gently on her thigh. Do not hide either hand in pockets, behind her back, or crop them out of the frame.",
+    "sentence_4_product_fidelity_and_lighting": "The Alluvi product packaging must match the product reference photo exactly — every text element, color, graphic, and certification badge as shown. Preserve the packaging's natural white base color; the scene's warm amber light should illuminate the white surface as light, not tint the white amber. Match the lighting direction of the persona scene: warm bedside lamp from the corner combined with soft morning daylight from a window slightly out of frame on the left, with a soft warm shadow falling toward the right across the walnut vanity surface."
+  },
+  "fal_nano_banana_params": {
+    "aspect_ratio": "9:16",
+    "resolution": "1K",
+    "num_images": 1,
+    "output_format": "png",
+    "safety_tolerance": "4"
+  },
+  "image_inputs_required": {
+    "persona_scene_role": "Step 1 output — the locked persona, outfit, and scene",
+    "product_reference_role": "assets/product.jpg — the Alluvi Tirzepatide packaging reference",
+    "product_reference_path": "assets/product.jpg"
+  },
+  "compliance_check": {
+    "no_model_specific_syntax": true,
+    "no_packaging_text_described": true,
+    "no_packaging_design_described": true,
+    "identity_locked_explicitly": true,
+    "posture_explicitly_free_for_holding": true,
+    "hand_visibility_rule_present": true,
+    "scale_anchor_present": true,
+    "lighting_direction_only": true,
+    "white_base_preservation_present": true,
+    "compliance_clean": true
+  }
+}

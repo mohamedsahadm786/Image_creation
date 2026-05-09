@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>outdoor_smoothie_bar_26 — chain</title>
+<style>
+  *{box-sizing:border-box}
+  body{font-family:-apple-system,BlinkMacSystemFont,system-ui,sans-serif;
+       margin:0;padding:24px;background:#F4F6F8;color:#1F2937}
+  h1{margin:0 0 6px 0;font-size:18px}
+  .meta{color:#6B7280;font-size:13px;margin-bottom:24px}
+  .meta-pill{display:inline-block;background:#fff;padding:3px 10px;
+             border-radius:4px;border:1px solid #E5E7EB;margin-right:6px;font-size:12px}
+  .stage-row{display:grid;grid-template-columns:repeat(3,1fr);gap:14px;margin-bottom:28px}
+  .stage{background:#fff;border:1px solid #E5E7EB;border-radius:8px;overflow:hidden}
+  .stage-label{padding:10px 12px;border-bottom:1px solid #E5E7EB;font-size:12px;
+               font-weight:600;background:#F9FAFB}
+  .stage img{width:100%;display:block;aspect-ratio:9/16;object-fit:cover;background:#F3F4F6}
+  .stage-empty{aspect-ratio:9/16;background:#F3F4F6;display:flex;
+               align-items:center;justify-content:center;color:#9CA3AF;font-size:12px}
+  .prompts{background:#fff;border:1px solid #E5E7EB;border-radius:8px;padding:18px}
+  .prompts h3{margin:0 0 8px;font-size:13px;color:#374151;text-transform:uppercase;
+              letter-spacing:.5px}
+  .prompt-block{background:#F9FAFB;border:1px solid #E5E7EB;border-radius:6px;
+                padding:12px;font-size:12.5px;line-height:1.55;
+                font-family:ui-monospace,'SF Mono',Menlo,monospace;
+                margin-bottom:18px;white-space:pre-wrap}
+  .badge{display:inline-block;padding:3px 9px;border-radius:12px;
+         font-size:10.5px;font-weight:600;margin-left:6px}
+  .badge-ok{background:#D1FAE5;color:#065F46}
+  .badge-fail{background:#FEE2E2;color:#991B1B}
+  .error-block{background:#FFF7ED;border-left:3px solid #F97316;padding:10px 14px;
+                margin-bottom:18px;border-radius:4px;font-size:13px;color:#7C2D12}
+</style>
+</head>
+<body>
+<h1>outdoor_smoothie_bar_26 <span class="badge badge-ok">SUCCESS</span></h1>
+<div class="meta">
+  <span class="meta-pill"><strong>outdoor</strong></span>
+  <span class="meta-pill">placed_on_surface</span>
+  <span class="meta-pill">medium</span>
+  <span class="meta-pill">plan: plan_a</span>
+</div>
+
+
+
+<div class="stage-row">
+<div class="stage">
+  <div class="stage-label">Step 0 — Source persona.jpg</div>
+  <img src="../../../../assets/persona.jpg" alt="Source persona.jpg"
+       onerror="this.outerHTML='<div class=stage-empty>not generated</div>'">
+</div><div class="stage">
+  <div class="stage-label">Step 1 — Persona scene (no product)</div>
+  <img src="03_step1_persona.jpg" alt="Persona scene (no product)"
+       onerror="this.outerHTML='<div class=stage-empty>not generated</div>'">
+</div><div class="stage">
+  <div class="stage-label">Step 2 — Final composite</div>
+  <img src="05_step2_final.jpg" alt="Final composite"
+       onerror="this.outerHTML='<div class=stage-empty>not generated</div>'">
+</div>
+</div>
+
+<div class="prompts">
+  <h3>Step 1 prompt → fal-ai/flux-pulid (or kontext for Plan B)</h3>
+  <div class="prompt-block">A 25-year-old Mediterranean woman with sun-kissed deep-tan skin, green almond eyes, and brunette-with-blonde-balayage waves to her mid-back, captured in a candid amateur smartphone snapshot with natural skin texture and visible pores. She is wearing a white cotton wrap top with a tie at the waist tied loosely on the side, high-waist tailored linen wide-leg trousers in soft sand color, woven flat sandals just barely visible, hair down in soft natural waves, small gold studs and a layered thin gold necklace, subtle bronzy makeup. She stands at an outdoor smoothie bar with a polished wood counter, an open bookcase of plant-based cookbooks behind her, lush green ferns hanging above, a tall glass of green smoothie and a small ceramic ramekin of granola on the counter in front of her. Standing at the counter, body angled three-quarters toward the camera, looking softly down at the green smoothie with a small smile. Both hands are visible in the frame, not in her pockets, not behind her back, not cropped out of frame. Both hands rest lightly on the wood counter edge in front of her, fingers relaxed. Bright natural daylight from above and the sides, slightly diffused by the canopy of ferns, warm wash across her face and the wood counter. Shot on iPhone 15 Pro 35mm equivalent. Real photograph, not AI-generated, no model pose, candid moment. Morning smoothie ritual bright energetic mood, palette of warm wood, sand linen, white cotton, deep green ferns, vibrant green smoothie. Reference image is the persona — preserve her face, eye color, eye shape, brow shape, nose shape, lip shape, jaw line, and hair color exactly. Do not improvise her face.</div>
+
+  <h3>Step 2 prompt → fal-ai/nano-banana-2/edit</h3>
+  <div class="prompt-block">Take the persona reference photo as the locked source for her face, hair color and styling, body proportions, white cotton wrap top and sand linen trouser outfit, gold jewelry, and the entire outdoor smoothie bar scene including the polished wood counter, the tall glass of green smoothie, the ceramic granola ramekin, the cookbook bookcase behind her, and the hanging ferns above — all of these must remain faithful to the reference. The Alluvi product is now placed on the wood counter directly in front of her, between the tall green smoothie glass and the small ceramic granola ramekin, sitting flat on its long bottom face with the front face angled three-quarters toward the camera as part of her morning smoothie-bar arrangement. The product is approximately 7 inches wide and 3 inches tall, sized realistically relative to the smoothie glass and granola ramekin around it. Do not enlarge the product. Both hands must remain visible in the frame, resting lightly on the wood counter edge in front of her with fingers relaxed. Do not hide either hand in pockets, behind her back, or crop them out of the frame. The Alluvi product packaging must match the product reference photo exactly — every text element, color, graphic, and certification badge as shown. Preserve the packaging&#x27;s natural white base color; the scene&#x27;s warm daylight should illuminate the white surface as light, not tint the white warm. Match the lighting direction of the persona scene: bright natural daylight from above and the sides, slightly diffused by the canopy of ferns, with a soft natural shadow falling onto the wood counter beneath the box.</div>
+</div>
+</body>
+</html>

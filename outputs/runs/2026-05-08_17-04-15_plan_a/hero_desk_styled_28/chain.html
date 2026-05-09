@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>hero_desk_styled_28 — chain</title>
+<style>
+  *{box-sizing:border-box}
+  body{font-family:-apple-system,BlinkMacSystemFont,system-ui,sans-serif;
+       margin:0;padding:24px;background:#F4F6F8;color:#1F2937}
+  h1{margin:0 0 6px 0;font-size:18px}
+  .meta{color:#6B7280;font-size:13px;margin-bottom:24px}
+  .meta-pill{display:inline-block;background:#fff;padding:3px 10px;
+             border-radius:4px;border:1px solid #E5E7EB;margin-right:6px;font-size:12px}
+  .stage-row{display:grid;grid-template-columns:repeat(3,1fr);gap:14px;margin-bottom:28px}
+  .stage{background:#fff;border:1px solid #E5E7EB;border-radius:8px;overflow:hidden}
+  .stage-label{padding:10px 12px;border-bottom:1px solid #E5E7EB;font-size:12px;
+               font-weight:600;background:#F9FAFB}
+  .stage img{width:100%;display:block;aspect-ratio:9/16;object-fit:cover;background:#F3F4F6}
+  .stage-empty{aspect-ratio:9/16;background:#F3F4F6;display:flex;
+               align-items:center;justify-content:center;color:#9CA3AF;font-size:12px}
+  .prompts{background:#fff;border:1px solid #E5E7EB;border-radius:8px;padding:18px}
+  .prompts h3{margin:0 0 8px;font-size:13px;color:#374151;text-transform:uppercase;
+              letter-spacing:.5px}
+  .prompt-block{background:#F9FAFB;border:1px solid #E5E7EB;border-radius:6px;
+                padding:12px;font-size:12.5px;line-height:1.55;
+                font-family:ui-monospace,'SF Mono',Menlo,monospace;
+                margin-bottom:18px;white-space:pre-wrap}
+  .badge{display:inline-block;padding:3px 9px;border-radius:12px;
+         font-size:10.5px;font-weight:600;margin-left:6px}
+  .badge-ok{background:#D1FAE5;color:#065F46}
+  .badge-fail{background:#FEE2E2;color:#991B1B}
+  .error-block{background:#FFF7ED;border-left:3px solid #F97316;padding:10px 14px;
+                margin-bottom:18px;border-radius:4px;font-size:13px;color:#7C2D12}
+</style>
+</head>
+<body>
+<h1>hero_desk_styled_28 <span class="badge badge-ok">SUCCESS</span></h1>
+<div class="meta">
+  <span class="meta-pill"><strong>hero_flat_lay</strong></span>
+  <span class="meta-pill">flat_lay</span>
+  <span class="meta-pill">easy</span>
+  <span class="meta-pill">plan: plan_a</span>
+</div>
+
+
+
+<div class="stage-row">
+<div class="stage">
+  <div class="stage-label">Step 0 — (no persona — flat-lay scenario)</div>
+  <div class="stage-empty">no persona in this scenario</div>
+</div><div class="stage">
+  <div class="stage-label">Step 1 — Scene with empty product slot</div>
+  <img src="03_step1_persona.jpg" alt="Scene with empty product slot"
+       onerror="this.outerHTML='<div class=stage-empty>not generated</div>'">
+</div><div class="stage">
+  <div class="stage-label">Step 2 — Final composite</div>
+  <img src="05_step2_final.jpg" alt="Final composite"
+       onerror="this.outerHTML='<div class=stage-empty>not generated</div>'">
+</div>
+</div>
+
+<div class="prompts">
+  <h3>Step 1 prompt → fal-ai/flux-pulid (or kontext for Plan B)</h3>
+  <div class="prompt-block">An overhead flat-lay shot on a warm walnut wood desk surface with rich grain visible. Around the central area: an open cream linen-bound journal with a brass pen resting in the spine at the lower-left of the composition, a small ceramic mug of black coffee with delicate steam rising at the upper-right, a pair of tortoiseshell reading glasses folded at the lower-right, a small green plant cutting in a clear glass propagation vase at the upper-left, and a single sprig of eucalyptus laid across the upper edge of the frame. The center-left of the composition, slightly overlapping the corner of the open journal, is intentionally empty — clean walnut surface with deliberate negative space framed by the surrounding items in a relaxed intentional arrangement. Soft natural daylight from above-right throws long gentle diagonal shadows across the walnut surface, warm honeyed tones, gentle warm glow across the wood grain. Shot on Sony A7IV 50mm lens directly overhead. Real photograph, not AI-generated, candid moment. Real surface texture and grain on the walnut, focused morning workspace intentional editorial mood, palette of warm walnut, cream linen, brass, deep coffee brown, sage green. Minimalist editorial composition with deliberate emptiness at center-left.</div>
+
+  <h3>Step 2 prompt → fal-ai/nano-banana-2/edit</h3>
+  <div class="prompt-block">Take the persona reference photo as the locked source for the entire overhead flat-lay scene — the warm walnut wood desk surface with its grain, the open cream linen-bound journal with brass pen, the ceramic mug of black coffee with steam, the tortoiseshell reading glasses, the glass propagation vase with the green cutting, and the sprig of eucalyptus across the upper edge — all of these must remain faithful to the reference. The Alluvi product is now placed at the center-left of the composition, front face up to the camera, oriented horizontally with its long side roughly parallel to the lower edge of the frame, lower edge slightly overlapping the upper-right corner of the open journal so it sits as the visual hero of the desk arrangement. The product is approximately 7 inches wide and 3 inches tall, sized realistically relative to the journal, mug, and glasses around it. Do not enlarge the product beyond its actual proportions. This is a flat-lay with no persona in frame, so no hands appear — the product rests directly on the walnut surface among the surrounding props. The Alluvi product packaging must match the product reference photo exactly — every text element, color, graphic, gradient, and certification badge as shown. Preserve the packaging&#x27;s natural white base color — only the scene&#x27;s directional lighting is applied on top, do not tint the white to match the warm honeyed wood tones. Match the lighting direction of the persona scene: soft natural daylight from above-right, casting a long gentle diagonal shadow off the box across the walnut surface that matches the shadow direction of the surrounding journal, mug, and glasses.</div>
+</div>
+</body>
+</html>

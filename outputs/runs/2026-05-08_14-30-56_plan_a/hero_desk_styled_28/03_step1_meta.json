@@ -1,0 +1,9 @@
+{
+  "local_path": "outputs\\runs\\2026-05-08_14-30-56_plan_a\\hero_desk_styled_28\\03_step1_persona.jpg",
+  "fal_url": "https://v3b.fal.media/files/b/0a995f8c/1_ErxrWRyw2u8gBulqugV.png",
+  "seed": 253870871,
+  "request_id": "unknown",
+  "elapsed_seconds": 20.25066113471985,
+  "endpoint": "fal-ai/flux-pulid",
+  "cost_usd": 0.04
+}

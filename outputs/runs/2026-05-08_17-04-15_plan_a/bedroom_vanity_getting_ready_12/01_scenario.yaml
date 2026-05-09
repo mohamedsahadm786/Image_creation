@@ -1,0 +1,26 @@
+{
+  "id": "bedroom_vanity_getting_ready_12",
+  "category": "bedroom",
+  "archetype": "placed_on_surface",
+  "difficulty": "medium",
+  "scene": "Bedroom vanity area, a round arched mirror on a warm walnut vanity, arranged skincare bottles and a small ceramic dish with a gold tray on the vanity surface, a small linen-shaded lamp glowing warmly in the corner. Soft early-morning light from a window slightly out of frame.",
+  "outfit": "Pale blush pink linen robe loosely tied at the waist with a slim ribbon sash, the V-neckline open showing a thin white camisole strap underneath. Hair clipped half-up in a claw clip, the lower half falling in soft waves. Bare face mid-skincare-application.",
+  "pose": "Sitting on a small upholstered vanity stool, three-quarter angle to the camera, one hand at her cheek mid-skincare gesture, looking at her reflection in the mirror.",
+  "hand_assignment": {
+    "phone_hand": null,
+    "product_hand": null,
+    "other_hand": "right",
+    "other_hand_does": "lifted to her cheek mid-skincare-application"
+  },
+  "grip_or_placement": "The Alluvi box sits on the vanity surface to her right, positioned between a ceramic skincare bottle and an open glass jar of cotton pads, front face angled three-quarters toward the camera. The box is the visual anchor of the vanity surface arrangement.",
+  "lighting": "Warm bedside lamp from the corner combined with soft morning daylight from a window slightly out of frame on the left, warm honeyed tones across the walnut vanity and gentle warm glow on the box surface.",
+  "mood": "slow morning skincare moment, soft and unhurried",
+  "palette": "warm walnut, blush pink, soft amber lamp glow, ivory ceramics",
+  "framing": "three-quarter (head to waist, vanity surface visible)",
+  "camera_height": "chest level",
+  "resolves_failure_modes": [
+    "product-on-surface in styled lineup",
+    "outfit completely different from reference"
+  ],
+  "notes": "Product is part of the vanity styling, not the persona's hand. Persona is engaged in skincare action — product implied as part of her routine."
+}

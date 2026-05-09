@@ -1,0 +1,26 @@
+{
+  "id": "pilates_mat_morning_handheld_09",
+  "category": "pilates",
+  "archetype": "held_product_low",
+  "difficulty": "medium",
+  "scene": "Sunlit pilates studio, cream-colored mat unrolled on the warm wood floor, a sage-green reformer in the background out of focus. A tall window on the right floods morning light into the room.",
+  "outfit": "Soft dusty pink seamless sports bra with crossback straps, matching dusty pink high-waist leggings, a thin gold anklet on her left ankle. Hair down, soft beach waves with a center part. No makeup, glowy fresh skin. Bare feet.",
+  "pose": "Sitting cross-legged on the mat, posture upright, hands resting in her lap, looking down at the box with a soft contemplative smile.",
+  "hand_assignment": {
+    "phone_hand": null,
+    "product_hand": "both",
+    "other_hand": "both",
+    "other_hand_does": "holds the box together in her lap"
+  },
+  "grip_or_placement": "Both hands cradle the Alluvi box in her lap, palms facing up and slightly together, the box resting on her fingertips with the front face angled toward the camera at a slight upward tilt. Thumbs rest on either side of the front face.",
+  "lighting": "Bright soft morning daylight from a tall window on her right, warm bone tones across the wood floor and mat, gentle warm wash on her right side and on the box surface.",
+  "mood": "morning intention setting, peaceful",
+  "palette": "dusty pink, warm wood, cream mat, sage green",
+  "framing": "three-quarter (head to crossed knees)",
+  "camera_height": "slightly below her eye line, looking up",
+  "resolves_failure_modes": [
+    "two-handed grip rendering",
+    "outfit lock — saturated pink unlike white reference"
+  ],
+  "notes": "Tests two-hand grip. Different from the standard one-hand pinch — both thumbs frame the front face."
+}

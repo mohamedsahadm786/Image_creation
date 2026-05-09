@@ -1,0 +1,9 @@
+{
+  "local_path": "outputs\\runs\\2026-05-08_17-04-15_plan_a\\bathroom_warm_oak_shelf_19\\03_step1_persona.jpg",
+  "fal_url": "https://v3b.fal.media/files/b/0a9963f4/SkNIBweRSdaW_g-GcPAcG.png",
+  "seed": 2652416620,
+  "request_id": "unknown",
+  "elapsed_seconds": 21.567392826080322,
+  "endpoint": "fal-ai/flux-pulid",
+  "cost_usd": 0.04
+}

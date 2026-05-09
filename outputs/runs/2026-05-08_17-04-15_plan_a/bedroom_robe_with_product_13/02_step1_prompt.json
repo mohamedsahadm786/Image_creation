@@ -1,0 +1,45 @@
+{
+  "scenario_id": "bedroom_robe_with_product_13",
+  "step_1_image_prompt": "A 25-year-old Mediterranean woman with sun-kissed deep-tan skin, green almond eyes, and brunette-with-blonde-balayage waves to her mid-back, captured in a candid amateur smartphone snapshot with natural skin texture and visible pores. She is wearing a long cream waffle-knit robe tied loosely at the waist, the robe falling to mid-shin, V-neckline open with a thin white camisole strap underneath, hair down in loose morning waves slightly tousled, bare face with glowy skin, small gold studs. She stands in a bedroom doorway leading to a softly-lit bathroom in the background, hardwood floor, a low cream-colored bench in front of the doorway with a folded white towel and a small ceramic mug. Standing in the doorway facing slightly to her left, weight on her left leg, looking softly down toward her left hand with a contemplative smile. Both hands are visible in the frame, not in her pockets, not behind her back, not cropped out of frame. Her left hand rests at hip level, palm facing up and open, fingers relaxed and gently splayed in a flat cradle position, currently empty. Her right hand gently holds the edge of the doorframe. Soft warm morning daylight from windows on either side, balanced diffuse wash, gentle warm glow on the cream robe. Shot on Sony A7IV 35mm lens chest-level. Real photograph, not AI-generated, no model pose, candid moment. Morning routine pause mood, palette of cream waffle, warm wood, soft white, blush undertones. Reference image is the persona — preserve her face, eye color, eye shape, brow shape, nose shape, lip shape, jaw line, and hair color exactly. Do not improvise her face.",
+  "word_count": 248,
+  "structure_breakdown": {
+    "sentence_1_identity_outfit": "A 25-year-old Mediterranean woman with sun-kissed deep-tan skin, green almond eyes, and brunette-with-blonde-balayage waves to her mid-back, captured in a candid amateur smartphone snapshot with natural skin texture and visible pores. She is wearing a long cream waffle-knit robe tied loosely at the waist, the robe falling to mid-shin, V-neckline open with a thin white camisole strap underneath, hair down in loose morning waves slightly tousled, bare face with glowy skin, small gold studs.",
+    "sentence_2_scene": "She stands in a bedroom doorway leading to a softly-lit bathroom in the background, hardwood floor, a low cream-colored bench in front of the doorway with a folded white towel and a small ceramic mug.",
+    "sentence_3_pose_empty_product_hand": "Standing in the doorway facing slightly to her left, weight on her left leg, looking softly down toward her left hand with a contemplative smile. Both hands are visible in the frame, not in her pockets, not behind her back, not cropped out of frame. Her left hand rests at hip level, palm facing up and open, fingers relaxed and gently splayed in a flat cradle position, currently empty. Her right hand gently holds the edge of the doorframe.",
+    "sentence_4_lighting": "Soft warm morning daylight from windows on either side, balanced diffuse wash, gentle warm glow on the cream robe.",
+    "sentence_5_camera_mood_lock": "Shot on Sony A7IV 35mm lens chest-level. Real photograph, not AI-generated, no model pose, candid moment. Morning routine pause mood, palette of cream waffle, warm wood, soft white, blush undertones. Reference image is the persona — preserve her face, eye color, eye shape, brow shape, nose shape, lip shape, jaw line, and hair color exactly. Do not improvise her face."
+  },
+  "fal_pulid_params": {
+    "image_size": {
+      "width": 768,
+      "height": 1344
+    },
+    "num_inference_steps": 30,
+    "guidance_scale": 3.5,
+    "id_weight": 1.0,
+    "true_cfg": 1.5,
+    "negative_prompt": "extra limbs, deformed hands, mutated hands, bad anatomy, lowres, blurry, watermark, text, signature, extra fingers, fused fingers, distorted face, asymmetric eyes, unnatural skin texture, plastic skin, AI-generated look, model pose, perfect symmetry, smooth airbrushed skin, glossy plastic skin, illustration, 3D render, CGI, doll-like features, magazine retouching",
+    "max_sequence_length": "256",
+    "enable_safety_checker": true
+  },
+  "step_2_brief": {
+    "archetype": "held_product_low",
+    "intended_hand_for_product": "left",
+    "intended_grip_or_placement": "Left hand at hip level, palm facing up, the box rests flat on her open palm with thumb gently on top to steady it, front face toward the camera. A relaxed casual hold, not a presentation grip.",
+    "intended_product_position": "Step 2 will composite the Alluvi box flat on her open left palm at hip level, front face angled toward the camera, with her thumb resting gently on top of the box to steady it. Step 2 may slightly adjust her left wrist and finger curl to match the actual product geometry."
+  },
+  "compliance_check": {
+    "no_product_in_prompt": true,
+    "no_placeholder_box_in_prompt": true,
+    "no_persona_appearance_drift": true,
+    "no_outfit_lock_to_reference": true,
+    "no_banned_phrases": true,
+    "no_medical_imagery": true,
+    "no_competitor_brands": true,
+    "compliance_clean": true
+  },
+  "id_weight_recommendation": {
+    "value": 1.0,
+    "reasoning": "id_weight at fal API cap (1.0). true_cfg at default 1.5 — full-body head-to-mid-shin framing where face is mid-importance, default sufficient alongside the cream robe outfit override which sharply differs from the athletic reference photo."
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "id": "bathroom_marble_counter_flat_lay_20",
+  "category": "bathroom",
+  "archetype": "flat_lay",
+  "difficulty": "easy",
+  "scene": "Overhead flat-lay on a white marble bathroom counter with subtle grey veining. The counter holds an arranged still life: a small ceramic dish of cotton pads, an amber-glass dropper bottle, a clear glass tumbler of water, a small folded white washcloth, the Alluvi box, a small dried lavender bundle, and a thin gold-handled facial roller.",
+  "outfit": null,
+  "pose": null,
+  "hand_assignment": {
+    "phone_hand": null,
+    "product_hand": null,
+    "other_hand": null,
+    "other_hand_does": "persona not in frame"
+  },
+  "grip_or_placement": "The Alluvi box sits at the center-right of the composition with its front face up to the camera, surrounded symmetrically by the other skincare items. The lavender bundle drapes across the lower edge.",
+  "lighting": "Soft natural daylight from above, throwing very gentle diffuse shadows, warm bone tones across the marble, gentle warm glow on the box surface.",
+  "mood": "clean evening ritual, minimalist",
+  "palette": "warm marble, amber glass, ivory cotton, dried lavender, brass",
+  "framing": "overhead flat-lay",
+  "camera_height": "directly overhead",
+  "resolves_failure_modes": [
+    "bathroom flat-lay easy validation"
+  ],
+  "notes": "Pure product-in-arrangement shot. The bathroom equivalent of the kitchen flat-lay."
+}

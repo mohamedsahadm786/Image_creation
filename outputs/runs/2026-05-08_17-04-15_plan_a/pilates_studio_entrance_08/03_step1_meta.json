@@ -1,0 +1,9 @@
+{
+  "local_path": "outputs\\runs\\2026-05-08_17-04-15_plan_a\\pilates_studio_entrance_08\\03_step1_persona.jpg",
+  "fal_url": "https://v3b.fal.media/files/b/0a99637c/-yw5k4BuRcCQeqxxGS33s.png",
+  "seed": 2625959951,
+  "request_id": "unknown",
+  "elapsed_seconds": 50.621296882629395,
+  "endpoint": "fal-ai/flux-pulid",
+  "cost_usd": 0.04
+}

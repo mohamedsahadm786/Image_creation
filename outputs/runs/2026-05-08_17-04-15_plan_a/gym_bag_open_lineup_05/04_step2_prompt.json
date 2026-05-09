@@ -1,0 +1,35 @@
+{
+  "scenario_id": "gym_bag_open_lineup_05",
+  "step_2_image_prompt": "Take the persona reference photo as the locked source for the entire flat-lay scene — the polished warm-toned wood gym floor, the camel-colored leather duffel bag tilted at the upper-left with contents spilling out, the folded white gym towel at center, the stainless steel water bottle at upper-right, the white AirPods Pro case at mid-right, the rolled white gym socks at lower-left, and the sage-green eucalyptus sprig draped across the lower-right corner — all of these must remain faithful to the reference. Place the Alluvi product into the empty center-right area beside the folded white towel, oriented horizontally with its long side parallel to the lower edge of the frame, front face up to the camera, slightly overlapping the corner of the folded white towel so it reads as the visual hero of the lineup. The product is approximately 7 inches wide, sized in realistic proportion to the surrounding props — comparable in length to the folded towel's long edge, do not enlarge. No persona is in this frame, so no hands or body parts should appear; the composition stays a clean overhead flat-lay. The Alluvi product packaging must match the product reference photo exactly — every text element, color, graphic, and certification badge as shown. Preserve the packaging's natural white base color, only apply the scene's directional lighting on top. Match the lighting direction of the persona scene: soft natural daylight from the upper right of the frame, throwing a long gentle diagonal shadow from the box across the wood floor toward the lower-left.",
+  "word_count": 252,
+  "structure_breakdown": {
+    "sentence_1_identity_and_scene_lock": "Take the persona reference photo as the locked source for the entire flat-lay scene — the polished warm-toned wood gym floor, the camel-colored leather duffel bag tilted at the upper-left with contents spilling out, the folded white gym towel at center, the stainless steel water bottle at upper-right, the white AirPods Pro case at mid-right, the rolled white gym socks at lower-left, and the sage-green eucalyptus sprig draped across the lower-right corner — all of these must remain faithful to the reference.",
+    "sentence_2_product_holding_pose": "Place the Alluvi product into the empty center-right area beside the folded white towel, oriented horizontally with its long side parallel to the lower edge of the frame, front face up to the camera, slightly overlapping the corner of the folded white towel so it reads as the visual hero of the lineup. The product is approximately 7 inches wide, sized in realistic proportion to the surrounding props — comparable in length to the folded towel's long edge, do not enlarge.",
+    "sentence_3_hand_visibility_rule": "No persona is in this frame, so no hands or body parts should appear; the composition stays a clean overhead flat-lay.",
+    "sentence_4_product_fidelity_and_lighting": "The Alluvi product packaging must match the product reference photo exactly — every text element, color, graphic, and certification badge as shown. Preserve the packaging's natural white base color, only apply the scene's directional lighting on top. Match the lighting direction of the persona scene: soft natural daylight from the upper right of the frame, throwing a long gentle diagonal shadow from the box across the wood floor toward the lower-left."
+  },
+  "fal_nano_banana_params": {
+    "aspect_ratio": "9:16",
+    "resolution": "1K",
+    "num_images": 1,
+    "output_format": "png",
+    "safety_tolerance": "4"
+  },
+  "image_inputs_required": {
+    "persona_scene_role": "Step 1 output — the locked flat-lay scene",
+    "product_reference_role": "assets/product.jpg — the Alluvi Tirzepatide packaging reference",
+    "product_reference_path": "assets/product.jpg"
+  },
+  "compliance_check": {
+    "no_model_specific_syntax": true,
+    "no_packaging_text_described": true,
+    "no_packaging_design_described": true,
+    "identity_locked_explicitly": true,
+    "posture_explicitly_free_for_holding": true,
+    "hand_visibility_rule_present": true,
+    "scale_anchor_present": true,
+    "lighting_direction_only": true,
+    "white_base_preservation_present": true,
+    "compliance_clean": true
+  }
+}

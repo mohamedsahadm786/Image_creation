@@ -1,0 +1,26 @@
+{
+  "id": "outdoor_post_walk_park_25",
+  "category": "outdoor",
+  "archetype": "held_product_low",
+  "difficulty": "medium",
+  "scene": "A gravel walking path in a leafy urban park during golden hour, soft green trees in the background slightly out of focus, a wooden park bench visible to her right with a leather tote bag resting on it. Late afternoon golden sunlight filtering through the tree canopy.",
+  "outfit": "Cropped olive-green long-sleeve athletic pullover with a small zip at the neck (zipped down halfway), high-waist black athletic leggings, white minimalist sneakers, a small black crossbody bag with a thin strap. Hair in a high sleek ponytail. Small gold huggie hoops. Subtle natural makeup with a touch of gloss.",
+  "pose": "Standing on the path facing the camera at a slight three-quarter angle, one foot slightly forward as if mid-walk pause, looking off-camera to her left with a soft natural smile.",
+  "hand_assignment": {
+    "phone_hand": null,
+    "product_hand": "right",
+    "other_hand": "left",
+    "other_hand_does": "holds the strap of the small black crossbody bag"
+  },
+  "grip_or_placement": "Right hand at hip level, the box held in a relaxed pinch grip, thumb on the top edge of the box, four fingers along the bottom edge, the box held flat horizontally with the front face angled three-quarters toward the camera.",
+  "lighting": "Warm late-afternoon golden-hour sunlight filtered through the tree canopy on her left, dappled warm light across her face and outfit, gentle warm glow on the box's front face, deep green shadows in the background.",
+  "mood": "golden-hour hot girl walk, fresh outdoor energy",
+  "palette": "olive green, black athletic, golden warm, deep tree green",
+  "framing": "full body (head to mid-calf)",
+  "camera_height": "chest level",
+  "resolves_failure_modes": [
+    "outdoor lighting Step 2 fidelity (dappled light)",
+    "outfit and bag accessory rendering"
+  ],
+  "notes": "Outdoor scenario tests dappled natural light Step 2 matching — much harder than studio lighting. Crossbody bag is an accessory test."
+}

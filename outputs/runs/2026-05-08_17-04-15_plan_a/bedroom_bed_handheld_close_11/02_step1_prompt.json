@@ -1,0 +1,45 @@
+{
+  "scenario_id": "bedroom_bed_handheld_close_11",
+  "step_1_image_prompt": "A 25-year-old Mediterranean / Southern European woman with deep tan skin and a warm undertone, soft oval face with high natural cheekbones, green almond eyes with slightly downturned outer corners, full medium-brown brows, and a soft closed-mouth smile. Her hair is medium brunette with heavy sun-lightened blonde balayage through the mid-lengths and ends, mid-back length, soft natural waves with body. She has real skin texture with visible pores, a healthy glow, and naturally toned athletic proportions — not overbuilt. Captured in a candid amateur smartphone snapshot with natural skin texture and visible pores. She is wearing a pale ivory satin slip nightgown with thin spaghetti straps, slightly crumpled from sleep, top of the slip visible at the neckline, hair tousled from sleep with soft waves spread on the pillow and a few face-framing pieces, bare face with glowy fresh skin, no earrings. She lies on her back on a soft white pillow with a leopard-print pillowcase visible behind her head, white duvet pulled up to her shoulders, light wood headboard partially in frame, a sheer white curtain on a window to the right. Photographed from above-front, soft sleepy half-smile at the camera. Both hands are visible in the frame, not hidden behind her body, not cropped out of frame. Her right hand is raised in front of her face at face level, about twenty centimeters from her face, palm rotated toward the camera, fingers in a relaxed open vertical grip position, thumb extended along one side, currently empty. Her left hand rests near her chin, fingers lightly curled. Soft warm morning daylight from the window on the right, diffuse golden wash across her face and the pillow, no harsh shadows. Shot on iPhone 15 Pro overhead, slight tilt. Real photograph, not AI-generated, no model pose, candid moment. Playful first-thing-morning sleepy mood, palette of ivory satin, leopard tan, warm white, skin warmth. Reference image is the persona — face must match the reference precisely with no improvisation. Preserve every facial feature, eye color, hair color, and skin tone exactly. The face is the most important element of this image.",
+  "word_count": 322,
+  "structure_breakdown": {
+    "sentence_1_identity_outfit": "A 25-year-old Mediterranean / Southern European woman with deep tan skin and a warm undertone, soft oval face with high natural cheekbones, green almond eyes with slightly downturned outer corners, full medium-brown brows, and a soft closed-mouth smile. Her hair is medium brunette with heavy sun-lightened blonde balayage through the mid-lengths and ends, mid-back length, soft natural waves with body. She has real skin texture with visible pores, a healthy glow, and naturally toned athletic proportions — not overbuilt. Captured in a candid amateur smartphone snapshot with natural skin texture and visible pores. She is wearing a pale ivory satin slip nightgown with thin spaghetti straps, slightly crumpled from sleep, top of the slip visible at the neckline, hair tousled from sleep with soft waves spread on the pillow and a few face-framing pieces, bare face with glowy fresh skin, no earrings.",
+    "sentence_2_scene": "She lies on her back on a soft white pillow with a leopard-print pillowcase visible behind her head, white duvet pulled up to her shoulders, light wood headboard partially in frame, a sheer white curtain on a window to the right.",
+    "sentence_3_pose_empty_product_hand": "Photographed from above-front, soft sleepy half-smile at the camera. Both hands are visible in the frame, not hidden behind her body, not cropped out of frame. Her right hand is raised in front of her face at face level, about twenty centimeters from her face, palm rotated toward the camera, fingers in a relaxed open vertical grip position, thumb extended along one side, currently empty. Her left hand rests near her chin, fingers lightly curled.",
+    "sentence_4_lighting": "Soft warm morning daylight from the window on the right, diffuse golden wash across her face and the pillow, no harsh shadows.",
+    "sentence_5_camera_mood_lock": "Shot on iPhone 15 Pro overhead, slight tilt. Real photograph, not AI-generated, no model pose, candid moment. Playful first-thing-morning sleepy mood, palette of ivory satin, leopard tan, warm white, skin warmth. Reference image is the persona — face must match the reference precisely with no improvisation. Preserve every facial feature, eye color, hair color, and skin tone exactly. The face is the most important element of this image."
+  },
+  "fal_pulid_params": {
+    "image_size": {
+      "width": 768,
+      "height": 1344
+    },
+    "num_inference_steps": 30,
+    "guidance_scale": 3.5,
+    "id_weight": 1.0,
+    "true_cfg": 1.7,
+    "negative_prompt": "extra limbs, deformed hands, mutated hands, bad anatomy, lowres, blurry, watermark, text, signature, extra fingers, fused fingers, distorted face, asymmetric eyes, unnatural skin texture, plastic skin, AI-generated look, model pose, perfect symmetry, smooth airbrushed skin, glossy plastic skin, illustration, 3D render, CGI, doll-like features, magazine retouching",
+    "max_sequence_length": "256",
+    "enable_safety_checker": true
+  },
+  "step_2_brief": {
+    "archetype": "held_product_high",
+    "intended_hand_for_product": "right",
+    "intended_grip_or_placement": "Right hand raised in front of her face, holding the box vertically with thumb on the side of the box and four fingers wrapped around the opposite side, box positioned about twenty centimeters from her face with the front face angled directly at the camera.",
+    "intended_product_position": "Step 2 will composite the Alluvi box vertically into her right hand at face level, about twenty centimeters from her face, front face of the box angled directly at the overhead camera so the packaging is fully readable in the warm morning daylight."
+  },
+  "compliance_check": {
+    "no_product_in_prompt": true,
+    "no_placeholder_box_in_prompt": true,
+    "no_persona_appearance_drift": true,
+    "no_outfit_lock_to_reference": true,
+    "no_banned_phrases": true,
+    "no_medical_imagery": true,
+    "no_competitor_brands": true,
+    "compliance_clean": true
+  },
+  "id_weight_recommendation": {
+    "value": 1.0,
+    "reasoning": "id_weight at fal API cap (1.0). true_cfg raised to 1.7 because this is a close-up where face dominates the frame — stronger amplification of the verbatim face_descriptor_full is needed to prevent identity drift at a scale where any deviation from the reference is highly visible."
+  }
+}

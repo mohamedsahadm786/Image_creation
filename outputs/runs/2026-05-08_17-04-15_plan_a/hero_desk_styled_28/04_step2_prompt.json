@@ -1,0 +1,35 @@
+{
+  "scenario_id": "hero_desk_styled_28",
+  "step_2_image_prompt": "Take the persona reference photo as the locked source for the entire overhead flat-lay scene — the warm walnut wood desk surface with its grain, the open cream linen-bound journal with brass pen, the ceramic mug of black coffee with steam, the tortoiseshell reading glasses, the glass propagation vase with the green cutting, and the sprig of eucalyptus across the upper edge — all of these must remain faithful to the reference. The Alluvi product is now placed at the center-left of the composition, front face up to the camera, oriented horizontally with its long side roughly parallel to the lower edge of the frame, lower edge slightly overlapping the upper-right corner of the open journal so it sits as the visual hero of the desk arrangement. The product is approximately 7 inches wide and 3 inches tall, sized realistically relative to the journal, mug, and glasses around it. Do not enlarge the product beyond its actual proportions. This is a flat-lay with no persona in frame, so no hands appear — the product rests directly on the walnut surface among the surrounding props. The Alluvi product packaging must match the product reference photo exactly — every text element, color, graphic, gradient, and certification badge as shown. Preserve the packaging's natural white base color — only the scene's directional lighting is applied on top, do not tint the white to match the warm honeyed wood tones. Match the lighting direction of the persona scene: soft natural daylight from above-right, casting a long gentle diagonal shadow off the box across the walnut surface that matches the shadow direction of the surrounding journal, mug, and glasses.",
+  "word_count": 268,
+  "structure_breakdown": {
+    "sentence_1_identity_and_scene_lock": "Take the persona reference photo as the locked source for the entire overhead flat-lay scene — the warm walnut wood desk surface with its grain, the open cream linen-bound journal with brass pen, the ceramic mug of black coffee with steam, the tortoiseshell reading glasses, the glass propagation vase with the green cutting, and the sprig of eucalyptus across the upper edge — all of these must remain faithful to the reference.",
+    "sentence_2_product_holding_pose": "The Alluvi product is now placed at the center-left of the composition, front face up to the camera, oriented horizontally with its long side roughly parallel to the lower edge of the frame, lower edge slightly overlapping the upper-right corner of the open journal so it sits as the visual hero of the desk arrangement. The product is approximately 7 inches wide and 3 inches tall, sized realistically relative to the journal, mug, and glasses around it. Do not enlarge the product beyond its actual proportions.",
+    "sentence_3_hand_visibility_rule": "This is a flat-lay with no persona in frame, so no hands appear — the product rests directly on the walnut surface among the surrounding props.",
+    "sentence_4_product_fidelity_and_lighting": "The Alluvi product packaging must match the product reference photo exactly — every text element, color, graphic, gradient, and certification badge as shown. Preserve the packaging's natural white base color — only the scene's directional lighting is applied on top, do not tint the white to match the warm honeyed wood tones. Match the lighting direction of the persona scene: soft natural daylight from above-right, casting a long gentle diagonal shadow off the box across the walnut surface that matches the shadow direction of the surrounding journal, mug, and glasses."
+  },
+  "fal_nano_banana_params": {
+    "aspect_ratio": "9:16",
+    "resolution": "1K",
+    "num_images": 1,
+    "output_format": "png",
+    "safety_tolerance": "4"
+  },
+  "image_inputs_required": {
+    "persona_scene_role": "Step 1 output — the locked flat-lay scene and prop arrangement",
+    "product_reference_role": "assets/product.jpg — the Alluvi Tirzepatide packaging reference",
+    "product_reference_path": "assets/product.jpg"
+  },
+  "compliance_check": {
+    "no_model_specific_syntax": true,
+    "no_packaging_text_described": true,
+    "no_packaging_design_described": true,
+    "identity_locked_explicitly": true,
+    "posture_explicitly_free_for_holding": true,
+    "hand_visibility_rule_present": true,
+    "scale_anchor_present": true,
+    "lighting_direction_only": true,
+    "white_base_preservation_present": true,
+    "compliance_clean": true
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "scenario_id": "hero_desk_styled_28",
+  "step_2_image_prompt": "Using Image 1 as the base scene and Image 2 as the product reference, place the Alluvi Tirzepatide product packaging from Image 2 at the center-left of the composition on the walnut desk surface, slightly overlapping the corner of the open cream linen journal. The box rests flat on the walnut surface, oriented horizontally with its long side roughly parallel to the lower edge of the frame, front face up to the overhead camera, as the visual hero of the desk arrangement framed by the surrounding journal, coffee mug, glasses, propagation vase, and eucalyptus sprig. Match the ambient lighting, color temperature, and shadow direction of Image 1 exactly. The product should be lit by the same soft natural daylight from above-right, casting a long gentle diagonal shadow across the walnut surface in the same direction as the shadows of the surrounding props, with the same warm honeyed tones and subtle warm glow across its front face. Maintain the exact branding, text, and graphics from Image 2 — do not hallucinate, modify, or alter the packaging label, text, or design in any way. Preserve everything else in Image 1 exactly — the walnut desk surface, the open journal and brass pen, the ceramic coffee mug with steam, the tortoiseshell glasses, the propagation vase, the eucalyptus sprig, and all existing shadows and wood grain.",
+  "word_count": 199,
+  "structure_breakdown": {
+    "sentence_1_relationship_location": "Using Image 1 as the base scene and Image 2 as the product reference, place the Alluvi Tirzepatide product packaging from Image 2 at the center-left of the composition on the walnut desk surface, slightly overlapping the corner of the open cream linen journal.",
+    "sentence_2_grip_or_placement": "The box rests flat on the walnut surface, oriented horizontally with its long side roughly parallel to the lower edge of the frame, front face up to the overhead camera, as the visual hero of the desk arrangement framed by the surrounding journal, coffee mug, glasses, propagation vase, and eucalyptus sprig.",
+    "sentence_3_lighting_match": "Match the ambient lighting, color temperature, and shadow direction of Image 1 exactly. The product should be lit by the same soft natural daylight from above-right, casting a long gentle diagonal shadow across the walnut surface in the same direction as the shadows of the surrounding props, with the same warm honeyed tones and subtle warm glow across its front face.",
+    "sentence_4_preserve_and_anti_hallucination": "Maintain the exact branding, text, and graphics from Image 2 — do not hallucinate, modify, or alter the packaging label, text, or design in any way. Preserve everything else in Image 1 exactly — the walnut desk surface, the open journal and brass pen, the ceramic coffee mug with steam, the tortoiseshell glasses, the propagation vase, the eucalyptus sprig, and all existing shadows and wood grain."
+  },
+  "fal_nano_banana_params": {
+    "aspect_ratio": "9:16",
+    "resolution": "1K",
+    "num_images": 1,
+    "output_format": "png",
+    "safety_tolerance": "4",
+    "enable_thinking": "high"
+  },
+  "lighting_hook": "soft natural daylight from above-right, long gentle diagonal shadows across walnut surface, warm honeyed tones, subtle warm glow on front face",
+  "image_inputs_required": {
+    "image_1_role": "Step 1 output — persona scene with empty product slot",
+    "image_2_role": "assets/product.jpg — Alluvi Tirzepatide packaging reference",
+    "image_2_path": "assets/product.jpg"
+  },
+  "compliance_check": {
+    "no_packaging_text_described": true,
+    "no_packaging_design_described": true,
+    "no_persona_alteration": true,
+    "no_scene_alteration": true,
+    "no_banned_grip_phrases": true,
+    "lighting_hook_specific": true,
+    "anti_hallucination_phrase_present": true,
+    "preserve_clause_present": true,
+    "compliance_clean": true
+  }
+}

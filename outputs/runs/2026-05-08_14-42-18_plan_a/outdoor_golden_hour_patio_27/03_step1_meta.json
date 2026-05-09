@@ -1,0 +1,9 @@
+{
+  "local_path": "outputs\\runs\\2026-05-08_14-42-18_plan_a\\outdoor_golden_hour_patio_27\\03_step1_persona.jpg",
+  "fal_url": "https://v3b.fal.media/files/b/0a995fd0/Ujlcv7g1X700arGbHHGh6.png",
+  "seed": 3911880629,
+  "request_id": "unknown",
+  "elapsed_seconds": 22.938612461090088,
+  "endpoint": "fal-ai/flux-pulid",
+  "cost_usd": 0.04
+}

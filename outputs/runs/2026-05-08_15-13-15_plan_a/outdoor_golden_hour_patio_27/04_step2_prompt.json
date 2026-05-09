@@ -1,0 +1,36 @@
+{
+  "scenario_id": "outdoor_golden_hour_patio_27",
+  "step_2_image_prompt": "Using Image 1 as the base scene and Image 2 as the product reference, place the Alluvi Tirzepatide product packaging from Image 2 into the woman's right hand at upper-chest level. Her thumb presses on the front face of the box, her index and middle fingers on the back, ring and pinky tucked under, the box held with the long side horizontal and angled slightly toward the camera so the front face is fully visible. The box should be sized realistically relative to her hand — approximately 7 inches wide, comparable to the length from her wrist to fingertips. Do not enlarge the box. Match the lighting direction, time of day, and shadow direction of Image 1. The product is lit by the same strong warm golden-hour sunlight from a low angle on her right side, with golden rim light catching the right edge of the box and a long soft shadow falling toward her left. Preserve the product's natural white packaging color from Image 2 — apply only the directional lighting and shadows of Image 1, do not shift the product's base white to match the amber scene cast. Maintain the exact branding, text, and graphics from Image 2 — do not hallucinate, modify, or alter the packaging label, text, or design in any way. Preserve everything else in Image 1 exactly — her face, body, pose, black tailored outfit, hair, the patio, the concrete planter, the teak deck chair, the distant city skyline, sky, and all existing lighting and shadows.",
+  "word_count": 248,
+  "structure_breakdown": {
+    "sentence_1_relationship_location": "Using Image 1 as the base scene and Image 2 as the product reference, place the Alluvi Tirzepatide product packaging from Image 2 into the woman's right hand at upper-chest level.",
+    "sentence_2_grip_or_placement": "Her thumb presses on the front face of the box, her index and middle fingers on the back, ring and pinky tucked under, the box held with the long side horizontal and angled slightly toward the camera so the front face is fully visible. The box should be sized realistically relative to her hand — approximately 7 inches wide, comparable to the length from her wrist to fingertips. Do not enlarge the box.",
+    "sentence_3_lighting_match": "Match the lighting direction, time of day, and shadow direction of Image 1. The product is lit by the same strong warm golden-hour sunlight from a low angle on her right side, with golden rim light catching the right edge of the box and a long soft shadow falling toward her left. Preserve the product's natural white packaging color from Image 2 — apply only the directional lighting and shadows of Image 1, do not shift the product's base white to match the amber scene cast.",
+    "sentence_4_preserve_and_anti_hallucination": "Maintain the exact branding, text, and graphics from Image 2 — do not hallucinate, modify, or alter the packaging label, text, or design in any way. Preserve everything else in Image 1 exactly — her face, body, pose, black tailored outfit, hair, the patio, the concrete planter, the teak deck chair, the distant city skyline, sky, and all existing lighting and shadows."
+  },
+  "fal_nano_banana_params": {
+    "aspect_ratio": "9:16",
+    "resolution": "1K",
+    "num_images": 1,
+    "output_format": "png",
+    "safety_tolerance": "4",
+    "enable_thinking": "high"
+  },
+  "lighting_hook": "strong warm golden-hour sunlight from a low angle on her right side, golden rim light catching the right edge of the box, long soft shadow falling toward her left, white packaging color preserved",
+  "image_inputs_required": {
+    "image_1_role": "Step 1 output — persona scene with empty product slot",
+    "image_2_role": "assets/product.jpg — Alluvi Tirzepatide packaging reference",
+    "image_2_path": "assets/product.jpg"
+  },
+  "compliance_check": {
+    "no_packaging_text_described": true,
+    "no_packaging_design_described": true,
+    "no_persona_alteration": true,
+    "no_scene_alteration": true,
+    "no_banned_grip_phrases": true,
+    "lighting_hook_specific": true,
+    "anti_hallucination_phrase_present": true,
+    "preserve_clause_present": true,
+    "compliance_clean": true
+  }
+}

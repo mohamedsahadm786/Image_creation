@@ -1,0 +1,35 @@
+{
+  "scenario_id": "kitchen_island_overhead_flat_lay_17",
+  "step_2_image_prompt": "Take the persona reference photo as the locked source for the entire overhead flat-lay scene — the white marble kitchen island with grey veining, the ceramic matcha bowl with bamboo whisk at upper-left, the clear glass of water at upper-right, the open leather journal with brass pen at center-right, the beige plate with linen napkin and avocado toast at lower-right, and the eucalyptus sprig at upper-center must all remain faithful to the reference. Place the Alluvi product into the empty lower-left third of the marble surface, with its front face up to the camera and the box angled slightly toward the upper right so it reads cleanly into the relaxed asymmetric triangle of surrounding items. The product is approximately 7 inches wide, sized realistically in proportion to the matcha bowl, water glass, plate, and journal around it. Do not enlarge the product beyond its natural proportions. The Alluvi product packaging must match the product reference photo exactly — every text element, color, graphic, gradient, and certification badge as shown. Preserve the packaging's natural white base color — apply only the scene's directional lighting on top of the white, do not tint the white to match the warm marble tones. Match the lighting direction of the scene: soft natural morning daylight from the right side of the frame, throwing long gentle diagonal shadows across the marble toward the lower-left, warm bone tones, gentle warm glow on the box surface.",
+  "word_count": 234,
+  "structure_breakdown": {
+    "sentence_1_identity_and_scene_lock": "Take the persona reference photo as the locked source for the entire overhead flat-lay scene — the white marble kitchen island with grey veining, the ceramic matcha bowl with bamboo whisk at upper-left, the clear glass of water at upper-right, the open leather journal with brass pen at center-right, the beige plate with linen napkin and avocado toast at lower-right, and the eucalyptus sprig at upper-center must all remain faithful to the reference.",
+    "sentence_2_product_holding_pose": "Place the Alluvi product into the empty lower-left third of the marble surface, with its front face up to the camera and the box angled slightly toward the upper right so it reads cleanly into the relaxed asymmetric triangle of surrounding items. The product is approximately 7 inches wide, sized realistically in proportion to the matcha bowl, water glass, plate, and journal around it. Do not enlarge the product beyond its natural proportions.",
+    "sentence_3_hand_visibility_rule": "(flat-lay scenario — no persona or hands in frame, sentence omitted)",
+    "sentence_4_product_fidelity_and_lighting": "The Alluvi product packaging must match the product reference photo exactly — every text element, color, graphic, gradient, and certification badge as shown. Preserve the packaging's natural white base color — apply only the scene's directional lighting on top of the white, do not tint the white to match the warm marble tones. Match the lighting direction of the scene: soft natural morning daylight from the right side of the frame, throwing long gentle diagonal shadows across the marble toward the lower-left, warm bone tones, gentle warm glow on the box surface."
+  },
+  "fal_nano_banana_params": {
+    "aspect_ratio": "9:16",
+    "resolution": "1K",
+    "num_images": 1,
+    "output_format": "png",
+    "safety_tolerance": "4"
+  },
+  "image_inputs_required": {
+    "persona_scene_role": "Step 1 output — the locked flat-lay scene on the marble kitchen island",
+    "product_reference_role": "assets/product.jpg — the Alluvi Tirzepatide packaging reference",
+    "product_reference_path": "assets/product.jpg"
+  },
+  "compliance_check": {
+    "no_model_specific_syntax": true,
+    "no_packaging_text_described": true,
+    "no_packaging_design_described": true,
+    "identity_locked_explicitly": true,
+    "posture_explicitly_free_for_holding": true,
+    "hand_visibility_rule_present": true,
+    "scale_anchor_present": true,
+    "lighting_direction_only": true,
+    "white_base_preservation_present": true,
+    "compliance_clean": true
+  }
+}

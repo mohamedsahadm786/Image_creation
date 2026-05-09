@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>gym_weights_area_cooldown_03 — chain</title>
+<style>
+  *{box-sizing:border-box}
+  body{font-family:-apple-system,BlinkMacSystemFont,system-ui,sans-serif;
+       margin:0;padding:24px;background:#F4F6F8;color:#1F2937}
+  h1{margin:0 0 6px 0;font-size:18px}
+  .meta{color:#6B7280;font-size:13px;margin-bottom:24px}
+  .meta-pill{display:inline-block;background:#fff;padding:3px 10px;
+             border-radius:4px;border:1px solid #E5E7EB;margin-right:6px;font-size:12px}
+  .stage-row{display:grid;grid-template-columns:repeat(3,1fr);gap:14px;margin-bottom:28px}
+  .stage{background:#fff;border:1px solid #E5E7EB;border-radius:8px;overflow:hidden}
+  .stage-label{padding:10px 12px;border-bottom:1px solid #E5E7EB;font-size:12px;
+               font-weight:600;background:#F9FAFB}
+  .stage img{width:100%;display:block;aspect-ratio:9/16;object-fit:cover;background:#F3F4F6}
+  .stage-empty{aspect-ratio:9/16;background:#F3F4F6;display:flex;
+               align-items:center;justify-content:center;color:#9CA3AF;font-size:12px}
+  .prompts{background:#fff;border:1px solid #E5E7EB;border-radius:8px;padding:18px}
+  .prompts h3{margin:0 0 8px;font-size:13px;color:#374151;text-transform:uppercase;
+              letter-spacing:.5px}
+  .prompt-block{background:#F9FAFB;border:1px solid #E5E7EB;border-radius:6px;
+                padding:12px;font-size:12.5px;line-height:1.55;
+                font-family:ui-monospace,'SF Mono',Menlo,monospace;
+                margin-bottom:18px;white-space:pre-wrap}
+  .badge{display:inline-block;padding:3px 9px;border-radius:12px;
+         font-size:10.5px;font-weight:600;margin-left:6px}
+  .badge-ok{background:#D1FAE5;color:#065F46}
+  .badge-fail{background:#FEE2E2;color:#991B1B}
+  .error-block{background:#FFF7ED;border-left:3px solid #F97316;padding:10px 14px;
+                margin-bottom:18px;border-radius:4px;font-size:13px;color:#7C2D12}
+</style>
+</head>
+<body>
+<h1>gym_weights_area_cooldown_03 <span class="badge badge-ok">SUCCESS</span></h1>
+<div class="meta">
+  <span class="meta-pill"><strong>gym</strong></span>
+  <span class="meta-pill">placed_on_surface</span>
+  <span class="meta-pill">medium</span>
+  <span class="meta-pill">plan: plan_a</span>
+</div>
+
+
+
+<div class="stage-row">
+<div class="stage">
+  <div class="stage-label">Step 0 — Source persona.jpg</div>
+  <img src="../../../../assets/persona.jpg" alt="Source persona.jpg"
+       onerror="this.outerHTML='<div class=stage-empty>not generated</div>'">
+</div><div class="stage">
+  <div class="stage-label">Step 1 — Persona scene (no product)</div>
+  <img src="03_step1_persona.jpg" alt="Persona scene (no product)"
+       onerror="this.outerHTML='<div class=stage-empty>not generated</div>'">
+</div><div class="stage">
+  <div class="stage-label">Step 2 — Final composite</div>
+  <img src="05_step2_final.jpg" alt="Final composite"
+       onerror="this.outerHTML='<div class=stage-empty>not generated</div>'">
+</div>
+</div>
+
+<div class="prompts">
+  <h3>Step 1 prompt → fal-ai/flux-pulid (or kontext for Plan B)</h3>
+  <div class="prompt-block">A 25-year-old Mediterranean woman with sun-kissed deep-tan skin, green almond eyes, and brunette-with-blonde-balayage waves to her mid-back, captured in a candid amateur smartphone snapshot with natural skin texture and visible pores. She is wearing a deep burgundy cropped tank top, matching burgundy bike shorts with a double-band waistband, cropped white socks, white minimalist trainers, hair tied in a messy bun on top of her head with a few pieces falling around her face, small silver studs. She sits on a black padded lifting bench in the weights area of a premium gym, dumbbell rack softly out of focus behind her, polished black rubber flooring, dark exposed-brick wall on the right, industrial pendant lighting overhead. Sitting with knees apart, leaning slightly forward with both forearms resting on her thighs, looking off-camera to the side as if catching her breath after a set. Both hands are visible in the frame, not in her pockets, not behind her back, not cropped out of frame, fingers relaxed and lightly draped over her knees. The bench surface to her right side is empty in this part of the composition. Warm overhead industrial pendant light slightly behind her creating a soft warm rim on her shoulders and hair, with cooler ambient fill from the gym ceiling. Shot on Sony A7IV 35mm lens shallow depth of field, slightly below eye line looking up. Real photograph, not AI-generated, no model pose, candid moment. Post-set quiet recovery mood, palette of deep burgundy, charcoal black, warm pendant amber, polished concrete grey. Reference image is the persona — preserve her face, eye color, eye shape, brow shape, nose shape, lip shape, jaw line, and hair color exactly. Do not improvise her face.</div>
+
+  <h3>Step 2 prompt → fal-ai/nano-banana-2/edit</h3>
+  <div class="prompt-block">Take the persona reference photo as the locked source for her face, hair color and messy bun styling, body proportions, deep burgundy cropped tank and bike shorts outfit, white trainers, and the entire premium gym scene including the lifting bench, dumbbell rack, black rubber flooring, and exposed-brick wall — all of these must remain faithful to the reference. The Alluvi product is now placed on the lifting bench surface beside her right thigh as the foreground hero of the composition, front face angled toward the camera, with a stainless steel water bottle standing just behind it and a small folded grey gym towel resting beside both items. The product is approximately 7 inches wide and 3 inches tall, sized realistically relative to the water bottle and towel on the bench. Do not enlarge the product beyond its actual proportions. Her body posture and arm position may shift slightly to make the seated recovery moment feel natural alongside the bench arrangement. Both hands must remain visible in the frame — both forearms continue to rest forward on her thighs with relaxed fingers. Do not hide either hand in pockets, behind her back, or crop them out of the frame. The Alluvi product packaging must match the product reference photo exactly — every text element, color, graphic, and certification badge as shown. Preserve the packaging&#x27;s natural white base color; the warm pendant light should illuminate the white surface as light, not tint the white amber. Match the lighting direction of the persona scene: warm overhead industrial pendant light slightly behind her creating a soft warm rim, with cooler ambient fill from the gym ceiling, casting a soft shadow on the bench surface in front of the product.</div>
+</div>
+</body>
+</html>

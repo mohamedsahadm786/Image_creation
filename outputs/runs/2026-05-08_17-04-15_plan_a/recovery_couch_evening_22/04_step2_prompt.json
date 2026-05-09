@@ -1,0 +1,35 @@
+{
+  "scenario_id": "recovery_couch_evening_22",
+  "step_2_image_prompt": "Take the persona reference photo as the locked source for her face, hair color and styling, body proportions, oatmeal cashmere lounge outfit, and the entire living room scene including the cream sofa, throw blanket, side table with candle and water bottle, floor lamp, and twilight window — all of these must remain faithful to the reference. She is now holding the Alluvi product with both hands resting gently in her lap: both arms relaxed and bent, palms partially facing up, thumbs resting on the front face of the box on either side, fingers cradling the back edge, the box held flat horizontally and tilted slightly upward toward the camera so the front face is clearly visible. The product is approximately 7 inches wide, sized realistically relative to her hands and lap. Her body posture, arm angles, and slight forward lean of her head may shift naturally to make the two-handed lap hold look real and not stamped on. Both hands must remain visible in the frame, clearly cradling the product together. Do not hide either hand under the blanket, behind her body, or crop them out of the frame. The Alluvi product packaging must match the product reference photo exactly — every text element, color, graphic, and certification badge as shown. Preserve the packaging's natural white base color; the warm lamp light should illuminate the white surface as light, not tint the white amber. Match the lighting direction of the persona scene: warm floor lamp light from the upper-left combined with deep cool blue twilight from the window behind, with a soft warm wash on the front face of the box and cool ambient blue falling on its right edge.",
+  "word_count": 273,
+  "structure_breakdown": {
+    "sentence_1_identity_and_scene_lock": "Take the persona reference photo as the locked source for her face, hair color and styling, body proportions, oatmeal cashmere lounge outfit, and the entire living room scene including the cream sofa, throw blanket, side table with candle and water bottle, floor lamp, and twilight window — all of these must remain faithful to the reference.",
+    "sentence_2_product_holding_pose": "She is now holding the Alluvi product with both hands resting gently in her lap: both arms relaxed and bent, palms partially facing up, thumbs resting on the front face of the box on either side, fingers cradling the back edge, the box held flat horizontally and tilted slightly upward toward the camera so the front face is clearly visible. The product is approximately 7 inches wide, sized realistically relative to her hands and lap. Her body posture, arm angles, and slight forward lean of her head may shift naturally to make the two-handed lap hold look real and not stamped on.",
+    "sentence_3_hand_visibility_rule": "Both hands must remain visible in the frame, clearly cradling the product together. Do not hide either hand under the blanket, behind her body, or crop them out of the frame.",
+    "sentence_4_product_fidelity_and_lighting": "The Alluvi product packaging must match the product reference photo exactly — every text element, color, graphic, and certification badge as shown. Preserve the packaging's natural white base color; the warm lamp light should illuminate the white surface as light, not tint the white amber. Match the lighting direction of the persona scene: warm floor lamp light from the upper-left combined with deep cool blue twilight from the window behind, with a soft warm wash on the front face of the box and cool ambient blue falling on its right edge."
+  },
+  "fal_nano_banana_params": {
+    "aspect_ratio": "9:16",
+    "resolution": "1K",
+    "num_images": 1,
+    "output_format": "png",
+    "safety_tolerance": "4"
+  },
+  "image_inputs_required": {
+    "persona_scene_role": "Step 1 output — the locked persona, outfit, and scene",
+    "product_reference_role": "assets/product.jpg — the Alluvi Tirzepatide packaging reference",
+    "product_reference_path": "assets/product.jpg"
+  },
+  "compliance_check": {
+    "no_model_specific_syntax": true,
+    "no_packaging_text_described": true,
+    "no_packaging_design_described": true,
+    "identity_locked_explicitly": true,
+    "posture_explicitly_free_for_holding": true,
+    "hand_visibility_rule_present": true,
+    "scale_anchor_present": true,
+    "lighting_direction_only": true,
+    "white_base_preservation_present": true,
+    "compliance_clean": true
+  }
+}

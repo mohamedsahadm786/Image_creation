@@ -1,0 +1,117 @@
+[
+  {
+    "scenario": {
+      "id": "bedroom_bed_handheld_close_11",
+      "category": "bedroom",
+      "archetype": "held_product_high",
+      "difficulty": "hard",
+      "scene": "Bedroom morning. Soft white bedding with a leopard-print pillowcase visible behind her head, light wood headboard partially visible, a sheer white curtain on a window to the right letting in soft golden morning light.",
+      "outfit": "Pale ivory satin slip nightgown with thin spaghetti straps, slightly crumpled from sleep, top of the slip visible at the neckline. Hair tousled from sleep, soft waves spread on the pillow with a few face- framing pieces. Bare face, glowy fresh skin. No earrings.",
+      "pose": "Lying on her back on the pillow, photographed from above-front so we see her face and upper chest. Soft sleepy smile, half-smiling at the camera.",
+      "hand_assignment": {
+        "phone_hand": null,
+        "product_hand": "right",
+        "other_hand": "left",
+        "other_hand_does": "rests near her chin, fingers lightly curled"
+      },
+      "grip_or_placement": "Right hand raised in front of her face, holding the box vertically with thumb on the side of the box and four fingers wrapped around the opposite side, box positioned about twenty centimeters from her face with the front face angled directly at the camera.",
+      "lighting": "Soft warm morning daylight from the window on the right, diffuse golden wash across her face and the pillow, no harsh shadows, gentle warm glow on the box surface.",
+      "mood": "playful first-thing-morning, sleepy soft smile",
+      "palette": "ivory satin, leopard tan, warm white, skin warmth",
+      "framing": "close-up (head and upper chest, box dominant in frame)",
+      "camera_height": "directly above her face, slight tilt",
+      "resolves_failure_modes": [
+        "persona face drift on close-ups (Phase 1 image 2)",
+        "satin slip outfit completely different from reference white sports bra"
+      ],
+      "notes": "Hardest face-fidelity test \u2014 face is the largest element. Use identity_lock_close_up from persona.yaml."
+    },
+    "plan": "plan_a",
+    "gen_id": "be713f6635c5463fb5dc37eb5c51b838",
+    "run_id": "2026-05-08_16-58-19_plan_a",
+    "step_1_output": {
+      "scenario_id": "bedroom_bed_handheld_close_11",
+      "step_1_image_prompt": "A 25-year-old Mediterranean / Southern European woman with deep tan skin and a warm undertone, soft oval face with high natural cheekbones, green almond eyes with slightly downturned outer corners, full medium-brown brows, and a soft closed-mouth smile. Her hair is medium brunette with heavy sun-lightened blonde balayage through the mid-lengths and ends, mid-back length, soft natural waves with body. She has real skin texture with visible pores, a healthy glow, and naturally toned athletic proportions \u2014 not overbuilt. Captured in a candid amateur smartphone snapshot with natural skin texture and visible pores. She is wearing a pale ivory satin slip nightgown with thin spaghetti straps, slightly crumpled from sleep, top of the slip visible at the neckline, hair tousled from sleep with soft waves spread on the pillow and a few face-framing pieces, bare face with glowy fresh skin, no earrings. She lies on her back on a white pillow with a leopard-print pillowcase visible behind her head, white duvet pulled up to her shoulders, light wood headboard partially in frame, sheer white curtain on a window to the right. Photographed from above-front, soft sleepy half-smile at the camera. Both hands are visible in the frame, not hidden behind her body, not cropped out. Her right hand is raised in front of her face about twenty centimeters away, palm rotated toward her, fingers in a relaxed open grip position, currently empty. Her left hand rests near her chin, fingers lightly curled. Soft warm morning daylight from the window on the right, diffuse golden wash across her face and the pillow, no harsh shadows, gentle warm glow. Shot on iPhone 15 Pro overhead, slight tilt. Real photograph, not AI-generated, no model pose, candid moment. Playful first-thing-morning sleepy soft mood, palette of ivory satin, leopard tan, warm white, skin warmth. Reference image is the persona \u2014 face must match the reference precisely with no improvisation. Preserve every facial feature, eye color, hair color, and skin tone exactly. The face is the most important element of this image.",
+      "word_count": 320,
+      "structure_breakdown": {
+        "sentence_1_identity_outfit": "A 25-year-old Mediterranean / Southern European woman with deep tan skin and a warm undertone, soft oval face with high natural cheekbones, green almond eyes with slightly downturned outer corners, full medium-brown brows, and a soft closed-mouth smile. Her hair is medium brunette with heavy sun-lightened blonde balayage through the mid-lengths and ends, mid-back length, soft natural waves with body. She has real skin texture with visible pores, a healthy glow, and naturally toned athletic proportions \u2014 not overbuilt. Captured in a candid amateur smartphone snapshot with natural skin texture and visible pores. She is wearing a pale ivory satin slip nightgown with thin spaghetti straps, slightly crumpled from sleep, top of the slip visible at the neckline, hair tousled from sleep with soft waves spread on the pillow and a few face-framing pieces, bare face with glowy fresh skin, no earrings.",
+        "sentence_2_scene": "She lies on her back on a white pillow with a leopard-print pillowcase visible behind her head, white duvet pulled up to her shoulders, light wood headboard partially in frame, sheer white curtain on a window to the right.",
+        "sentence_3_pose_empty_product_hand": "Photographed from above-front, soft sleepy half-smile at the camera. Both hands are visible in the frame, not hidden behind her body, not cropped out. Her right hand is raised in front of her face about twenty centimeters away, palm rotated toward her, fingers in a relaxed open grip position, currently empty. Her left hand rests near her chin, fingers lightly curled.",
+        "sentence_4_lighting": "Soft warm morning daylight from the window on the right, diffuse golden wash across her face and the pillow, no harsh shadows, gentle warm glow.",
+        "sentence_5_camera_mood_lock": "Shot on iPhone 15 Pro overhead, slight tilt. Real photograph, not AI-generated, no model pose, candid moment. Playful first-thing-morning sleepy soft mood, palette of ivory satin, leopard tan, warm white, skin warmth. Reference image is the persona \u2014 face must match the reference precisely with no improvisation. Preserve every facial feature, eye color, hair color, and skin tone exactly. The face is the most important element of this image."
+      },
+      "fal_pulid_params": {
+        "image_size": {
+          "width": 768,
+          "height": 1344
+        },
+        "num_inference_steps": 30,
+        "guidance_scale": 3.5,
+        "id_weight": 1.0,
+        "true_cfg": 1.7,
+        "negative_prompt": "extra limbs, deformed hands, mutated hands, bad anatomy, lowres, blurry, watermark, text, signature, extra fingers, fused fingers, distorted face, asymmetric eyes, unnatural skin texture, plastic skin, AI-generated look, model pose, perfect symmetry, smooth airbrushed skin, glossy plastic skin, illustration, 3D render, CGI, doll-like features, magazine retouching",
+        "max_sequence_length": "256",
+        "enable_safety_checker": true
+      },
+      "step_2_brief": {
+        "archetype": "held_product_high",
+        "intended_hand_for_product": "right",
+        "intended_grip_or_placement": "Right hand raised in front of her face, holding the box vertically with thumb on the side of the box and four fingers wrapped around the opposite side, box positioned about twenty centimeters from her face with the front face angled directly at the camera.",
+        "intended_product_position": "Step 2 will composite the Alluvi box vertically in her raised right hand about twenty centimeters from her face, front face angled directly at the camera so the packaging is fully readable, catching the soft warm morning daylight from the right."
+      },
+      "compliance_check": {
+        "no_product_in_prompt": true,
+        "no_placeholder_box_in_prompt": true,
+        "no_persona_appearance_drift": true,
+        "no_outfit_lock_to_reference": true,
+        "no_banned_phrases": true,
+        "no_medical_imagery": true,
+        "no_competitor_brands": true,
+        "compliance_clean": true
+      },
+      "id_weight_recommendation": {
+        "value": 1.0,
+        "reasoning": "id_weight at fal API cap (1.0). true_cfg raised to 1.7 because face dominates the close-up frame \u2014 stronger amplification of the verbatim face_descriptor_full is needed to prevent identity drift at this scale where any deviation is highly visible, especially with the bare-face glowy-skin styling that exposes every feature."
+      }
+    },
+    "step_2_output": {
+      "scenario_id": "bedroom_bed_handheld_close_11",
+      "step_2_image_prompt": "Take the persona reference photo as the locked source for her face, hair color and styling, body proportions, ivory satin slip nightgown, and the entire bedroom scene including the leopard-print pillowcase, white duvet, light wood headboard, and sheer curtain \u2014 all of these must remain faithful to the reference, especially her face which dominates this close-up frame. She is now holding the Alluvi product in her raised right hand about twenty centimeters in front of her face: the box held vertically with thumb pressed against one side and four fingers wrapped around the opposite side, the front face of the box angled directly at the camera so the packaging is fully visible. The product is approximately 7 inches wide, sized realistically relative to her hand and her face. Her right arm and wrist may shift slightly to make the holding pose look natural and not stamped on. Both hands must remain visible in the frame \u2014 her right hand visibly grips the product in front of her face, her left hand rests near her chin with fingers lightly curled. Do not hide either hand behind the pillow, behind her body, or crop them out of the frame. The Alluvi product packaging must match the product reference photo exactly \u2014 every text element, color, graphic, and certification badge as shown. Preserve the packaging's natural white base color; the warm morning light should illuminate the white surface as light, not tint the white golden. Match the lighting direction of the persona scene: soft warm morning daylight from the window on the right, diffuse golden wash, with a gentle soft shadow falling toward the left.",
+      "word_count": 268,
+      "structure_breakdown": {
+        "sentence_1_identity_and_scene_lock": "Take the persona reference photo as the locked source for her face, hair color and styling, body proportions, ivory satin slip nightgown, and the entire bedroom scene including the leopard-print pillowcase, white duvet, light wood headboard, and sheer curtain \u2014 all of these must remain faithful to the reference, especially her face which dominates this close-up frame.",
+        "sentence_2_product_holding_pose": "She is now holding the Alluvi product in her raised right hand about twenty centimeters in front of her face: the box held vertically with thumb pressed against one side and four fingers wrapped around the opposite side, the front face of the box angled directly at the camera so the packaging is fully visible. The product is approximately 7 inches wide, sized realistically relative to her hand and her face. Her right arm and wrist may shift slightly to make the holding pose look natural and not stamped on.",
+        "sentence_3_hand_visibility_rule": "Both hands must remain visible in the frame \u2014 her right hand visibly grips the product in front of her face, her left hand rests near her chin with fingers lightly curled. Do not hide either hand behind the pillow, behind her body, or crop them out of the frame.",
+        "sentence_4_product_fidelity_and_lighting": "The Alluvi product packaging must match the product reference photo exactly \u2014 every text element, color, graphic, and certification badge as shown. Preserve the packaging's natural white base color; the warm morning light should illuminate the white surface as light, not tint the white golden. Match the lighting direction of the persona scene: soft warm morning daylight from the window on the right, diffuse golden wash, with a gentle soft shadow falling toward the left."
+      },
+      "fal_nano_banana_params": {
+        "aspect_ratio": "9:16",
+        "resolution": "1K",
+        "num_images": 1,
+        "output_format": "png",
+        "safety_tolerance": "4"
+      },
+      "image_inputs_required": {
+        "persona_scene_role": "Step 1 output \u2014 the locked persona, outfit, and scene",
+        "product_reference_role": "assets/product.jpg \u2014 the Alluvi Tirzepatide packaging reference",
+        "product_reference_path": "assets/product.jpg"
+      },
+      "compliance_check": {
+        "no_model_specific_syntax": true,
+        "no_packaging_text_described": true,
+        "no_packaging_design_described": true,
+        "identity_locked_explicitly": true,
+        "posture_explicitly_free_for_holding": true,
+        "hand_visibility_rule_present": true,
+        "scale_anchor_present": true,
+        "lighting_direction_only": true,
+        "white_base_preservation_present": true,
+        "compliance_clean": true
+      }
+    },
+    "step_1_image": "outputs\\runs\\2026-05-08_16-58-19_plan_a\\bedroom_bed_handheld_close_11\\03_step1_persona.jpg",
+    "step_2_image": "outputs\\runs\\2026-05-08_16-58-19_plan_a\\bedroom_bed_handheld_close_11\\05_step2_final.jpg",
+    "final_status": "success",
+    "error_message": null
+  }
+]

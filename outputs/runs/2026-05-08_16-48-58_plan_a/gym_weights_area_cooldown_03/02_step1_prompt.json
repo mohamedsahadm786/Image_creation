@@ -1,0 +1,45 @@
+{
+  "scenario_id": "gym_weights_area_cooldown_03",
+  "step_1_image_prompt": "A 25-year-old Mediterranean woman with sun-kissed deep-tan skin, green almond eyes, and brunette-with-blonde-balayage waves to her mid-back, captured in a candid amateur smartphone snapshot with natural skin texture and visible pores. She is wearing a deep burgundy cropped tank top, matching burgundy bike shorts with a double-band waistband, cropped white socks, white minimalist trainers, hair tied in a messy bun on top of her head with a few pieces falling around her face, small silver studs. She sits on a black padded lifting bench in the weights area of a premium gym, dumbbell rack softly out of focus behind her, polished black rubber flooring, dark exposed-brick wall on the right, industrial pendant lighting overhead. Sitting with knees apart, leaning slightly forward with both forearms resting on her thighs, looking off-camera to the side as if catching her breath after a set. Both hands are visible in the frame, not in her pockets, not behind her back, not cropped out of frame, fingers relaxed and lightly draped over her knees. The bench surface to her right side is empty in this part of the composition. Warm overhead industrial pendant light slightly behind her creating a soft warm rim on her shoulders and hair, with cooler ambient fill from the gym ceiling. Shot on Sony A7IV 35mm lens shallow depth of field, slightly below eye line looking up. Real photograph, not AI-generated, no model pose, candid moment. Post-set quiet recovery mood, palette of deep burgundy, charcoal black, warm pendant amber, polished concrete grey. Reference image is the persona — preserve her face, eye color, eye shape, brow shape, nose shape, lip shape, jaw line, and hair color exactly. Do not improvise her face.",
+  "word_count": 247,
+  "structure_breakdown": {
+    "sentence_1_identity_outfit": "A 25-year-old Mediterranean woman with sun-kissed deep-tan skin, green almond eyes, and brunette-with-blonde-balayage waves to her mid-back, captured in a candid amateur smartphone snapshot with natural skin texture and visible pores. She is wearing a deep burgundy cropped tank top, matching burgundy bike shorts with a double-band waistband, cropped white socks, white minimalist trainers, hair tied in a messy bun on top of her head with a few pieces falling around her face, small silver studs.",
+    "sentence_2_scene": "She sits on a black padded lifting bench in the weights area of a premium gym, dumbbell rack softly out of focus behind her, polished black rubber flooring, dark exposed-brick wall on the right, industrial pendant lighting overhead.",
+    "sentence_3_pose_empty_product_hand": "Sitting with knees apart, leaning slightly forward with both forearms resting on her thighs, looking off-camera to the side as if catching her breath after a set. Both hands are visible in the frame, not in her pockets, not behind her back, not cropped out of frame, fingers relaxed and lightly draped over her knees. The bench surface to her right side is empty in this part of the composition.",
+    "sentence_4_lighting": "Warm overhead industrial pendant light slightly behind her creating a soft warm rim on her shoulders and hair, with cooler ambient fill from the gym ceiling.",
+    "sentence_5_camera_mood_lock": "Shot on Sony A7IV 35mm lens shallow depth of field, slightly below eye line looking up. Real photograph, not AI-generated, no model pose, candid moment. Post-set quiet recovery mood, palette of deep burgundy, charcoal black, warm pendant amber, polished concrete grey. Reference image is the persona — preserve her face, eye color, eye shape, brow shape, nose shape, lip shape, jaw line, and hair color exactly. Do not improvise her face."
+  },
+  "fal_pulid_params": {
+    "image_size": {
+      "width": 768,
+      "height": 1344
+    },
+    "num_inference_steps": 30,
+    "guidance_scale": 3.5,
+    "id_weight": 1.0,
+    "true_cfg": 1.5,
+    "negative_prompt": "extra limbs, deformed hands, mutated hands, bad anatomy, lowres, blurry, watermark, text, signature, extra fingers, fused fingers, distorted face, asymmetric eyes, unnatural skin texture, plastic skin, AI-generated look, model pose, perfect symmetry, smooth airbrushed skin, glossy plastic skin, illustration, 3D render, CGI, doll-like features, magazine retouching",
+    "max_sequence_length": "256",
+    "enable_safety_checker": true
+  },
+  "step_2_brief": {
+    "archetype": "placed_on_surface",
+    "intended_hand_for_product": "none",
+    "intended_grip_or_placement": "The Alluvi box sits on the lifting bench beside her right thigh, front face angled toward the camera, a stainless steel water bottle next to it, a small folded grey gym towel beside both. Product is the foreground hero.",
+    "intended_product_position": "Step 2 will composite the Alluvi box onto the empty bench surface to her right, alongside a stainless steel water bottle and folded grey gym towel — product as foreground hero with warm pendant glow on its front face."
+  },
+  "compliance_check": {
+    "no_product_in_prompt": true,
+    "no_placeholder_box_in_prompt": true,
+    "no_persona_appearance_drift": true,
+    "no_outfit_lock_to_reference": true,
+    "no_banned_phrases": true,
+    "no_medical_imagery": true,
+    "no_competitor_brands": true,
+    "compliance_clean": true
+  },
+  "id_weight_recommendation": {
+    "value": 1.0,
+    "reasoning": "id_weight at fal API cap (1.0). true_cfg at default 1.5 — three-quarter waist-up framing where face is mid-importance, sufficient alongside the burgundy outfit override and gym scene context."
+  }
+}

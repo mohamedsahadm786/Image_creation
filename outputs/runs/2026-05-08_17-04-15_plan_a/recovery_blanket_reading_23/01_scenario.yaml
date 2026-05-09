@@ -1,0 +1,25 @@
+{
+  "id": "recovery_blanket_reading_23",
+  "category": "recovery",
+  "archetype": "placed_on_surface",
+  "difficulty": "easy",
+  "scene": "Bed or daybed with a rumpled cream waffle-knit blanket and a leopard- print throw pillow at the head, an open hardcover book face-down on the blanket, a small ceramic mug of herbal tea, the Alluvi box, and a small dried lavender bundle. Soft afternoon light from a window slightly out of frame on the right.",
+  "outfit": null,
+  "pose": null,
+  "hand_assignment": {
+    "phone_hand": null,
+    "product_hand": null,
+    "other_hand": null,
+    "other_hand_does": "persona not in frame"
+  },
+  "grip_or_placement": "The Alluvi box sits on the rumpled blanket at the center of the composition, front face angled three-quarters toward the camera, the open book to its left, the herbal tea mug to its upper-right, the lavender bundle along the lower edge.",
+  "lighting": "Soft warm afternoon daylight from the right side of the frame, gentle side-light wash, warm bone tones across the cream blanket, gentle warm glow on the box's front face.",
+  "mood": "lazy weekend afternoon recovery, slow reading moment",
+  "palette": "cream waffle, leopard tan, warm amber tea, sage lavender",
+  "framing": "three-quarter angle (low angle on the blanket surface)",
+  "camera_height": "blanket level (very low, slight tilt up)",
+  "resolves_failure_modes": [
+    "soft fabric textured surface — flat-lay variant"
+  ],
+  "notes": "Tests product on a soft draped fabric instead of a hard surface. The blanket folds add texture complexity."
+}

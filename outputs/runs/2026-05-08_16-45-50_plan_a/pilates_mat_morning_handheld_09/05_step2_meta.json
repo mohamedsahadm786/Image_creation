@@ -1,0 +1,9 @@
+{
+  "local_path": "outputs\\runs\\2026-05-08_16-45-50_plan_a\\pilates_mat_morning_handheld_09\\05_step2_final.jpg",
+  "fal_url": "https://v3b.fal.media/files/b/0a9962bb/4aQete6hb4Jeb4tov5zCO_4IhGuO9Z.png",
+  "seed": null,
+  "request_id": "unknown",
+  "elapsed_seconds": 18.65323519706726,
+  "endpoint": "fal-ai/nano-banana-2/edit",
+  "cost_usd": 0.04
+}

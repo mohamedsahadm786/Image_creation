@@ -1,0 +1,35 @@
+{
+  "scenario_id": "outdoor_smoothie_bar_26",
+  "step_2_image_prompt": "Take the persona reference photo as the locked source for her face, hair color and styling, body proportions, white cotton wrap top and sand linen trouser outfit, gold jewelry, and the entire outdoor smoothie bar scene including the polished wood counter, the tall glass of green smoothie, the ceramic granola ramekin, the cookbook bookcase behind her, and the hanging ferns above — all of these must remain faithful to the reference. The Alluvi product is now placed on the wood counter directly in front of her, between the tall green smoothie glass and the small ceramic granola ramekin, sitting flat on its long bottom face with the front face angled three-quarters toward the camera as part of her morning smoothie-bar arrangement. The product is approximately 7 inches wide and 3 inches tall, sized realistically relative to the smoothie glass and granola ramekin around it. Do not enlarge the product. Both hands must remain visible in the frame, resting lightly on the wood counter edge in front of her with fingers relaxed. Do not hide either hand in pockets, behind her back, or crop them out of the frame. The Alluvi product packaging must match the product reference photo exactly — every text element, color, graphic, and certification badge as shown. Preserve the packaging's natural white base color; the scene's warm daylight should illuminate the white surface as light, not tint the white warm. Match the lighting direction of the persona scene: bright natural daylight from above and the sides, slightly diffused by the canopy of ferns, with a soft natural shadow falling onto the wood counter beneath the box.",
+  "word_count": 258,
+  "structure_breakdown": {
+    "sentence_1_identity_and_scene_lock": "Take the persona reference photo as the locked source for her face, hair color and styling, body proportions, white cotton wrap top and sand linen trouser outfit, gold jewelry, and the entire outdoor smoothie bar scene including the polished wood counter, the tall glass of green smoothie, the ceramic granola ramekin, the cookbook bookcase behind her, and the hanging ferns above — all of these must remain faithful to the reference.",
+    "sentence_2_product_holding_pose": "The Alluvi product is now placed on the wood counter directly in front of her, between the tall green smoothie glass and the small ceramic granola ramekin, sitting flat on its long bottom face with the front face angled three-quarters toward the camera as part of her morning smoothie-bar arrangement. The product is approximately 7 inches wide and 3 inches tall, sized realistically relative to the smoothie glass and granola ramekin around it. Do not enlarge the product.",
+    "sentence_3_hand_visibility_rule": "Both hands must remain visible in the frame, resting lightly on the wood counter edge in front of her with fingers relaxed. Do not hide either hand in pockets, behind her back, or crop them out of the frame.",
+    "sentence_4_product_fidelity_and_lighting": "The Alluvi product packaging must match the product reference photo exactly — every text element, color, graphic, and certification badge as shown. Preserve the packaging's natural white base color; the scene's warm daylight should illuminate the white surface as light, not tint the white warm. Match the lighting direction of the persona scene: bright natural daylight from above and the sides, slightly diffused by the canopy of ferns, with a soft natural shadow falling onto the wood counter beneath the box."
+  },
+  "fal_nano_banana_params": {
+    "aspect_ratio": "9:16",
+    "resolution": "1K",
+    "num_images": 1,
+    "output_format": "png",
+    "safety_tolerance": "4"
+  },
+  "image_inputs_required": {
+    "persona_scene_role": "Step 1 output — the locked persona, outfit, and scene",
+    "product_reference_role": "assets/product.jpg — the Alluvi Tirzepatide packaging reference",
+    "product_reference_path": "assets/product.jpg"
+  },
+  "compliance_check": {
+    "no_model_specific_syntax": true,
+    "no_packaging_text_described": true,
+    "no_packaging_design_described": true,
+    "identity_locked_explicitly": true,
+    "posture_explicitly_free_for_holding": true,
+    "hand_visibility_rule_present": true,
+    "scale_anchor_present": true,
+    "lighting_direction_only": true,
+    "white_base_preservation_present": true,
+    "compliance_clean": true
+  }
+}

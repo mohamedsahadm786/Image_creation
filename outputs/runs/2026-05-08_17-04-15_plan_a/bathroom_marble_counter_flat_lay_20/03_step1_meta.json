@@ -1,0 +1,9 @@
+{
+  "local_path": "outputs\\runs\\2026-05-08_17-04-15_plan_a\\bathroom_marble_counter_flat_lay_20\\03_step1_persona.jpg",
+  "fal_url": "https://v3b.fal.media/files/b/0a9963fe/TKJN4MX0zgun8dmFbuooI.png",
+  "seed": 2733381016,
+  "request_id": "unknown",
+  "elapsed_seconds": 23.058249950408936,
+  "endpoint": "fal-ai/flux-pulid",
+  "cost_usd": 0.04
+}

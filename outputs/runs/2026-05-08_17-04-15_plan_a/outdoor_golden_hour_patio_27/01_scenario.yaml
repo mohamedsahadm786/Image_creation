@@ -1,0 +1,25 @@
+{
+  "id": "outdoor_golden_hour_patio_27",
+  "category": "outdoor",
+  "archetype": "held_product_high",
+  "difficulty": "easy",
+  "scene": "Modern minimalist patio at golden hour, a low concrete planter with small ornamental grasses behind her, a folded teak deck chair to her right with a cream linen throw draped over it. Distant city skyline softly out of focus in the deep background. Warm low-angle sunlight.",
+  "outfit": "Black square-neck cropped tank top, matching black mid-thigh tailored shorts, low-heeled brown leather sandals, a thin gold tennis bracelet, small gold huggie hoops. Hair down in soft beach waves. Subtle bronzy makeup with a soft glow.",
+  "pose": "Standing on the patio facing the camera at a slight three-quarter angle, weight on her right leg, looking directly at the camera with a relaxed confident smile.",
+  "hand_assignment": {
+    "phone_hand": null,
+    "product_hand": "right",
+    "other_hand": "left",
+    "other_hand_does": "rests at her side"
+  },
+  "grip_or_placement": "Right hand at chest level, thumb on the front face of the box, index and middle fingers on the back, ring and pinky tucked under, box angled slightly toward the camera so the front face catches the warm golden- hour light directly.",
+  "lighting": "Strong warm golden-hour sunlight from a low angle on her right side, golden rim light across her right shoulder and right side of the box, deep amber tones across the patio, soft cool sky in the background.",
+  "mood": "golden-hour glow, confident calm",
+  "palette": "black tailored, warm gold, teak wood, deep amber, soft sky cool",
+  "framing": "medium full (mid-thigh up)",
+  "camera_height": "chest level",
+  "resolves_failure_modes": [
+    "strong directional warm light Step 2 matching"
+  ],
+  "notes": "Strong directional light is the cleanest test of Step 2 lighting hooks — golden rim is unmistakable."
+}

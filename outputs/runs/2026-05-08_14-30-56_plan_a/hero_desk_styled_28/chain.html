@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>hero_desk_styled_28 — chain</title>
+<style>
+  *{box-sizing:border-box}
+  body{font-family:-apple-system,BlinkMacSystemFont,system-ui,sans-serif;
+       margin:0;padding:24px;background:#F4F6F8;color:#1F2937}
+  h1{margin:0 0 6px 0;font-size:18px}
+  .meta{color:#6B7280;font-size:13px;margin-bottom:24px}
+  .meta-pill{display:inline-block;background:#fff;padding:3px 10px;
+             border-radius:4px;border:1px solid #E5E7EB;margin-right:6px;font-size:12px}
+  .stage-row{display:grid;grid-template-columns:repeat(3,1fr);gap:14px;margin-bottom:28px}
+  .stage{background:#fff;border:1px solid #E5E7EB;border-radius:8px;overflow:hidden}
+  .stage-label{padding:10px 12px;border-bottom:1px solid #E5E7EB;font-size:12px;
+               font-weight:600;background:#F9FAFB}
+  .stage img{width:100%;display:block;aspect-ratio:9/16;object-fit:cover;background:#F3F4F6}
+  .stage-empty{aspect-ratio:9/16;background:#F3F4F6;display:flex;
+               align-items:center;justify-content:center;color:#9CA3AF;font-size:12px}
+  .prompts{background:#fff;border:1px solid #E5E7EB;border-radius:8px;padding:18px}
+  .prompts h3{margin:0 0 8px;font-size:13px;color:#374151;text-transform:uppercase;
+              letter-spacing:.5px}
+  .prompt-block{background:#F9FAFB;border:1px solid #E5E7EB;border-radius:6px;
+                padding:12px;font-size:12.5px;line-height:1.55;
+                font-family:ui-monospace,'SF Mono',Menlo,monospace;
+                margin-bottom:18px;white-space:pre-wrap}
+  .badge{display:inline-block;padding:3px 9px;border-radius:12px;
+         font-size:10.5px;font-weight:600;margin-left:6px}
+  .badge-ok{background:#D1FAE5;color:#065F46}
+  .badge-fail{background:#FEE2E2;color:#991B1B}
+  .error-block{background:#FFF7ED;border-left:3px solid #F97316;padding:10px 14px;
+                margin-bottom:18px;border-radius:4px;font-size:13px;color:#7C2D12}
+</style>
+</head>
+<body>
+<h1>hero_desk_styled_28 <span class="badge badge-ok">SUCCESS</span></h1>
+<div class="meta">
+  <span class="meta-pill"><strong>hero_flat_lay</strong></span>
+  <span class="meta-pill">flat_lay</span>
+  <span class="meta-pill">easy</span>
+  <span class="meta-pill">plan: plan_a</span>
+</div>
+
+
+
+<div class="stage-row">
+<div class="stage">
+  <div class="stage-label">Step 0 — Source persona.jpg</div>
+  <img src="../../../assets/persona.jpg" alt="Source persona.jpg"
+       onerror="this.outerHTML='<div class=stage-empty>not generated</div>'">
+</div><div class="stage">
+  <div class="stage-label">Step 1 — Persona scene (no product)</div>
+  <img src="03_step1_persona.jpg" alt="Persona scene (no product)"
+       onerror="this.outerHTML='<div class=stage-empty>not generated</div>'">
+</div><div class="stage">
+  <div class="stage-label">Step 2 — Final composite</div>
+  <img src="05_step2_final.jpg" alt="Final composite"
+       onerror="this.outerHTML='<div class=stage-empty>not generated</div>'">
+</div>
+</div>
+
+<div class="prompts">
+  <h3>Step 1 prompt → fal-ai/flux-pulid (or kontext for Plan B)</h3>
+  <div class="prompt-block">An overhead flat-lay shot on a warm walnut wood desk surface with rich natural grain. Around the central area: an open cream linen-bound journal with a brass pen resting in the crease at the center-right of the composition, a small matte ceramic mug of black coffee with thin curls of steam visible at the upper-right, a pair of tortoiseshell reading glasses folded at the lower-right, a small green plant cutting in a clear glass propagation vase at the lower-left, and a single sprig of eucalyptus laid diagonally across the upper edge of the frame. The center-left of the composition is intentionally empty — clean walnut surface with generous negative space, slightly overlapping the corner of the open journal, perfectly framed by the surrounding items in an intentional asymmetric arrangement. Soft natural daylight from above-right, throwing long gentle diagonal shadows across the walnut surface, warm honeyed tones, subtle warm glow across the wood grain. Shot on Sony A7IV 50mm lens directly overhead, real surface texture and visible wood grain on the walnut, focused morning workspace intentional mood, palette of warm walnut, cream linen, brass, deep coffee brown, sage green. Minimalist editorial composition with deliberate emptiness at center-left.</div>
+
+  <h3>Step 2 prompt → fal-ai/nano-banana-2/edit</h3>
+  <div class="prompt-block">Using Image 1 as the base scene and Image 2 as the product reference, place the Alluvi Tirzepatide product packaging from Image 2 at the center-left of the composition on the walnut desk surface, slightly overlapping the corner of the open cream linen journal. The box rests flat on the walnut surface, oriented horizontally with its long side roughly parallel to the lower edge of the frame, front face up to the overhead camera, as the visual hero of the desk arrangement framed by the surrounding journal, coffee mug, glasses, propagation vase, and eucalyptus sprig. Match the ambient lighting, color temperature, and shadow direction of Image 1 exactly. The product should be lit by the same soft natural daylight from above-right, casting a long gentle diagonal shadow across the walnut surface in the same direction as the shadows of the surrounding props, with the same warm honeyed tones and subtle warm glow across its front face. Maintain the exact branding, text, and graphics from Image 2 — do not hallucinate, modify, or alter the packaging label, text, or design in any way. Preserve everything else in Image 1 exactly — the walnut desk surface, the open journal and brass pen, the ceramic coffee mug with steam, the tortoiseshell glasses, the propagation vase, the eucalyptus sprig, and all existing shadows and wood grain.</div>
+</div>
+</body>
+</html>

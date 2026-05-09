@@ -1,0 +1,35 @@
+{
+  "scenario_id": "bedroom_bedside_flat_lay_14",
+  "step_2_image_prompt": "Take the persona reference photo as the locked source for the entire overhead flat-lay scene — the warm walnut bedside table with its grain and sheen, the open hardcover book with the dried-flower bookmark, the small ceramic mug of matcha with visible steam at upper-left, the small brass alarm clock at upper-right, the eucalyptus sprig along the lower-left edge, and the corner of the cream waffle-knit blanket draping into the lower edge — all of these must remain faithful to the reference. Place the Alluvi product at the center-right of the composition in the empty negative space, oriented with its long side roughly parallel to the lower frame edge, front face up to the overhead camera, slightly overlapping the right edge of the open hardcover book. The product is approximately 7 inches wide, sized realistically relative to the matcha mug, book, and alarm clock around it — do not enlarge the product beyond its actual proportions. No hands or persona enter the frame; this is a pure overhead flat-lay with only the surface props and the product visible. The Alluvi product packaging must match the product reference photo exactly — every text element, color, graphic, and certification badge as shown. Preserve the packaging's natural white base color — only apply the scene's directional lighting on top, do not tint the white to match the warm honeyed tones of the surface. Match the lighting direction of the persona scene: soft natural morning daylight from above-right, with a long gentle warm shadow falling from the box toward the lower-left across the walnut surface.",
+  "word_count": 257,
+  "structure_breakdown": {
+    "sentence_1_identity_and_scene_lock": "Take the persona reference photo as the locked source for the entire overhead flat-lay scene — the warm walnut bedside table with its grain and sheen, the open hardcover book with the dried-flower bookmark, the small ceramic mug of matcha with visible steam at upper-left, the small brass alarm clock at upper-right, the eucalyptus sprig along the lower-left edge, and the corner of the cream waffle-knit blanket draping into the lower edge — all of these must remain faithful to the reference.",
+    "sentence_2_product_holding_pose": "Place the Alluvi product at the center-right of the composition in the empty negative space, oriented with its long side roughly parallel to the lower frame edge, front face up to the overhead camera, slightly overlapping the right edge of the open hardcover book. The product is approximately 7 inches wide, sized realistically relative to the matcha mug, book, and alarm clock around it — do not enlarge the product beyond its actual proportions.",
+    "sentence_3_hand_visibility_rule": "No hands or persona enter the frame; this is a pure overhead flat-lay with only the surface props and the product visible.",
+    "sentence_4_product_fidelity_and_lighting": "The Alluvi product packaging must match the product reference photo exactly — every text element, color, graphic, and certification badge as shown. Preserve the packaging's natural white base color — only apply the scene's directional lighting on top, do not tint the white to match the warm honeyed tones of the surface. Match the lighting direction of the persona scene: soft natural morning daylight from above-right, with a long gentle warm shadow falling from the box toward the lower-left across the walnut surface."
+  },
+  "fal_nano_banana_params": {
+    "aspect_ratio": "9:16",
+    "resolution": "1K",
+    "num_images": 1,
+    "output_format": "png",
+    "safety_tolerance": "4"
+  },
+  "image_inputs_required": {
+    "persona_scene_role": "Step 1 output — the locked flat-lay scene with surface props and reserved negative space",
+    "product_reference_role": "assets/product.jpg — the Alluvi Tirzepatide packaging reference",
+    "product_reference_path": "assets/product.jpg"
+  },
+  "compliance_check": {
+    "no_model_specific_syntax": true,
+    "no_packaging_text_described": true,
+    "no_packaging_design_described": true,
+    "identity_locked_explicitly": true,
+    "posture_explicitly_free_for_holding": true,
+    "hand_visibility_rule_present": true,
+    "scale_anchor_present": true,
+    "lighting_direction_only": true,
+    "white_base_preservation_present": true,
+    "compliance_clean": true
+  }
+}

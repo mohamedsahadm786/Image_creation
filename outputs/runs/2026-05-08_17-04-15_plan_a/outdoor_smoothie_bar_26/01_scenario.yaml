@@ -1,0 +1,26 @@
+{
+  "id": "outdoor_smoothie_bar_26",
+  "category": "outdoor",
+  "archetype": "placed_on_surface",
+  "difficulty": "medium",
+  "scene": "Outdoor counter at a sunny smoothie / juice bar, polished wood counter surface, an open bookcase of plant-based cookbooks behind, lush green ferns hanging above. A tall glass of green smoothie in front of her on the counter, a small ceramic ramekin of granola, the Alluvi box. Bright natural daylight all around.",
+  "outfit": "White cotton wrap top with a tie at the waist (tied loosely on the side), high-waist tailored linen wide-leg trousers in soft sand color, woven flat sandals just barely visible. Hair down in soft natural waves. Small gold studs and a layered thin gold necklace. Subtle bronzy makeup.",
+  "pose": "Standing at the smoothie bar counter, body angled three-quarters toward the camera, both hands resting lightly on the counter, looking softly down at the green smoothie with a small smile.",
+  "hand_assignment": {
+    "phone_hand": null,
+    "product_hand": null,
+    "other_hand": "both",
+    "other_hand_does": "both rest lightly on the counter edge"
+  },
+  "grip_or_placement": "The Alluvi box sits on the wood counter directly in front of her, between the green smoothie glass and the granola ramekin, front face angled three-quarters toward the camera. It is part of her morning smoothie-bar arrangement.",
+  "lighting": "Bright natural daylight from above and the sides, slightly diffused by the canopy of ferns, warm wash across her face and the wood counter, gentle warm glow on the box.",
+  "mood": "morning smoothie ritual, bright energetic",
+  "palette": "warm wood, sand linen, white cotton, deep green ferns, vibrant green smoothie",
+  "framing": "three-quarter (waist up, counter surface visible)",
+  "camera_height": "chest level",
+  "resolves_failure_modes": [
+    "bright outdoor lighting Step 2 fidelity",
+    "linen drape rendering"
+  ],
+  "notes": "Tests rendering of soft natural fabrics (cotton wrap top, linen trousers) under bright outdoor light."
+}

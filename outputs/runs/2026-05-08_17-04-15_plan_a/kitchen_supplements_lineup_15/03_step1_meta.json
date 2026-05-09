@@ -1,0 +1,9 @@
+{
+  "local_path": "outputs\\runs\\2026-05-08_17-04-15_plan_a\\kitchen_supplements_lineup_15\\03_step1_persona.jpg",
+  "fal_url": "https://v3b.fal.media/files/b/0a9963c7/84Fcd9l6zWlhgMvnVU1hI.png",
+  "seed": 2216766923,
+  "request_id": "unknown",
+  "elapsed_seconds": 19.317511796951294,
+  "endpoint": "fal-ai/flux-pulid",
+  "cost_usd": 0.04
+}

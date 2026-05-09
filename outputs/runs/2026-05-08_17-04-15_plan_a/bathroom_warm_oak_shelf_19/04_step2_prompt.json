@@ -1,0 +1,35 @@
+{
+  "scenario_id": "bathroom_warm_oak_shelf_19",
+  "step_2_image_prompt": "Take the persona reference photo as the locked source for her partial visible features (her left shoulder, neck, ear, and sliver of cheek at the left edge of the frame), her wet slicked-back hair, her white waffle-knit bathrobe, and the entire bathroom shelf scene including the warm-oak floating shelf, cream tile wall, beige skincare bottles, ceramic dish with gua sha, unlit candle, dried flower stem, and her partial mirror reflection — all of these must remain faithful to the reference. The Alluvi product is now placed on the right end of the oak shelf, sitting flat on the shelf surface between the unlit candle and the small ceramic dish, with its front face angled toward the camera as the visual hero of the shelf arrangement. The product is approximately 7 inches wide and 3 inches tall, sized realistically relative to the surrounding skincare bottles and props on the shelf. Do not enlarge. Her right hand remains visible at her cheek mid-skincare application as in the reference, and no hands are hidden in pockets, behind her body, or cropped out of the frame. The Alluvi product packaging must match the product reference photo exactly — every text element, color, graphic, and certification badge as shown. Preserve the packaging's natural white base color, only apply the scene's directional lighting on top. Match the lighting direction of the persona scene: warm overhead bathroom lighting, diffuse golden cast across the oak shelf and cream tile, with a gentle warm glow catching the box's front face and a soft shadow falling onto the shelf surface beneath the box.",
+  "word_count": 257,
+  "structure_breakdown": {
+    "sentence_1_identity_and_scene_lock": "Take the persona reference photo as the locked source for her partial visible features (her left shoulder, neck, ear, and sliver of cheek at the left edge of the frame), her wet slicked-back hair, her white waffle-knit bathrobe, and the entire bathroom shelf scene including the warm-oak floating shelf, cream tile wall, beige skincare bottles, ceramic dish with gua sha, unlit candle, dried flower stem, and her partial mirror reflection — all of these must remain faithful to the reference.",
+    "sentence_2_product_holding_pose": "The Alluvi product is now placed on the right end of the oak shelf, sitting flat on the shelf surface between the unlit candle and the small ceramic dish, with its front face angled toward the camera as the visual hero of the shelf arrangement. The product is approximately 7 inches wide and 3 inches tall, sized realistically relative to the surrounding skincare bottles and props on the shelf. Do not enlarge.",
+    "sentence_3_hand_visibility_rule": "Her right hand remains visible at her cheek mid-skincare application as in the reference, and no hands are hidden in pockets, behind her body, or cropped out of the frame.",
+    "sentence_4_product_fidelity_and_lighting": "The Alluvi product packaging must match the product reference photo exactly — every text element, color, graphic, and certification badge as shown. Preserve the packaging's natural white base color, only apply the scene's directional lighting on top. Match the lighting direction of the persona scene: warm overhead bathroom lighting, diffuse golden cast across the oak shelf and cream tile, with a gentle warm glow catching the box's front face and a soft shadow falling onto the shelf surface beneath the box."
+  },
+  "fal_nano_banana_params": {
+    "aspect_ratio": "9:16",
+    "resolution": "1K",
+    "num_images": 1,
+    "output_format": "png",
+    "safety_tolerance": "4"
+  },
+  "image_inputs_required": {
+    "persona_scene_role": "Step 1 output — the locked persona, outfit, and scene",
+    "product_reference_role": "assets/product.jpg — the Alluvi Tirzepatide packaging reference",
+    "product_reference_path": "assets/product.jpg"
+  },
+  "compliance_check": {
+    "no_model_specific_syntax": true,
+    "no_packaging_text_described": true,
+    "no_packaging_design_described": true,
+    "identity_locked_explicitly": true,
+    "posture_explicitly_free_for_holding": true,
+    "hand_visibility_rule_present": true,
+    "scale_anchor_present": true,
+    "lighting_direction_only": true,
+    "white_base_preservation_present": true,
+    "compliance_clean": true
+  }
+}

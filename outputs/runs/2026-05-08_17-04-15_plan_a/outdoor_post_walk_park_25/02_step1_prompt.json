@@ -1,0 +1,45 @@
+{
+  "scenario_id": "outdoor_post_walk_park_25",
+  "step_1_image_prompt": "A 25-year-old Mediterranean woman with sun-kissed deep-tan skin, green almond eyes, and brunette-with-blonde-balayage waves to her mid-back, captured in a candid amateur smartphone snapshot with natural skin texture and visible pores. She is wearing a cropped olive-green long-sleeve athletic pullover with a small zip at the neck zipped down halfway, high-waist black athletic leggings, white minimalist sneakers, a small black crossbody bag with a thin strap, hair in a high sleek ponytail, small gold huggie hoops, subtle natural makeup with a touch of gloss. She stands on a gravel walking path in a leafy urban park during golden hour, soft green trees slightly out of focus behind her, a wooden park bench to her right with a leather tote bag resting on it. Standing facing the camera at a slight three-quarter angle, one foot slightly forward as if mid-walk pause, looking off-camera to her left with a soft natural smile. Both hands are visible in the frame, not in her pockets, not behind her back, not cropped out of frame. Her right hand rests at hip level relaxed at her side, her left hand holds the strap of the crossbody bag at her chest. Warm late-afternoon golden-hour sunlight filtered through the tree canopy on her left, dappled warm light across her face and outfit, deep green shadows in the background. Shot on iPhone 15 Pro 35mm equivalent. Real photograph, not AI-generated, no model pose, candid moment. Golden-hour hot girl walk fresh outdoor mood, palette of olive green, black athletic, golden warm, deep tree green. Reference image is the persona — preserve her face, eye color, eye shape, brow shape, nose shape, lip shape, jaw line, and hair color exactly. Do not improvise her face.",
+  "word_count": 268,
+  "structure_breakdown": {
+    "sentence_1_identity_outfit": "A 25-year-old Mediterranean woman with sun-kissed deep-tan skin, green almond eyes, and brunette-with-blonde-balayage waves to her mid-back, captured in a candid amateur smartphone snapshot with natural skin texture and visible pores. She is wearing a cropped olive-green long-sleeve athletic pullover with a small zip at the neck zipped down halfway, high-waist black athletic leggings, white minimalist sneakers, a small black crossbody bag with a thin strap, hair in a high sleek ponytail, small gold huggie hoops, subtle natural makeup with a touch of gloss.",
+    "sentence_2_scene": "She stands on a gravel walking path in a leafy urban park during golden hour, soft green trees slightly out of focus behind her, a wooden park bench to her right with a leather tote bag resting on it.",
+    "sentence_3_pose_empty_product_hand": "Standing facing the camera at a slight three-quarter angle, one foot slightly forward as if mid-walk pause, looking off-camera to her left with a soft natural smile. Both hands are visible in the frame, not in her pockets, not behind her back, not cropped out of frame. Her right hand rests at hip level relaxed at her side, her left hand holds the strap of the crossbody bag at her chest.",
+    "sentence_4_lighting": "Warm late-afternoon golden-hour sunlight filtered through the tree canopy on her left, dappled warm light across her face and outfit, deep green shadows in the background.",
+    "sentence_5_camera_mood_lock": "Shot on iPhone 15 Pro 35mm equivalent. Real photograph, not AI-generated, no model pose, candid moment. Golden-hour hot girl walk fresh outdoor mood, palette of olive green, black athletic, golden warm, deep tree green. Reference image is the persona — preserve her face, eye color, eye shape, brow shape, nose shape, lip shape, jaw line, and hair color exactly. Do not improvise her face."
+  },
+  "fal_pulid_params": {
+    "image_size": {
+      "width": 768,
+      "height": 1344
+    },
+    "num_inference_steps": 30,
+    "guidance_scale": 3.5,
+    "id_weight": 1.0,
+    "true_cfg": 1.5,
+    "negative_prompt": "extra limbs, deformed hands, mutated hands, bad anatomy, lowres, blurry, watermark, text, signature, extra fingers, fused fingers, distorted face, asymmetric eyes, unnatural skin texture, plastic skin, AI-generated look, model pose, perfect symmetry, smooth airbrushed skin, glossy plastic skin, illustration, 3D render, CGI, doll-like features, magazine retouching",
+    "max_sequence_length": "256",
+    "enable_safety_checker": true
+  },
+  "step_2_brief": {
+    "archetype": "held_product_low",
+    "intended_hand_for_product": "right",
+    "intended_grip_or_placement": "Right hand at hip level, the box held in a relaxed pinch grip, thumb on the top edge of the box, four fingers along the bottom edge, the box held flat horizontally with the front face angled three-quarters toward the camera.",
+    "intended_product_position": "Step 2 will adjust her right arm and hand from a relaxed-at-side position into a hip-level pinch grip holding the Alluvi box flat horizontally, front face angled three-quarters toward the camera, catching the warm dappled golden-hour light. Approximate frame position: lower-right of frame, ~60% from top, ~55% from left."
+  },
+  "compliance_check": {
+    "no_product_in_prompt": true,
+    "no_placeholder_box_in_prompt": true,
+    "no_persona_appearance_drift": true,
+    "no_outfit_lock_to_reference": true,
+    "no_banned_phrases": true,
+    "no_medical_imagery": true,
+    "no_competitor_brands": true,
+    "compliance_clean": true
+  },
+  "id_weight_recommendation": {
+    "value": 1.0,
+    "reasoning": "id_weight at fal API cap (1.0). true_cfg at default 1.5 — full-body framing head-to-mid-calf where face is smaller in frame, default sufficient alongside the verbatim face descriptor and dappled outdoor lighting that flatters natural skin texture."
+  }
+}

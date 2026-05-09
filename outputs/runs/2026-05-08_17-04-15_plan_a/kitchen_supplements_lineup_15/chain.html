@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>kitchen_supplements_lineup_15 — chain</title>
+<style>
+  *{box-sizing:border-box}
+  body{font-family:-apple-system,BlinkMacSystemFont,system-ui,sans-serif;
+       margin:0;padding:24px;background:#F4F6F8;color:#1F2937}
+  h1{margin:0 0 6px 0;font-size:18px}
+  .meta{color:#6B7280;font-size:13px;margin-bottom:24px}
+  .meta-pill{display:inline-block;background:#fff;padding:3px 10px;
+             border-radius:4px;border:1px solid #E5E7EB;margin-right:6px;font-size:12px}
+  .stage-row{display:grid;grid-template-columns:repeat(3,1fr);gap:14px;margin-bottom:28px}
+  .stage{background:#fff;border:1px solid #E5E7EB;border-radius:8px;overflow:hidden}
+  .stage-label{padding:10px 12px;border-bottom:1px solid #E5E7EB;font-size:12px;
+               font-weight:600;background:#F9FAFB}
+  .stage img{width:100%;display:block;aspect-ratio:9/16;object-fit:cover;background:#F3F4F6}
+  .stage-empty{aspect-ratio:9/16;background:#F3F4F6;display:flex;
+               align-items:center;justify-content:center;color:#9CA3AF;font-size:12px}
+  .prompts{background:#fff;border:1px solid #E5E7EB;border-radius:8px;padding:18px}
+  .prompts h3{margin:0 0 8px;font-size:13px;color:#374151;text-transform:uppercase;
+              letter-spacing:.5px}
+  .prompt-block{background:#F9FAFB;border:1px solid #E5E7EB;border-radius:6px;
+                padding:12px;font-size:12.5px;line-height:1.55;
+                font-family:ui-monospace,'SF Mono',Menlo,monospace;
+                margin-bottom:18px;white-space:pre-wrap}
+  .badge{display:inline-block;padding:3px 9px;border-radius:12px;
+         font-size:10.5px;font-weight:600;margin-left:6px}
+  .badge-ok{background:#D1FAE5;color:#065F46}
+  .badge-fail{background:#FEE2E2;color:#991B1B}
+  .error-block{background:#FFF7ED;border-left:3px solid #F97316;padding:10px 14px;
+                margin-bottom:18px;border-radius:4px;font-size:13px;color:#7C2D12}
+</style>
+</head>
+<body>
+<h1>kitchen_supplements_lineup_15 <span class="badge badge-ok">SUCCESS</span></h1>
+<div class="meta">
+  <span class="meta-pill"><strong>kitchen</strong></span>
+  <span class="meta-pill">object_in_lineup</span>
+  <span class="meta-pill">easy</span>
+  <span class="meta-pill">plan: plan_a</span>
+</div>
+
+
+
+<div class="stage-row">
+<div class="stage">
+  <div class="stage-label">Step 0 — (no persona — flat-lay scenario)</div>
+  <div class="stage-empty">no persona in this scenario</div>
+</div><div class="stage">
+  <div class="stage-label">Step 1 — Scene with empty product slot</div>
+  <img src="03_step1_persona.jpg" alt="Scene with empty product slot"
+       onerror="this.outerHTML='<div class=stage-empty>not generated</div>'">
+</div><div class="stage">
+  <div class="stage-label">Step 2 — Final composite</div>
+  <img src="05_step2_final.jpg" alt="Final composite"
+       onerror="this.outerHTML='<div class=stage-empty>not generated</div>'">
+</div>
+</div>
+
+<div class="prompts">
+  <h3>Step 1 prompt → fal-ai/flux-pulid (or kontext for Plan B)</h3>
+  <div class="prompt-block">An eye-level horizontal shot of a modern minimalist kitchen countertop. White marble countertop with subtle grey veining, light wood lower cabinets visible below the counter edge, a large window in the background letting in bright soft morning daylight. Arranged on the marble in a left-to-right lineup: a clear tall glass of water at the far left with subtle condensation, a small amber-glass dropper bottle next to it, a small white ceramic dish holding three large beige capsule supplements, then a clear empty negative space at the center of the lineup, an AG-style matte green powder canister to the right of that empty space, and a tall brushed stainless steel water bottle at the far right. The center position in the lineup is intentionally empty — clean marble surface with deliberate negative space, slightly forward of the flanking items so the eye lands there first. Bright soft morning daylight from the window behind the items, clean front-lit wash with a subtle backlight rim along the tops of each object, gentle warm glow across the marble, soft diffuse shadows cast forward toward the camera. Shot on Sony A7IV 50mm lens at countertop level, slightly below the items. Real photograph, not AI-generated, candid moment. Real surface texture and grain on the marble. Clinical clean morning routine organized mood, palette of white marble, light wood, amber glass, soft greens, brushed steel.</div>
+
+  <h3>Step 2 prompt → fal-ai/nano-banana-2/edit</h3>
+  <div class="prompt-block">Take the persona reference photo as the locked source for the entire kitchen scene — the white marble countertop with grey veining, the light wood lower cabinets, the window in the background, and every item in the lineup: the clear glass of water at the far left, the amber-glass dropper bottle, the small white ceramic dish with three beige capsules, the empty center position, the AG-style matte green powder canister, and the tall brushed stainless steel water bottle at the far right — all of these must remain faithful to the reference. The Alluvi product is now placed standing upright in the empty center position of the lineup, front face directly toward the camera, positioned slightly forward of the flanking items so it reads as the visual centerpiece of the arrangement. The product is approximately 7 inches wide, sized realistically relative to the surrounding supplements and water bottle — do not enlarge the product beyond its actual proportions. No persona, no hands, and no body parts appear in the frame; this is an object-only lineup composition. The Alluvi product packaging must match the product reference photo exactly — every text element, color, graphic, and certification badge as shown. Preserve the packaging&#x27;s natural white base color — apply the scene&#x27;s directional lighting on top of the white, do not tint the white to match the scene&#x27;s warm cast. Match the lighting direction of the scene: bright soft morning daylight from the window behind the items, clean front-lit wash with a subtle backlight rim along the top of the box and a soft diffuse shadow cast forward toward the camera.</div>
+</div>
+</body>
+</html>

@@ -1,0 +1,25 @@
+{
+  "id": "bathroom_warm_oak_shelf_19",
+  "category": "bathroom",
+  "archetype": "placed_on_surface",
+  "difficulty": "medium",
+  "scene": "Three-quarter angle shot of a warm-oak floating shelf against a soft cream tile bathroom wall. The shelf holds a styled lineup of beige skincare bottles, a small ceramic dish with a gua sha tool, an unlit candle, the Alluvi box, and a small dried flower stem. Behind the shelf, the persona's partial reflection visible in the bathroom mirror at the left edge of the frame.",
+  "outfit": "White waffle-knit short bathrobe loosely tied, neckline open showing collarbones, only her shoulder, ear, and a portion of her cheek visible at the edge of the frame. Hair wet and slicked back. Bare face mid- skincare application.",
+  "pose": "Persona is partial — only her left shoulder, neck, ear and a sliver of her cheek are visible at the left edge of the frame, the rest of the composition belongs to the shelf and its arrangement. She is mid- skincare-application, fingers visible at her cheek.",
+  "hand_assignment": {
+    "phone_hand": null,
+    "product_hand": null,
+    "other_hand": "right (partial)",
+    "other_hand_does": "visible at her cheek mid-skincare application"
+  },
+  "grip_or_placement": "The Alluvi box sits at the right end of the shelf with its front face angled toward the camera, between the unlit candle and the small ceramic dish. It is the visual hero of the shelf arrangement.",
+  "lighting": "Warm overhead bathroom lighting, diffuse golden cast across the oak shelf and cream tile, gentle warm glow on the box's front face. Soft indirect light on the persona's partial reflection.",
+  "mood": "calm evening reset, end-of-day skincare moment",
+  "palette": "warm cream, oat, oak, soft amber",
+  "framing": "three-quarter angle on the shelf, persona partial at left edge",
+  "camera_height": "shelf level (slightly above shelf surface)",
+  "resolves_failure_modes": [
+    "medium feasibility — partial persona, product as styled object"
+  ],
+  "notes": "Tests partial-persona compositions where product is the hero and the persona is contextual."
+}

@@ -1,0 +1,25 @@
+{
+  "id": "gym_weights_area_cooldown_03",
+  "category": "gym",
+  "archetype": "placed_on_surface",
+  "difficulty": "medium",
+  "scene": "Weights area of a premium gym, dumbbell rack in soft focus behind, black rubber flooring, a lifting bench in the foreground. Industrial pendant lighting overhead. Dark exposed-brick wall on the right.",
+  "outfit": "Deep burgundy cropped tank top, matching burgundy bike shorts with a double-band waistband, cropped white socks, white minimalist trainers. Hair tied in a messy bun on top of her head, a few pieces falling around her face. Small silver studs.",
+  "pose": "Sitting on the lifting bench, knees apart, leaning slightly forward with her forearms resting on her thighs, looking off-camera to the side as if catching her breath after a set.",
+  "hand_assignment": {
+    "phone_hand": null,
+    "product_hand": null,
+    "other_hand": "both",
+    "other_hand_does": "both arms rest forward on her thighs"
+  },
+  "grip_or_placement": "The Alluvi box sits on the lifting bench beside her right thigh, front face angled toward the camera, a stainless steel water bottle next to it, a small folded grey gym towel beside both. Product is the foreground hero.",
+  "lighting": "Warm overhead industrial pendant light slightly behind her, creating a soft warm rim on her shoulders and hair, with cooler ambient fill from the gym ceiling. Warm glow on the box's front face.",
+  "mood": "post-set quiet recovery",
+  "palette": "deep burgundy, charcoal black, warm pendant amber, polished concrete grey",
+  "framing": "three-quarter (waist up, with bench surface visible to the right)",
+  "camera_height": "slightly below her eye line, looking up",
+  "resolves_failure_modes": [
+    "low feasibility pose pivot — placement on surface instead of held"
+  ],
+  "notes": "Tests product-on-surface composition. Product is hero of the surface arrangement, persona is contextual."
+}

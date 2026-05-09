@@ -1,0 +1,9 @@
+{
+  "local_path": "outputs\\runs\\2026-05-08_17-04-15_plan_a\\outdoor_smoothie_bar_26\\03_step1_persona.jpg",
+  "fal_url": "https://v3b.fal.media/files/b/0a99643f/4YoJqN8Za3u0QSFICN8_o.png",
+  "seed": 481995005,
+  "request_id": "unknown",
+  "elapsed_seconds": 22.055591106414795,
+  "endpoint": "fal-ai/flux-pulid",
+  "cost_usd": 0.04
+}

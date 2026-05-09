@@ -1,0 +1,35 @@
+{
+  "scenario_id": "gym_post_workout_mirror_01",
+  "step_2_image_prompt": "Take the persona reference photo as the locked source for her face, eye color and shape, brow and lip shape, jaw, brunette-with-blonde-balayage hair pulled into a slick high ponytail, gold huggie hoops, sun-kissed tan skin, body proportions, matte black ribbed sports bra and seamless black leggings outfit, and the entire modern commercial gym scene including the floor-to-ceiling mirror, blurred treadmills and cable machines, large windows, and polished concrete floor — all of these must remain faithful to the reference. She is now holding the Alluvi product in her right hand at upper-chest level: her right arm bent at the elbow brought up from her side, wrist relaxed, fingers naturally curved around the box with thumb on the front face near the top edge, index and middle fingers on the back of the box, ring and pinky tucked under the bottom, the box angled forty-five degrees toward the mirror so the front face shows clearly in the mirror reflection. The product is approximately 7 inches wide, sized realistically relative to her hand. Her body posture and right arm angle may shift slightly to make the holding pose look natural and not stamped on. Both hands must remain visible in the frame — her left hand continues holding the phone at face level capturing the mirror reflection, her right hand visibly grips the product. Do not hide either hand in pockets, behind her back, or crop them out of the frame. The Alluvi product packaging must match the product reference photo exactly — every text element, color, graphic, and certification badge as shown. Preserve the packaging's natural white base color; the scene's mixed lighting should illuminate the white surface as light, not tint the white. Match the lighting direction of the persona scene: mixed gym lighting — cool overhead fluorescents combined with warm window backlight from late-afternoon sun streaming in behind her, subtle rim light on her shoulders and hair, with a soft shadow falling toward the camera-side of the box.",
+  "word_count": 318,
+  "structure_breakdown": {
+    "sentence_1_identity_and_scene_lock": "Take the persona reference photo as the locked source for her face, eye color and shape, brow and lip shape, jaw, brunette-with-blonde-balayage hair pulled into a slick high ponytail, gold huggie hoops, sun-kissed tan skin, body proportions, matte black ribbed sports bra and seamless black leggings outfit, and the entire modern commercial gym scene including the floor-to-ceiling mirror, blurred treadmills and cable machines, large windows, and polished concrete floor — all of these must remain faithful to the reference.",
+    "sentence_2_product_holding_pose": "She is now holding the Alluvi product in her right hand at upper-chest level: her right arm bent at the elbow brought up from her side, wrist relaxed, fingers naturally curved around the box with thumb on the front face near the top edge, index and middle fingers on the back of the box, ring and pinky tucked under the bottom, the box angled forty-five degrees toward the mirror so the front face shows clearly in the mirror reflection. The product is approximately 7 inches wide, sized realistically relative to her hand. Her body posture and right arm angle may shift slightly to make the holding pose look natural and not stamped on.",
+    "sentence_3_hand_visibility_rule": "Both hands must remain visible in the frame — her left hand continues holding the phone at face level capturing the mirror reflection, her right hand visibly grips the product. Do not hide either hand in pockets, behind her back, or crop them out of the frame.",
+    "sentence_4_product_fidelity_and_lighting": "The Alluvi product packaging must match the product reference photo exactly — every text element, color, graphic, and certification badge as shown. Preserve the packaging's natural white base color; the scene's mixed lighting should illuminate the white surface as light, not tint the white. Match the lighting direction of the persona scene: mixed gym lighting — cool overhead fluorescents combined with warm window backlight from late-afternoon sun streaming in behind her, subtle rim light on her shoulders and hair, with a soft shadow falling toward the camera-side of the box."
+  },
+  "fal_nano_banana_params": {
+    "aspect_ratio": "9:16",
+    "resolution": "1K",
+    "num_images": 1,
+    "output_format": "png",
+    "safety_tolerance": "4"
+  },
+  "image_inputs_required": {
+    "persona_scene_role": "Step 1 output — the locked persona, outfit, and scene",
+    "product_reference_role": "assets/product.jpg — the Alluvi Tirzepatide packaging reference",
+    "product_reference_path": "assets/product.jpg"
+  },
+  "compliance_check": {
+    "no_model_specific_syntax": true,
+    "no_packaging_text_described": true,
+    "no_packaging_design_described": true,
+    "identity_locked_explicitly": true,
+    "posture_explicitly_free_for_holding": true,
+    "hand_visibility_rule_present": true,
+    "scale_anchor_present": true,
+    "lighting_direction_only": true,
+    "white_base_preservation_present": true,
+    "compliance_clean": true
+  }
+}

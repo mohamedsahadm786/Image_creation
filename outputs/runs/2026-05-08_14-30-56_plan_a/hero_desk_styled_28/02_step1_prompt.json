@@ -1,0 +1,45 @@
+{
+  "scenario_id": "hero_desk_styled_28",
+  "step_1_image_prompt": "An overhead flat-lay shot on a warm walnut wood desk surface with rich natural grain. Around the central area: an open cream linen-bound journal with a brass pen resting in the crease at the center-right of the composition, a small matte ceramic mug of black coffee with thin curls of steam visible at the upper-right, a pair of tortoiseshell reading glasses folded at the lower-right, a small green plant cutting in a clear glass propagation vase at the lower-left, and a single sprig of eucalyptus laid diagonally across the upper edge of the frame. The center-left of the composition is intentionally empty — clean walnut surface with generous negative space, slightly overlapping the corner of the open journal, perfectly framed by the surrounding items in an intentional asymmetric arrangement. Soft natural daylight from above-right, throwing long gentle diagonal shadows across the walnut surface, warm honeyed tones, subtle warm glow across the wood grain. Shot on Sony A7IV 50mm lens directly overhead, real surface texture and visible wood grain on the walnut, focused morning workspace intentional mood, palette of warm walnut, cream linen, brass, deep coffee brown, sage green. Minimalist editorial composition with deliberate emptiness at center-left.",
+  "word_count": 187,
+  "structure_breakdown": {
+    "sentence_1_identity_outfit": "(no persona — flat-lay scenario, sentence omitted)",
+    "sentence_2_scene": "An overhead flat-lay shot on a warm walnut wood desk surface with rich natural grain. Around the central area: an open cream linen-bound journal with a brass pen resting in the crease at the center-right of the composition, a small matte ceramic mug of black coffee with thin curls of steam visible at the upper-right, a pair of tortoiseshell reading glasses folded at the lower-right, a small green plant cutting in a clear glass propagation vase at the lower-left, and a single sprig of eucalyptus laid diagonally across the upper edge of the frame.",
+    "sentence_3_pose_empty_product_hand": "The center-left of the composition is intentionally empty — clean walnut surface with generous negative space, slightly overlapping the corner of the open journal, perfectly framed by the surrounding items in an intentional asymmetric arrangement.",
+    "sentence_4_lighting": "Soft natural daylight from above-right, throwing long gentle diagonal shadows across the walnut surface, warm honeyed tones, subtle warm glow across the wood grain.",
+    "sentence_5_camera_mood_lock": "Shot on Sony A7IV 50mm lens directly overhead, real surface texture and visible wood grain on the walnut, focused morning workspace intentional mood, palette of warm walnut, cream linen, brass, deep coffee brown, sage green. Minimalist editorial composition with deliberate emptiness at center-left."
+  },
+  "fal_pulid_params": {
+    "image_size": {
+      "width": 768,
+      "height": 1344
+    },
+    "num_inference_steps": 30,
+    "guidance_scale": 4.0,
+    "id_weight": 0.5,
+    "true_cfg": 1.5,
+    "negative_prompt": "extra limbs, deformed hands, mutated hands, bad anatomy, lowres, blurry, watermark, text, signature, distorted, plastic surfaces, oversaturated, persona, person, hands in frame",
+    "max_sequence_length": "256",
+    "enable_safety_checker": true
+  },
+  "product_slot": {
+    "type": "empty_position_in_flat_lay",
+    "location_for_step_2": "Empty area at the center-left of the composition on the walnut desk, slightly overlapping the corner of the open journal — Step 2 will composite the Alluvi box at this position, oriented horizontally with its long side roughly parallel to the lower edge of the frame, front face up to the camera, as the visual hero of the desk arrangement.",
+    "hand_used": "none",
+    "approximate_position_in_frame": "center-left of frame, ~50% from top, ~38% from left, on walnut desk surface overlapping journal corner"
+  },
+  "compliance_check": {
+    "no_product_in_prompt": true,
+    "no_placeholder_box_in_prompt": true,
+    "no_persona_appearance_drift": true,
+    "no_outfit_lock_to_reference": true,
+    "no_banned_phrases": true,
+    "no_medical_imagery": true,
+    "no_competitor_brands": true,
+    "compliance_clean": true
+  },
+  "id_weight_recommendation": {
+    "value": 0.5,
+    "reasoning": "No persona in frame — id_weight lowered to prevent PuLID from forcing any partial face/hand artifact into the empty center-left where the product will be composited in Step 2."
+  }
+}

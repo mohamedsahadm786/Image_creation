@@ -1,0 +1,9 @@
+{
+  "local_path": "outputs\\runs\\2026-05-08_17-04-15_plan_a\\gym_post_workout_mirror_01\\03_step1_persona.jpg",
+  "fal_url": "https://v3b.fal.media/files/b/0a996325/IA5OYdeByBteBW5uS14kg.png",
+  "seed": 1245585940,
+  "request_id": "unknown",
+  "elapsed_seconds": 38.26334857940674,
+  "endpoint": "fal-ai/flux-pulid",
+  "cost_usd": 0.04
+}

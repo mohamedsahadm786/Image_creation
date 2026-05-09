@@ -1,0 +1,9 @@
+{
+  "local_path": "outputs\\runs\\2026-05-08_14-30-56_plan_a\\hero_desk_styled_28\\05_step2_final.jpg",
+  "fal_url": "https://v3b.fal.media/files/b/0a995f91/RFfiQejTKwSvILm_OR4MA_1Kv76aOk.png",
+  "seed": null,
+  "request_id": "unknown",
+  "elapsed_seconds": 24.392412424087524,
+  "endpoint": "fal-ai/nano-banana-2/edit",
+  "cost_usd": 0.04
+}

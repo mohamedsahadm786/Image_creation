@@ -1,0 +1,35 @@
+{
+  "scenario_id": "kitchen_supplements_lineup_15",
+  "step_2_image_prompt": "Take the persona reference photo as the locked source for the entire kitchen scene — the white marble countertop with grey veining, the light wood lower cabinets, the window in the background, and every item in the lineup: the clear glass of water at the far left, the amber-glass dropper bottle, the small white ceramic dish with three beige capsules, the empty center position, the AG-style matte green powder canister, and the tall brushed stainless steel water bottle at the far right — all of these must remain faithful to the reference. The Alluvi product is now placed standing upright in the empty center position of the lineup, front face directly toward the camera, positioned slightly forward of the flanking items so it reads as the visual centerpiece of the arrangement. The product is approximately 7 inches wide, sized realistically relative to the surrounding supplements and water bottle — do not enlarge the product beyond its actual proportions. No persona, no hands, and no body parts appear in the frame; this is an object-only lineup composition. The Alluvi product packaging must match the product reference photo exactly — every text element, color, graphic, and certification badge as shown. Preserve the packaging's natural white base color — apply the scene's directional lighting on top of the white, do not tint the white to match the scene's warm cast. Match the lighting direction of the scene: bright soft morning daylight from the window behind the items, clean front-lit wash with a subtle backlight rim along the top of the box and a soft diffuse shadow cast forward toward the camera.",
+  "word_count": 261,
+  "structure_breakdown": {
+    "sentence_1_identity_and_scene_lock": "Take the persona reference photo as the locked source for the entire kitchen scene — the white marble countertop with grey veining, the light wood lower cabinets, the window in the background, and every item in the lineup: the clear glass of water at the far left, the amber-glass dropper bottle, the small white ceramic dish with three beige capsules, the empty center position, the AG-style matte green powder canister, and the tall brushed stainless steel water bottle at the far right — all of these must remain faithful to the reference.",
+    "sentence_2_product_holding_pose": "The Alluvi product is now placed standing upright in the empty center position of the lineup, front face directly toward the camera, positioned slightly forward of the flanking items so it reads as the visual centerpiece of the arrangement. The product is approximately 7 inches wide, sized realistically relative to the surrounding supplements and water bottle — do not enlarge the product beyond its actual proportions.",
+    "sentence_3_hand_visibility_rule": "No persona, no hands, and no body parts appear in the frame; this is an object-only lineup composition.",
+    "sentence_4_product_fidelity_and_lighting": "The Alluvi product packaging must match the product reference photo exactly — every text element, color, graphic, and certification badge as shown. Preserve the packaging's natural white base color — apply the scene's directional lighting on top of the white, do not tint the white to match the scene's warm cast. Match the lighting direction of the scene: bright soft morning daylight from the window behind the items, clean front-lit wash with a subtle backlight rim along the top of the box and a soft diffuse shadow cast forward toward the camera."
+  },
+  "fal_nano_banana_params": {
+    "aspect_ratio": "9:16",
+    "resolution": "1K",
+    "num_images": 1,
+    "output_format": "png",
+    "safety_tolerance": "4"
+  },
+  "image_inputs_required": {
+    "persona_scene_role": "Step 1 output — the locked kitchen scene with empty center placement in the supplement lineup",
+    "product_reference_role": "assets/product.jpg — the Alluvi Tirzepatide packaging reference",
+    "product_reference_path": "assets/product.jpg"
+  },
+  "compliance_check": {
+    "no_model_specific_syntax": true,
+    "no_packaging_text_described": true,
+    "no_packaging_design_described": true,
+    "identity_locked_explicitly": true,
+    "posture_explicitly_free_for_holding": true,
+    "hand_visibility_rule_present": true,
+    "scale_anchor_present": true,
+    "lighting_direction_only": true,
+    "white_base_preservation_present": true,
+    "compliance_clean": true
+  }
+}

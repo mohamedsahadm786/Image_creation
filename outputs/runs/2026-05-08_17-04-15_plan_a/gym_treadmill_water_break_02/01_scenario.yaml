@@ -1,0 +1,25 @@
+{
+  "id": "gym_treadmill_water_break_02",
+  "category": "gym",
+  "archetype": "held_product_low",
+  "difficulty": "medium",
+  "scene": "Quiet corner of a premium gym, single treadmill stationary in the background, soft natural daylight from a side window. Polished wood floor area, a folded white gym towel draped over the treadmill handlebar.",
+  "outfit": "Sage green long-sleeve cropped athletic pullover with thumbholes, matching sage green high-waist leggings, white minimalist running sneakers, a thin gold chain necklace barely visible at the collarbone. Hair in a low loose ponytail.",
+  "pose": "Standing beside the treadmill, body angled three-quarters toward the camera, one hand resting on the treadmill handlebar, weight on her left leg.",
+  "hand_assignment": {
+    "phone_hand": null,
+    "product_hand": "right",
+    "other_hand": "left",
+    "other_hand_does": "rests lightly on the treadmill handlebar"
+  },
+  "grip_or_placement": "Right hand at hip level, palm facing slightly upward, the box held in a relaxed pinch grip — thumb on top edge, four fingers underneath the bottom face, the box held flat horizontally with the front face angled slightly toward the camera.",
+  "lighting": "Soft natural daylight from a side window on her left, cool with subtle warm undertone, neutral wash on the box surface.",
+  "mood": "composed mid-workout pause",
+  "palette": "sage green, polished wood warm tone, soft daylight white",
+  "framing": "three-quarter (knee up)",
+  "camera_height": "chest level",
+  "resolves_failure_modes": [
+    "stamped product floating without natural grip"
+  ],
+  "notes": "Medium difficulty — single hand product, no phone. Tests natural casual grip rendering."
+}

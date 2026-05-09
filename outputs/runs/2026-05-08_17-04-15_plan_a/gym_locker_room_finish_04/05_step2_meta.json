@@ -1,0 +1,9 @@
+{
+  "local_path": "outputs\\runs\\2026-05-08_17-04-15_plan_a\\gym_locker_room_finish_04\\05_step2_final.jpg",
+  "fal_url": "https://v3b.fal.media/files/b/0a996350/aEwVeVe1CsjdatAV4Rv2y_r4apl9Yi.png",
+  "seed": null,
+  "request_id": "unknown",
+  "elapsed_seconds": 13.965187311172485,
+  "endpoint": "fal-ai/nano-banana-2/edit",
+  "cost_usd": 0.04
+}

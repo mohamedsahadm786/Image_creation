@@ -1,0 +1,25 @@
+{
+  "id": "kitchen_island_overhead_flat_lay_17",
+  "category": "kitchen",
+  "archetype": "flat_lay",
+  "difficulty": "easy",
+  "scene": "Overhead flat-lay on a white marble kitchen island with grey veining. Centered in the composition: a ceramic matcha bowl with a bamboo whisk, a clear glass of water, an open leather journal with a brass pen resting across the spread, the Alluvi box, a small linen napkin with two slices of avocado toast on a beige plate, and a single sprig of eucalyptus.",
+  "outfit": null,
+  "pose": null,
+  "hand_assignment": {
+    "phone_hand": null,
+    "product_hand": null,
+    "other_hand": null,
+    "other_hand_does": "persona not in frame"
+  },
+  "grip_or_placement": "The Alluvi box sits at the lower-left third of the composition with its front face up to the camera, angled slightly toward the upper right. Surrounded by the matcha bowl, water glass, journal, plate, and eucalyptus arranged in a relaxed triangle.",
+  "lighting": "Soft natural morning daylight from the right side of the frame, throwing long gentle diagonal shadows across the marble, warm bone tones, gentle warm glow on the box surface.",
+  "mood": "slow Saturday morning, breakfast ritual",
+  "palette": "warm bone marble, oat ceramics, sage green, matcha green, brass",
+  "framing": "overhead flat-lay",
+  "camera_height": "directly overhead",
+  "resolves_failure_modes": [
+    "kitchen flat-lay — easy validation"
+  ],
+  "notes": "The classic that-girl morning flat-lay. Tests product fidelity in the brand's most natural visual register."
+}

@@ -1,0 +1,26 @@
+{
+  "id": "pilates_reformer_mirror_06",
+  "category": "pilates",
+  "archetype": "held_with_phone",
+  "difficulty": "hard",
+  "scene": "Premium pilates studio, sage-green reformer machine behind her, tall floor-to-ceiling mirror she is facing. Warm marble floor, exposed brick side wall, a tall window on the left letting in late-afternoon sun.",
+  "outfit": "Cream ribbed seamless cropped tank with built-in shelf bra, matching cream high-waist seamless leggings, small gold huggie earrings, a thin gold pendant necklace. Hair down, soft natural waves with a center part. Bare feet (pilates studio convention). Clean neutral nails.",
+  "pose": "Standing facing the mirror, weight on her left leg, right knee slightly bent, posture upright with a soft confident smile.",
+  "hand_assignment": {
+    "phone_hand": "right",
+    "product_hand": "left",
+    "other_hand": "right (holds phone)",
+    "other_hand_does": "holds phone at face level capturing the mirror reflection"
+  },
+  "grip_or_placement": "Left hand at chest level, thumb pressed flat on the front face of the box, four fingers wrapping the back edge, box held perpendicular to her body so the front face points directly at the mirror. The right hand holds the phone and nothing else.",
+  "lighting": "Soft warm natural daylight pouring through a tall window on her left, late afternoon, warm bone tones across the marble floor, gentle warm rim on her left side and a warm glow on the box's front face.",
+  "mood": "post-class composed, polished",
+  "palette": "cream, beige, sage green, warm marble bone",
+  "framing": "medium full (mid-thigh up to head)",
+  "camera_height": "chest level",
+  "resolves_failure_modes": [
+    "phone+product hand confusion (Phase 1 image 3)",
+    "outfit lock — explicitly cream not white-bra-and-shorts of persona ref"
+  ],
+  "notes": "Highest-priority pilates scenario — the brand's natural visual register. Mirror selfie test: explicit hand assignment, product front-face toward mirror."
+}

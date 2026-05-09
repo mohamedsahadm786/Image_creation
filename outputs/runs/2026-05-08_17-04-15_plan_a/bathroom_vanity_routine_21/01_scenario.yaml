@@ -1,0 +1,26 @@
+{
+  "id": "bathroom_vanity_routine_21",
+  "category": "bathroom",
+  "archetype": "held_product_high",
+  "difficulty": "hard",
+  "scene": "Bathroom vanity, a large round mirror reflecting the persona, a marble counter in front of her with skincare products arranged. Soft warm sconce lighting on either side of the mirror.",
+  "outfit": "White waffle-knit short bathrobe loosely tied at the waist, neckline slightly open showing collarbones and the curve of her shoulder. Hair wet, slicked back into a loose low bun, a few tendrils framing her face. No earrings, no makeup, glowy fresh-shower skin.",
+  "pose": "Standing facing the mirror, photographed from the side angle so we see her in three-quarter view with her reflection visible in the mirror, examining the box with a curious soft smile.",
+  "hand_assignment": {
+    "phone_hand": null,
+    "product_hand": "right",
+    "other_hand": "left",
+    "other_hand_does": "rests on the marble counter edge"
+  },
+  "grip_or_placement": "Right hand at chest level, the box held close to her face for inspection, thumb on the front face, four fingers wrapping around the back edge, box angled slightly toward her face but with the front face still visible to the camera.",
+  "lighting": "Warm sconce lighting on either side of the mirror, soft warm wash across her face, gentle warm rim from the sconces on the box surface.",
+  "mood": "post-shower considered evaluation, evening reset",
+  "palette": "warm marble, soft white waffle, warm amber sconce, ivory ceramics",
+  "framing": "three-quarter (waist up, mirror reflection visible)",
+  "camera_height": "slightly above her eye line, looking gently down",
+  "resolves_failure_modes": [
+    "two-mirror composition (her body + mirror reflection both in frame)",
+    "wet hair styling rendering"
+  ],
+  "notes": "Hardest bathroom scenario. Wet hair + bathrobe outfit + two-view mirror reflection. Tests rendering of damp slicked-back hair specifically."
+}

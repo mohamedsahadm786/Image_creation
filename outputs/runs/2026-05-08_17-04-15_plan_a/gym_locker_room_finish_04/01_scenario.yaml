@@ -1,0 +1,25 @@
+{
+  "id": "gym_locker_room_finish_04",
+  "category": "gym",
+  "archetype": "held_product_high",
+  "difficulty": "medium",
+  "scene": "Premium gym locker room, light wood lockers behind her, a long wooden bench in the foreground, a folded white gym towel and a small leather duffel bag visible on the bench. Soft warm sconce lighting on the wall behind.",
+  "outfit": "Heather grey oversized cropped sweatshirt over a black sports bra (sports bra strap visible at the neckline), matching heather grey wide-leg sweat pants pooling slightly at her ankles, white slip-on sneakers. Damp hair down with the front pieces twisted back loosely behind her ears. Bare face, no jewelry except a single thin gold chain.",
+  "pose": "Standing beside the bench, body angled three-quarters toward the camera, one foot slightly raised on the bench, looking down at the box in her hand with a soft satisfied half-smile.",
+  "hand_assignment": {
+    "phone_hand": null,
+    "product_hand": "right",
+    "other_hand": "left",
+    "other_hand_does": "tucks her damp hair behind her left ear"
+  },
+  "grip_or_placement": "Right hand at chest level, thumb on the front face of the box, index and middle fingers wrapping around the right side, ring and pinky tucked under the bottom edge, box held vertically with the long side oriented vertically and the front face turned to the camera.",
+  "lighting": "Warm sconce lighting from behind, soft overhead lockerroom light, a gentle golden cast across the wood lockers and warm tones on the box surface.",
+  "mood": "post-shower satisfied, end-of-workout calm",
+  "palette": "warm wood, heather grey, cream towel, soft amber",
+  "framing": "three-quarter (waist up)",
+  "camera_height": "chest level",
+  "resolves_failure_modes": [
+    "outfit lock from persona.jpg — explicit oversized post-workout outfit unlike persona reference"
+  ],
+  "notes": "Outfit is deliberately layered and oversized — the opposite of her reference photo's tight white set. Tests outfit override capability."
+}

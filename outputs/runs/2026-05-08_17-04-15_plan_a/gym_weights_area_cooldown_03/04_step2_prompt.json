@@ -1,0 +1,35 @@
+{
+  "scenario_id": "gym_weights_area_cooldown_03",
+  "step_2_image_prompt": "Take the persona reference photo as the locked source for her face, hair color and styling in the messy top bun, body proportions, deep burgundy cropped tank and burgundy bike shorts outfit with white socks and trainers, and the entire premium gym scene including the lifting bench, dumbbell rack in soft focus, polished black rubber flooring, and dark exposed-brick wall — all of these must remain faithful to the reference. The Alluvi product is now placed on the lifting bench surface to her right side, beside her right thigh, lying flat with its front face angled up and slightly toward the camera as the foreground hero of the surface arrangement; a stainless steel water bottle stands just behind the box and a small folded grey gym towel sits beside both, arranged casually as if she set them down before her set. The product is approximately 7 inches wide and 3 inches tall, sized realistically relative to the water bottle, the folded towel, and her thigh — do not enlarge the product beyond its actual proportions. Both hands must remain visible in the frame, both forearms still resting forward on her thighs as in the reference, fingers relaxed; do not hide either hand in pockets, behind her back, behind her body, or crop them out of the frame. The Alluvi product packaging must match the product reference photo exactly — every text element, color, graphic, and certification badge as shown in the reference. Preserve the packaging's natural white base color — the warm pendant light should illuminate the white surface as light, not tint the white amber. Match the lighting direction of the persona scene: warm overhead industrial pendant light slightly behind her creating a soft warm rim on her shoulders and hair, with cooler ambient fill from the gym ceiling, a soft warm glow falling on the box's front face and a soft shadow extending forward across the bench surface.",
+  "word_count": 314,
+  "structure_breakdown": {
+    "sentence_1_identity_and_scene_lock": "Take the persona reference photo as the locked source for her face, hair color and styling in the messy top bun, body proportions, deep burgundy cropped tank and burgundy bike shorts outfit with white socks and trainers, and the entire premium gym scene including the lifting bench, dumbbell rack in soft focus, polished black rubber flooring, and dark exposed-brick wall — all of these must remain faithful to the reference.",
+    "sentence_2_product_holding_pose": "The Alluvi product is now placed on the lifting bench surface to her right side, beside her right thigh, lying flat with its front face angled up and slightly toward the camera as the foreground hero of the surface arrangement; a stainless steel water bottle stands just behind the box and a small folded grey gym towel sits beside both, arranged casually as if she set them down before her set. The product is approximately 7 inches wide and 3 inches tall, sized realistically relative to the water bottle, the folded towel, and her thigh — do not enlarge the product beyond its actual proportions.",
+    "sentence_3_hand_visibility_rule": "Both hands must remain visible in the frame, both forearms still resting forward on her thighs as in the reference, fingers relaxed; do not hide either hand in pockets, behind her back, behind her body, or crop them out of the frame.",
+    "sentence_4_product_fidelity_and_lighting": "The Alluvi product packaging must match the product reference photo exactly — every text element, color, graphic, and certification badge as shown in the reference. Preserve the packaging's natural white base color — the warm pendant light should illuminate the white surface as light, not tint the white amber. Match the lighting direction of the persona scene: warm overhead industrial pendant light slightly behind her creating a soft warm rim on her shoulders and hair, with cooler ambient fill from the gym ceiling, a soft warm glow falling on the box's front face and a soft shadow extending forward across the bench surface."
+  },
+  "fal_nano_banana_params": {
+    "aspect_ratio": "9:16",
+    "resolution": "1K",
+    "num_images": 1,
+    "output_format": "png",
+    "safety_tolerance": "4"
+  },
+  "image_inputs_required": {
+    "persona_scene_role": "Step 1 output — the locked persona, outfit, and scene",
+    "product_reference_role": "assets/product.jpg — the Alluvi Tirzepatide packaging reference",
+    "product_reference_path": "assets/product.jpg"
+  },
+  "compliance_check": {
+    "no_model_specific_syntax": true,
+    "no_packaging_text_described": true,
+    "no_packaging_design_described": true,
+    "identity_locked_explicitly": true,
+    "posture_explicitly_free_for_holding": true,
+    "hand_visibility_rule_present": true,
+    "scale_anchor_present": true,
+    "lighting_direction_only": true,
+    "white_base_preservation_present": true,
+    "compliance_clean": true
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "scenario_id": "pilates_post_class_floor_07",
+  "step_2_image_prompt": "Take the persona reference photo as the locked source for the entire pilates studio flat-lay scene — the warm honey-toned wood floor, the sage-green reformer softly out of focus in the background, the rolled cream-colored pilates mat at the upper-left, the brushed stainless steel water bottle tucked at the back-center, the small grippy black yoga towel folded at the right, and the single sprig of fresh eucalyptus along the lower edge — all of these surrounding props and the floor must remain faithful to the reference. Place the Alluvi product at the empty center of the composition on the warm wood floor, oriented at a three-quarter angle with its front face tilted up toward the camera so the label is clearly readable, the water bottle tucked behind it, the rolled mat to its left, the towel to its right, the eucalyptus sprig along the lower edge. The product is approximately 7 inches wide and 3 inches tall, sized in realistic proportion to the rolled mat, the water bottle, and the surrounding props — do not enlarge the product beyond its actual proportions. No hands, no body parts, no persona should appear in the frame — this is a clean flat-lay composition with the product as the centerpiece among the surrounding wellness props. The Alluvi product packaging must match the product reference photo exactly — every text element, color, graphic, gradient, and certification badge as shown. Preserve the packaging's natural white base color — only apply the scene's directional lighting on top of the white, do not tint the white to match the warm wood. Match the lighting direction of the persona scene: soft natural daylight from a window behind the reformer, late-afternoon warm wash, with a gentle diffuse shadow extending forward from the box across the wood grain.",
+  "word_count": 295,
+  "structure_breakdown": {
+    "sentence_1_identity_and_scene_lock": "Take the persona reference photo as the locked source for the entire pilates studio flat-lay scene — the warm honey-toned wood floor, the sage-green reformer softly out of focus in the background, the rolled cream-colored pilates mat at the upper-left, the brushed stainless steel water bottle tucked at the back-center, the small grippy black yoga towel folded at the right, and the single sprig of fresh eucalyptus along the lower edge — all of these surrounding props and the floor must remain faithful to the reference.",
+    "sentence_2_product_holding_pose": "Place the Alluvi product at the empty center of the composition on the warm wood floor, oriented at a three-quarter angle with its front face tilted up toward the camera so the label is clearly readable, the water bottle tucked behind it, the rolled mat to its left, the towel to its right, the eucalyptus sprig along the lower edge. The product is approximately 7 inches wide and 3 inches tall, sized in realistic proportion to the rolled mat, the water bottle, and the surrounding props — do not enlarge the product beyond its actual proportions.",
+    "sentence_3_hand_visibility_rule": "No hands, no body parts, no persona should appear in the frame — this is a clean flat-lay composition with the product as the centerpiece among the surrounding wellness props.",
+    "sentence_4_product_fidelity_and_lighting": "The Alluvi product packaging must match the product reference photo exactly — every text element, color, graphic, gradient, and certification badge as shown. Preserve the packaging's natural white base color — only apply the scene's directional lighting on top of the white, do not tint the white to match the warm wood. Match the lighting direction of the persona scene: soft natural daylight from a window behind the reformer, late-afternoon warm wash, with a gentle diffuse shadow extending forward from the box across the wood grain."
+  },
+  "fal_nano_banana_params": {
+    "aspect_ratio": "9:16",
+    "resolution": "1K",
+    "num_images": 1,
+    "output_format": "png",
+    "safety_tolerance": "4"
+  },
+  "image_inputs_required": {
+    "persona_scene_role": "Step 1 output — the locked flat-lay scene of the pilates studio floor with surrounding props and empty center",
+    "product_reference_role": "assets/product.jpg — the Alluvi Tirzepatide packaging reference",
+    "product_reference_path": "assets/product.jpg"
+  },
+  "compliance_check": {
+    "no_model_specific_syntax": true,
+    "no_packaging_text_described": true,
+    "no_packaging_design_described": true,
+    "identity_locked_explicitly": true,
+    "posture_explicitly_free_for_holding": true,
+    "hand_visibility_rule_present": true,
+    "scale_anchor_present": true,
+    "lighting_direction_only": true,
+    "white_base_preservation_present": true,
+    "compliance_clean": true
+  }
+}

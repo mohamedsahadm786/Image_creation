@@ -1,0 +1,25 @@
+{
+  "id": "hero_desk_styled_28",
+  "category": "hero_flat_lay",
+  "archetype": "flat_lay",
+  "difficulty": "easy",
+  "scene": "Overhead flat-lay on a warm walnut wood desk surface. The desk holds a styled arrangement: an open cream linen-bound journal with a brass pen, a small ceramic mug of black coffee with steam visible, a pair of tortoiseshell reading glasses, the Alluvi box, a small green plant cutting in a clear glass propagation vase, and a single sprig of eucalyptus across the upper edge.",
+  "outfit": null,
+  "pose": null,
+  "hand_assignment": {
+    "phone_hand": null,
+    "product_hand": null,
+    "other_hand": null,
+    "other_hand_does": "persona not in frame"
+  },
+  "grip_or_placement": "The Alluvi box sits at the center-left of the composition, front face up to the camera, slightly overlapping the corner of the open journal. It is the visual hero of the desk arrangement.",
+  "lighting": "Soft natural daylight from above-right, throwing long gentle diagonal shadows across the walnut surface, warm honeyed tones, gentle warm glow on the box surface.",
+  "mood": "focused morning workspace, intentional",
+  "palette": "warm walnut, cream linen, brass, deep coffee brown, sage green",
+  "framing": "overhead flat-lay",
+  "camera_height": "directly overhead",
+  "resolves_failure_modes": [
+    "hero flat-lay validation — workspace context"
+  ],
+  "notes": "Pure product hero shot in a workspace context. Different from kitchen and bedroom flat-lays — adds journal/coffee/glasses styling vocabulary."
+}

@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>pilates_post_class_floor_07 — chain</title>
+<style>
+  *{box-sizing:border-box}
+  body{font-family:-apple-system,BlinkMacSystemFont,system-ui,sans-serif;
+       margin:0;padding:24px;background:#F4F6F8;color:#1F2937}
+  h1{margin:0 0 6px 0;font-size:18px}
+  .meta{color:#6B7280;font-size:13px;margin-bottom:24px}
+  .meta-pill{display:inline-block;background:#fff;padding:3px 10px;
+             border-radius:4px;border:1px solid #E5E7EB;margin-right:6px;font-size:12px}
+  .stage-row{display:grid;grid-template-columns:repeat(3,1fr);gap:14px;margin-bottom:28px}
+  .stage{background:#fff;border:1px solid #E5E7EB;border-radius:8px;overflow:hidden}
+  .stage-label{padding:10px 12px;border-bottom:1px solid #E5E7EB;font-size:12px;
+               font-weight:600;background:#F9FAFB}
+  .stage img{width:100%;display:block;aspect-ratio:9/16;object-fit:cover;background:#F3F4F6}
+  .stage-empty{aspect-ratio:9/16;background:#F3F4F6;display:flex;
+               align-items:center;justify-content:center;color:#9CA3AF;font-size:12px}
+  .prompts{background:#fff;border:1px solid #E5E7EB;border-radius:8px;padding:18px}
+  .prompts h3{margin:0 0 8px;font-size:13px;color:#374151;text-transform:uppercase;
+              letter-spacing:.5px}
+  .prompt-block{background:#F9FAFB;border:1px solid #E5E7EB;border-radius:6px;
+                padding:12px;font-size:12.5px;line-height:1.55;
+                font-family:ui-monospace,'SF Mono',Menlo,monospace;
+                margin-bottom:18px;white-space:pre-wrap}
+  .badge{display:inline-block;padding:3px 9px;border-radius:12px;
+         font-size:10.5px;font-weight:600;margin-left:6px}
+  .badge-ok{background:#D1FAE5;color:#065F46}
+  .badge-fail{background:#FEE2E2;color:#991B1B}
+  .error-block{background:#FFF7ED;border-left:3px solid #F97316;padding:10px 14px;
+                margin-bottom:18px;border-radius:4px;font-size:13px;color:#7C2D12}
+</style>
+</head>
+<body>
+<h1>pilates_post_class_floor_07 <span class="badge badge-ok">SUCCESS</span></h1>
+<div class="meta">
+  <span class="meta-pill"><strong>pilates</strong></span>
+  <span class="meta-pill">flat_lay</span>
+  <span class="meta-pill">easy</span>
+  <span class="meta-pill">plan: plan_a</span>
+</div>
+
+
+
+<div class="stage-row">
+<div class="stage">
+  <div class="stage-label">Step 0 — (no persona — flat-lay scenario)</div>
+  <div class="stage-empty">no persona in this scenario</div>
+</div><div class="stage">
+  <div class="stage-label">Step 1 — Scene with empty product slot</div>
+  <img src="03_step1_persona.jpg" alt="Scene with empty product slot"
+       onerror="this.outerHTML='<div class=stage-empty>not generated</div>'">
+</div><div class="stage">
+  <div class="stage-label">Step 2 — Final composite</div>
+  <img src="05_step2_final.jpg" alt="Final composite"
+       onerror="this.outerHTML='<div class=stage-empty>not generated</div>'">
+</div>
+</div>
+
+<div class="prompts">
+  <h3>Step 1 prompt → fal-ai/flux-pulid (or kontext for Plan B)</h3>
+  <div class="prompt-block">A three-quarter angle floor-level shot on the warm honey-toned wood floor of a premium pilates studio. A sage-green reformer is softly out of focus in the background, partially filling the upper portion of the frame. Around a central empty area on the wood floor: a rolled cream-colored pilates mat tied with a thin leather strap at the upper-left of the composition, a brushed stainless steel water bottle with subtle condensation tucked toward the back-center, a small grippy black yoga towel folded at the right, and a single sprig of fresh eucalyptus laid gracefully along the lower edge of the frame. The center of the composition is intentionally empty — clean warm wood floor with generous negative space, perfectly framed by the surrounding items in a relaxed asymmetric arrangement. Soft natural daylight pours from a window behind the reformer, late-afternoon warm wash across the wood grain, gentle diffuse shadows extending forward from each object, a subtle warm golden glow on the empty floor area at center. Shot on Sony A7IV 35mm lens at floor level with a slight tilt upward. Real photograph, not AI-generated, candid moment. Real wood grain texture and visible floor scuffs, post-class quiet intentional calm mood, palette of sage green, cream, warm wood, muted eucalyptus. Minimalist editorial composition with deliberate emptiness at center.</div>
+
+  <h3>Step 2 prompt → fal-ai/nano-banana-2/edit</h3>
+  <div class="prompt-block">Take the persona reference photo as the locked source for the entire pilates studio flat-lay scene — the warm honey-toned wood floor, the sage-green reformer softly out of focus in the background, the rolled cream-colored pilates mat at the upper-left, the brushed stainless steel water bottle tucked at the back-center, the small grippy black yoga towel folded at the right, and the single sprig of fresh eucalyptus along the lower edge — all of these surrounding props and the floor must remain faithful to the reference. Place the Alluvi product at the empty center of the composition on the warm wood floor, oriented at a three-quarter angle with its front face tilted up toward the camera so the label is clearly readable, the water bottle tucked behind it, the rolled mat to its left, the towel to its right, the eucalyptus sprig along the lower edge. The product is approximately 7 inches wide and 3 inches tall, sized in realistic proportion to the rolled mat, the water bottle, and the surrounding props — do not enlarge the product beyond its actual proportions. No hands, no body parts, no persona should appear in the frame — this is a clean flat-lay composition with the product as the centerpiece among the surrounding wellness props. The Alluvi product packaging must match the product reference photo exactly — every text element, color, graphic, gradient, and certification badge as shown. Preserve the packaging&#x27;s natural white base color — only apply the scene&#x27;s directional lighting on top of the white, do not tint the white to match the warm wood. Match the lighting direction of the persona scene: soft natural daylight from a window behind the reformer, late-afternoon warm wash, with a gentle diffuse shadow extending forward from the box across the wood grain.</div>
+</div>
+</body>
+</html>

@@ -1,0 +1,26 @@
+{
+  "id": "bedroom_bed_handheld_close_11",
+  "category": "bedroom",
+  "archetype": "held_product_high",
+  "difficulty": "hard",
+  "scene": "Bedroom morning. Soft white bedding with a leopard-print pillowcase visible behind her head, light wood headboard partially visible, a sheer white curtain on a window to the right letting in soft golden morning light.",
+  "outfit": "Pale ivory satin slip nightgown with thin spaghetti straps, slightly crumpled from sleep, top of the slip visible at the neckline. Hair tousled from sleep, soft waves spread on the pillow with a few face- framing pieces. Bare face, glowy fresh skin. No earrings.",
+  "pose": "Lying on her back on the pillow, photographed from above-front so we see her face and upper chest. Soft sleepy smile, half-smiling at the camera.",
+  "hand_assignment": {
+    "phone_hand": null,
+    "product_hand": "right",
+    "other_hand": "left",
+    "other_hand_does": "rests near her chin, fingers lightly curled"
+  },
+  "grip_or_placement": "Right hand raised in front of her face, holding the box vertically with thumb on the side of the box and four fingers wrapped around the opposite side, box positioned about twenty centimeters from her face with the front face angled directly at the camera.",
+  "lighting": "Soft warm morning daylight from the window on the right, diffuse golden wash across her face and the pillow, no harsh shadows, gentle warm glow on the box surface.",
+  "mood": "playful first-thing-morning, sleepy soft smile",
+  "palette": "ivory satin, leopard tan, warm white, skin warmth",
+  "framing": "close-up (head and upper chest, box dominant in frame)",
+  "camera_height": "directly above her face, slight tilt",
+  "resolves_failure_modes": [
+    "persona face drift on close-ups (Phase 1 image 2)",
+    "satin slip outfit completely different from reference white sports bra"
+  ],
+  "notes": "Hardest face-fidelity test — face is the largest element. Use identity_lock_close_up from persona.yaml."
+}

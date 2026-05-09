@@ -1,0 +1,26 @@
+{
+  "id": "kitchen_coffee_bar_moment_18",
+  "category": "kitchen",
+  "archetype": "held_product_high",
+  "difficulty": "hard",
+  "scene": "Sleek built-in coffee bar in a modern kitchen, espresso machine on the counter, small open shelf above with arranged ceramic mugs, a white marble counter surface in front of the espresso machine. A small ceramic tray on the counter with a folded linen napkin and a small wood spoon.",
+  "outfit": "Charcoal grey ribbed long-sleeve cropped pullover (sleeves long enough to cover her hands partially), high-waisted dark wash relaxed jeans with a slight crop hem, white minimalist sneakers. Hair down in soft waves. Layered thin gold necklaces. Small gold huggie hoops.",
+  "pose": "Standing facing the coffee bar three-quarter angle to the camera, looking down at the box held at chest level with a soft confident smile, weight on her right leg.",
+  "hand_assignment": {
+    "phone_hand": null,
+    "product_hand": "right",
+    "other_hand": "left",
+    "other_hand_does": "rests lightly on the marble counter edge"
+  },
+  "grip_or_placement": "Right hand at upper-chest level, thumb on the front face of the box near the top edge, index and middle fingers on the back, ring and pinky tucked under, box angled forty-five degrees toward the camera.",
+  "lighting": "Cool overhead pendant lighting on the coffee bar combined with warm morning daylight from a window on the right side of the frame, mixed cool/warm wash on her face and a warm rim on the right side of the box.",
+  "mood": "morning ritual, polished casual energy",
+  "palette": "charcoal grey, dark denim, warm marble, espresso brown, brass accents",
+  "framing": "three-quarter (waist up)",
+  "camera_height": "chest level",
+  "resolves_failure_modes": [
+    "denim outfit rendering — completely different from athletic reference",
+    "mixed lighting Step 2 fidelity"
+  ],
+  "notes": "Tests denim/casualwear rendering. Mixed lighting (cool overhead + warm window) is the trickiest case for Step 2 lighting matching."
+}

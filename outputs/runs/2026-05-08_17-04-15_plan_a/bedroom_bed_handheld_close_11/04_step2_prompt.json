@@ -1,0 +1,35 @@
+{
+  "scenario_id": "bedroom_bed_handheld_close_11",
+  "step_2_image_prompt": "Take the persona reference photo as the locked source for her face, hair color and tousled styling, skin tone, body proportions, ivory satin slip nightgown, and the entire bedroom scene including the leopard-print pillowcase, white duvet, light wood headboard, and sheer curtain — all of these must remain faithful to the reference. She is now holding the Alluvi product in her right hand raised in front of her face at face level, about twenty centimeters from her face: her right arm bent so the hand is at face height, wrist relaxed, holding the box vertically with thumb pressed along one side and four fingers wrapped around the opposite side, the front face of the box angled directly toward the overhead camera so the packaging is fully readable. The product is approximately 7 inches wide, sized realistically relative to her hand and face. Her arm angle and hand rotation may shift slightly to make the holding pose look natural and not stamped on. Both hands must remain visible in the frame — her right hand visibly grips the product in front of her face, her left hand rests near her chin with fingers lightly curled. Do not hide either hand behind her body, behind the pillow, or crop them out of the frame. The Alluvi product packaging must match the product reference photo exactly — every text element, color, graphic, and certification badge as shown. Preserve the packaging's natural white base color; the morning light should illuminate the white surface as light, not tint the white golden. Match the lighting direction of the persona scene: soft warm morning daylight from the window on the right, diffuse golden wash across her face and the pillow, no harsh shadows, with a soft shadow falling toward her left.",
+  "word_count": 290,
+  "structure_breakdown": {
+    "sentence_1_identity_and_scene_lock": "Take the persona reference photo as the locked source for her face, hair color and tousled styling, skin tone, body proportions, ivory satin slip nightgown, and the entire bedroom scene including the leopard-print pillowcase, white duvet, light wood headboard, and sheer curtain — all of these must remain faithful to the reference.",
+    "sentence_2_product_holding_pose": "She is now holding the Alluvi product in her right hand raised in front of her face at face level, about twenty centimeters from her face: her right arm bent so the hand is at face height, wrist relaxed, holding the box vertically with thumb pressed along one side and four fingers wrapped around the opposite side, the front face of the box angled directly toward the overhead camera so the packaging is fully readable. The product is approximately 7 inches wide, sized realistically relative to her hand and face. Her arm angle and hand rotation may shift slightly to make the holding pose look natural and not stamped on.",
+    "sentence_3_hand_visibility_rule": "Both hands must remain visible in the frame — her right hand visibly grips the product in front of her face, her left hand rests near her chin with fingers lightly curled. Do not hide either hand behind her body, behind the pillow, or crop them out of the frame.",
+    "sentence_4_product_fidelity_and_lighting": "The Alluvi product packaging must match the product reference photo exactly — every text element, color, graphic, and certification badge as shown. Preserve the packaging's natural white base color; the morning light should illuminate the white surface as light, not tint the white golden. Match the lighting direction of the persona scene: soft warm morning daylight from the window on the right, diffuse golden wash across her face and the pillow, no harsh shadows, with a soft shadow falling toward her left."
+  },
+  "fal_nano_banana_params": {
+    "aspect_ratio": "9:16",
+    "resolution": "1K",
+    "num_images": 1,
+    "output_format": "png",
+    "safety_tolerance": "4"
+  },
+  "image_inputs_required": {
+    "persona_scene_role": "Step 1 output — the locked persona, outfit, and scene",
+    "product_reference_role": "assets/product.jpg — the Alluvi Tirzepatide packaging reference",
+    "product_reference_path": "assets/product.jpg"
+  },
+  "compliance_check": {
+    "no_model_specific_syntax": true,
+    "no_packaging_text_described": true,
+    "no_packaging_design_described": true,
+    "identity_locked_explicitly": true,
+    "posture_explicitly_free_for_holding": true,
+    "hand_visibility_rule_present": true,
+    "scale_anchor_present": true,
+    "lighting_direction_only": true,
+    "white_base_preservation_present": true,
+    "compliance_clean": true
+  }
+}

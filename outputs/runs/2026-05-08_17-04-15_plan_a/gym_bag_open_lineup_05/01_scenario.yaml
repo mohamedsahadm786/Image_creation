@@ -1,0 +1,25 @@
+{
+  "id": "gym_bag_open_lineup_05",
+  "category": "gym",
+  "archetype": "flat_lay",
+  "difficulty": "easy",
+  "scene": "Overhead flat-lay on a polished wood gym floor, an open camel-colored leather small duffel bag slightly tilted at the upper-left of the composition, contents partially spilling out. Around the bag, neatly arranged: a folded white gym towel, a stainless steel water bottle, white AirPods Pro case, a pair of white gym socks rolled, the Alluvi box, and a single sprig of eucalyptus across the lower-right corner.",
+  "outfit": null,
+  "pose": null,
+  "hand_assignment": {
+    "phone_hand": null,
+    "product_hand": null,
+    "other_hand": null,
+    "other_hand_does": "persona not in frame"
+  },
+  "grip_or_placement": "The Alluvi box sits horizontally at the center-right of the composition, front face up to the camera, slightly overlapping the corner of the folded white towel. Box is the visual hero of the arrangement.",
+  "lighting": "Soft natural daylight from the upper right of the frame, throwing long gentle diagonal shadows across the wood floor, warm wood tones, gentle warm glow on the box surface.",
+  "mood": "clean lineup, prepared, intentional",
+  "palette": "warm wood, cream, camel leather, sage green eucalyptus",
+  "framing": "overhead flat-lay",
+  "camera_height": "directly overhead",
+  "resolves_failure_modes": [
+    "flat-lay easy case to validate Step 2 product fidelity in isolation"
+  ],
+  "notes": "No persona — pure product hero shot. Lowest-risk scenario in the gym set. Used to validate that Nano Banana 2 can render the product accurately with no compositing complexity."
+}

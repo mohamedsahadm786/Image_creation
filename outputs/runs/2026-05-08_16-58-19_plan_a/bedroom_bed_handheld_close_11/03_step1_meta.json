@@ -1,0 +1,9 @@
+{
+  "local_path": "outputs\\runs\\2026-05-08_16-58-19_plan_a\\bedroom_bed_handheld_close_11\\03_step1_persona.jpg",
+  "fal_url": "https://v3b.fal.media/files/b/0a996301/Xc2Xn2INq-0zXuHdcCZGR.png",
+  "seed": 1258682233,
+  "request_id": "unknown",
+  "elapsed_seconds": 27.20088505744934,
+  "endpoint": "fal-ai/flux-pulid",
+  "cost_usd": 0.04
+}

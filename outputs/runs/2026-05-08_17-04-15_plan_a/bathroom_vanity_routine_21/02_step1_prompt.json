@@ -1,0 +1,45 @@
+{
+  "scenario_id": "bathroom_vanity_routine_21",
+  "step_1_image_prompt": "A 25-year-old Mediterranean woman with sun-kissed deep-tan skin, green almond eyes, and brunette-with-blonde-balayage waves to her mid-back, captured in a candid amateur smartphone snapshot with natural skin texture and visible pores. She is wearing a white waffle-knit short bathrobe loosely tied at the waist, neckline slightly open showing collarbones and the curve of her shoulder, hair wet and slicked back into a loose low bun with a few damp tendrils framing her face, no earrings, no makeup, glowy fresh-shower skin. She stands at a bathroom vanity in front of a large round mirror, marble counter in front of her with ivory ceramic skincare bottles arranged neatly, warm wall sconces glowing on either side of the mirror. Photographed from a side angle in three-quarter view with her reflection visible in the mirror, standing with weight on her right leg, soft curious smile on her lips. Both hands are visible in the frame, not in her pockets, not behind her back, not cropped out of frame. Her right hand is raised at chest level, palm rotated inward, fingers in a relaxed open grip position, currently empty. Her left hand rests on the marble counter edge. Warm sconce lighting on either side of the mirror, soft warm wash across her face, gentle warm rim along her shoulder and damp hair. Shot on iPhone 15 Pro 35mm equivalent, slight grain. Real photograph, not AI-generated, no model pose, candid moment. Post-shower considered evaluation evening-reset mood, palette of warm marble, soft white waffle, warm amber sconce, ivory ceramics. Reference image is the persona — preserve her face, eye color, eye shape, brow shape, nose shape, lip shape, jaw line, and hair color exactly. Do not improvise her face.",
+  "word_count": 268,
+  "structure_breakdown": {
+    "sentence_1_identity_outfit": "A 25-year-old Mediterranean woman with sun-kissed deep-tan skin, green almond eyes, and brunette-with-blonde-balayage waves to her mid-back, captured in a candid amateur smartphone snapshot with natural skin texture and visible pores. She is wearing a white waffle-knit short bathrobe loosely tied at the waist, neckline slightly open showing collarbones and the curve of her shoulder, hair wet and slicked back into a loose low bun with a few damp tendrils framing her face, no earrings, no makeup, glowy fresh-shower skin.",
+    "sentence_2_scene": "She stands at a bathroom vanity in front of a large round mirror, marble counter in front of her with ivory ceramic skincare bottles arranged neatly, warm wall sconces glowing on either side of the mirror.",
+    "sentence_3_pose_empty_product_hand": "Photographed from a side angle in three-quarter view with her reflection visible in the mirror, standing with weight on her right leg, soft curious smile on her lips. Both hands are visible in the frame, not in her pockets, not behind her back, not cropped out of frame. Her right hand is raised at chest level, palm rotated inward, fingers in a relaxed open grip position, currently empty. Her left hand rests on the marble counter edge.",
+    "sentence_4_lighting": "Warm sconce lighting on either side of the mirror, soft warm wash across her face, gentle warm rim along her shoulder and damp hair.",
+    "sentence_5_camera_mood_lock": "Shot on iPhone 15 Pro 35mm equivalent, slight grain. Real photograph, not AI-generated, no model pose, candid moment. Post-shower considered evaluation evening-reset mood, palette of warm marble, soft white waffle, warm amber sconce, ivory ceramics. Reference image is the persona — preserve her face, eye color, eye shape, brow shape, nose shape, lip shape, jaw line, and hair color exactly. Do not improvise her face."
+  },
+  "fal_pulid_params": {
+    "image_size": {
+      "width": 768,
+      "height": 1344
+    },
+    "num_inference_steps": 30,
+    "guidance_scale": 3.5,
+    "id_weight": 1.0,
+    "true_cfg": 1.6,
+    "negative_prompt": "extra limbs, deformed hands, mutated hands, bad anatomy, lowres, blurry, watermark, text, signature, extra fingers, fused fingers, distorted face, asymmetric eyes, unnatural skin texture, plastic skin, AI-generated look, model pose, perfect symmetry, smooth airbrushed skin, glossy plastic skin, illustration, 3D render, CGI, doll-like features, magazine retouching, two different faces in mirror, mismatched reflection",
+    "max_sequence_length": "256",
+    "enable_safety_checker": true
+  },
+  "step_2_brief": {
+    "archetype": "held_product_high",
+    "intended_hand_for_product": "right",
+    "intended_grip_or_placement": "Right hand at chest level, the box held close to her face for inspection, thumb on the front face, four fingers wrapping around the back edge, box angled slightly toward her face but with the front face still visible to the camera.",
+    "intended_product_position": "Step 2 will composite the Alluvi box into her right hand at chest level, held close to her face for inspection — the box should also appear correctly mirrored in the round mirror reflection behind her, with the warm sconce light catching its front face."
+  },
+  "compliance_check": {
+    "no_product_in_prompt": true,
+    "no_placeholder_box_in_prompt": true,
+    "no_persona_appearance_drift": true,
+    "no_outfit_lock_to_reference": true,
+    "no_banned_phrases": true,
+    "no_medical_imagery": true,
+    "no_competitor_brands": true,
+    "compliance_clean": true
+  },
+  "id_weight_recommendation": {
+    "value": 1.0,
+    "reasoning": "id_weight at fal API cap (1.0). true_cfg raised to 1.6 because the two-mirror composition doubles the face-rendering challenge — both the direct three-quarter view and the mirror reflection must match the persona, so stronger amplification of the verbatim face descriptor is needed to keep both faces consistent."
+  }
+}

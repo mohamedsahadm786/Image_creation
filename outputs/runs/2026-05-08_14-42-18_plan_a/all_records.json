@@ -1,0 +1,117 @@
+[
+  {
+    "scenario": {
+      "id": "outdoor_golden_hour_patio_27",
+      "category": "outdoor",
+      "archetype": "held_product_high",
+      "difficulty": "easy",
+      "scene": "Modern minimalist patio at golden hour, a low concrete planter with small ornamental grasses behind her, a folded teak deck chair to her right with a cream linen throw draped over it. Distant city skyline softly out of focus in the deep background. Warm low-angle sunlight.",
+      "outfit": "Black square-neck cropped tank top, matching black mid-thigh tailored shorts, low-heeled brown leather sandals, a thin gold tennis bracelet, small gold huggie hoops. Hair down in soft beach waves. Subtle bronzy makeup with a soft glow.",
+      "pose": "Standing on the patio facing the camera at a slight three-quarter angle, weight on her right leg, looking directly at the camera with a relaxed confident smile.",
+      "hand_assignment": {
+        "phone_hand": null,
+        "product_hand": "right",
+        "other_hand": "left",
+        "other_hand_does": "rests at her side"
+      },
+      "grip_or_placement": "Right hand at chest level, thumb on the front face of the box, index and middle fingers on the back, ring and pinky tucked under, box angled slightly toward the camera so the front face catches the warm golden- hour light directly.",
+      "lighting": "Strong warm golden-hour sunlight from a low angle on her right side, golden rim light across her right shoulder and right side of the box, deep amber tones across the patio, soft cool sky in the background.",
+      "mood": "golden-hour glow, confident calm",
+      "palette": "black tailored, warm gold, teak wood, deep amber, soft sky cool",
+      "framing": "medium full (mid-thigh up)",
+      "camera_height": "chest level",
+      "resolves_failure_modes": [
+        "strong directional warm light Step 2 matching"
+      ],
+      "notes": "Strong directional light is the cleanest test of Step 2 lighting hooks \u2014 golden rim is unmistakable."
+    },
+    "plan": "plan_a",
+    "gen_id": "3146ade90b85464e82eca1c5f0a5daad",
+    "run_id": "2026-05-08_14-42-18_plan_a",
+    "step_1_output": {
+      "scenario_id": "outdoor_golden_hour_patio_27",
+      "step_1_image_prompt": "A 25-year-old Mediterranean woman with sun-kissed deep-tan skin, green almond eyes, and brunette-with-blonde-balayage waves to her mid-back. She is wearing a black square-neck ribbed cropped tank top and matching black mid-thigh tailored shorts, low-heeled brown leather sandals, a thin gold tennis bracelet on her right wrist, small gold huggie hoops, hair down in soft beach waves with a center part, subtle bronzy makeup with a soft glow. She stands on a modern minimalist patio at golden hour, a low concrete planter with small ornamental grasses behind her, a folded teak deck chair to her right with a cream linen throw draped over it, distant city skyline softly out of focus in the deep background, warm low-angle sunlight all around. Standing facing the camera at a slight three-quarter angle, weight on her right leg, looking directly at the camera with a relaxed confident smile. Her right hand is at upper-chest level, palm facing forward and angled slightly toward the camera, fingers in a relaxed pinch-ready position with thumb forward and index and middle fingers behind, ring and pinky tucked under, currently empty. Her left hand rests at her side. Strong warm golden-hour sunlight from a low angle on her right side, golden rim light across her right shoulder and right arm, deep amber tones across the patio, soft cool sky in the background. Shot on iPhone 15 Pro candid 35mm equivalent, real skin texture with sun-kissed warmth, golden-hour glow confident calm mood, palette of black tailored, warm gold, teak wood, deep amber, soft sky cool. Reference image is the persona \u2014 preserve her face, eye color, eye shape, brow shape, nose shape, lip shape, jaw line, and hair color exactly. Do not improvise her face.",
+      "word_count": 248,
+      "structure_breakdown": {
+        "sentence_1_identity_outfit": "A 25-year-old Mediterranean woman with sun-kissed deep-tan skin, green almond eyes, and brunette-with-blonde-balayage waves to her mid-back. She is wearing a black square-neck ribbed cropped tank top and matching black mid-thigh tailored shorts, low-heeled brown leather sandals, a thin gold tennis bracelet on her right wrist, small gold huggie hoops, hair down in soft beach waves with a center part, subtle bronzy makeup with a soft glow.",
+        "sentence_2_scene": "She stands on a modern minimalist patio at golden hour, a low concrete planter with small ornamental grasses behind her, a folded teak deck chair to her right with a cream linen throw draped over it, distant city skyline softly out of focus in the deep background, warm low-angle sunlight all around.",
+        "sentence_3_pose_empty_product_hand": "Standing facing the camera at a slight three-quarter angle, weight on her right leg, looking directly at the camera with a relaxed confident smile. Her right hand is at upper-chest level, palm facing forward and angled slightly toward the camera, fingers in a relaxed pinch-ready position with thumb forward and index and middle fingers behind, ring and pinky tucked under, currently empty. Her left hand rests at her side.",
+        "sentence_4_lighting": "Strong warm golden-hour sunlight from a low angle on her right side, golden rim light across her right shoulder and right arm, deep amber tones across the patio, soft cool sky in the background.",
+        "sentence_5_camera_mood_lock": "Shot on iPhone 15 Pro candid 35mm equivalent, real skin texture with sun-kissed warmth, golden-hour glow confident calm mood, palette of black tailored, warm gold, teak wood, deep amber, soft sky cool. Reference image is the persona \u2014 preserve her face, eye color, eye shape, brow shape, nose shape, lip shape, jaw line, and hair color exactly. Do not improvise her face."
+      },
+      "fal_pulid_params": {
+        "image_size": {
+          "width": 768,
+          "height": 1344
+        },
+        "num_inference_steps": 30,
+        "guidance_scale": 4.0,
+        "id_weight": 1.0,
+        "true_cfg": 1.5,
+        "negative_prompt": "extra limbs, deformed hands, mutated hands, bad anatomy, lowres, blurry, watermark, text, signature, extra fingers, fused fingers, distorted face, asymmetric eyes, unnatural skin texture, plastic skin",
+        "max_sequence_length": "256",
+        "enable_safety_checker": true
+      },
+      "product_slot": {
+        "type": "held",
+        "location_for_step_2": "Right hand at upper-chest level, palm angled slightly toward the camera with thumb forward and index and middle fingers behind, ring and pinky tucked under \u2014 Step 2 will composite the Alluvi box held in this pinch grip with thumb on the front face, index and middle fingers on the back, box angled slightly toward the camera so the front face catches the warm golden-hour rim light directly.",
+        "hand_used": "right",
+        "approximate_position_in_frame": "upper-center-right, ~35% from top, ~58% from left, at chest level"
+      },
+      "compliance_check": {
+        "no_product_in_prompt": true,
+        "no_placeholder_box_in_prompt": true,
+        "no_persona_appearance_drift": true,
+        "no_outfit_lock_to_reference": true,
+        "no_banned_phrases": true,
+        "no_medical_imagery": true,
+        "no_competitor_brands": true,
+        "compliance_clean": true
+      },
+      "id_weight_recommendation": {
+        "value": 1.0,
+        "reasoning": "Medium full mid-thigh-up framing where face is mid-importance and the strong warm directional light flatters the persona's features \u2014 default id_weight is sufficient to preserve identity while allowing the new black tailored outfit and patio scene to override the reference image."
+      }
+    },
+    "step_2_output": {
+      "scenario_id": "outdoor_golden_hour_patio_27",
+      "step_2_image_prompt": "Using Image 1 as the base scene and Image 2 as the product reference, place the Alluvi Tirzepatide product packaging from Image 2 into the woman's right hand at upper-chest level. Her thumb presses on the front face of the box, her index and middle fingers on the back, ring and pinky tucked under, the box held with the long side oriented vertically and the front face angled slightly toward the camera so it catches the warm directional light directly. Match the ambient lighting, color temperature, and shadow direction of Image 1 exactly. The product is lit by the same strong warm golden-hour sunlight from the low angle on her right side, with golden rim light catching the right edge of the box, deep amber tones washing across its front face, and a soft shadow falling toward the lower-left. Maintain the exact branding, text, and graphics from Image 2 \u2014 do not hallucinate, modify, or alter the packaging label, text, or design in any way. Preserve everything else in Image 1 exactly \u2014 her face, body, pose, black tailored outfit, hair, the patio, the concrete planter, teak deck chair, cream linen throw, distant city skyline, and sky.",
+      "word_count": 198,
+      "structure_breakdown": {
+        "sentence_1_relationship_location": "Using Image 1 as the base scene and Image 2 as the product reference, place the Alluvi Tirzepatide product packaging from Image 2 into the woman's right hand at upper-chest level.",
+        "sentence_2_grip_or_placement": "Her thumb presses on the front face of the box, her index and middle fingers on the back, ring and pinky tucked under, the box held with the long side oriented vertically and the front face angled slightly toward the camera so it catches the warm directional light directly.",
+        "sentence_3_lighting_match": "Match the ambient lighting, color temperature, and shadow direction of Image 1 exactly. The product is lit by the same strong warm golden-hour sunlight from the low angle on her right side, with golden rim light catching the right edge of the box, deep amber tones washing across its front face, and a soft shadow falling toward the lower-left.",
+        "sentence_4_preserve_and_anti_hallucination": "Maintain the exact branding, text, and graphics from Image 2 \u2014 do not hallucinate, modify, or alter the packaging label, text, or design in any way. Preserve everything else in Image 1 exactly \u2014 her face, body, pose, black tailored outfit, hair, the patio, the concrete planter, teak deck chair, cream linen throw, distant city skyline, and sky."
+      },
+      "fal_nano_banana_params": {
+        "aspect_ratio": "9:16",
+        "resolution": "1K",
+        "num_images": 1,
+        "output_format": "png",
+        "safety_tolerance": "4",
+        "enable_thinking": "high"
+      },
+      "lighting_hook": "strong warm golden-hour sunlight from a low angle on her right side, golden rim light on right edge of box, deep amber tones across front face, soft shadow falling to lower-left",
+      "image_inputs_required": {
+        "image_1_role": "Step 1 output \u2014 persona scene with empty product slot",
+        "image_2_role": "assets/product.jpg \u2014 Alluvi Tirzepatide packaging reference",
+        "image_2_path": "assets/product.jpg"
+      },
+      "compliance_check": {
+        "no_packaging_text_described": true,
+        "no_packaging_design_described": true,
+        "no_persona_alteration": true,
+        "no_scene_alteration": true,
+        "no_banned_grip_phrases": true,
+        "lighting_hook_specific": true,
+        "anti_hallucination_phrase_present": true,
+        "preserve_clause_present": true,
+        "compliance_clean": true
+      }
+    },
+    "step_1_image": "outputs\\runs\\2026-05-08_14-42-18_plan_a\\outdoor_golden_hour_patio_27\\03_step1_persona.jpg",
+    "step_2_image": "outputs\\runs\\2026-05-08_14-42-18_plan_a\\outdoor_golden_hour_patio_27\\05_step2_final.jpg",
+    "final_status": "success",
+    "error_message": null
+  }
+]

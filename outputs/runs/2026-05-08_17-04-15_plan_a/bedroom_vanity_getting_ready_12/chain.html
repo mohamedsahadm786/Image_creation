@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>bedroom_vanity_getting_ready_12 — chain</title>
+<style>
+  *{box-sizing:border-box}
+  body{font-family:-apple-system,BlinkMacSystemFont,system-ui,sans-serif;
+       margin:0;padding:24px;background:#F4F6F8;color:#1F2937}
+  h1{margin:0 0 6px 0;font-size:18px}
+  .meta{color:#6B7280;font-size:13px;margin-bottom:24px}
+  .meta-pill{display:inline-block;background:#fff;padding:3px 10px;
+             border-radius:4px;border:1px solid #E5E7EB;margin-right:6px;font-size:12px}
+  .stage-row{display:grid;grid-template-columns:repeat(3,1fr);gap:14px;margin-bottom:28px}
+  .stage{background:#fff;border:1px solid #E5E7EB;border-radius:8px;overflow:hidden}
+  .stage-label{padding:10px 12px;border-bottom:1px solid #E5E7EB;font-size:12px;
+               font-weight:600;background:#F9FAFB}
+  .stage img{width:100%;display:block;aspect-ratio:9/16;object-fit:cover;background:#F3F4F6}
+  .stage-empty{aspect-ratio:9/16;background:#F3F4F6;display:flex;
+               align-items:center;justify-content:center;color:#9CA3AF;font-size:12px}
+  .prompts{background:#fff;border:1px solid #E5E7EB;border-radius:8px;padding:18px}
+  .prompts h3{margin:0 0 8px;font-size:13px;color:#374151;text-transform:uppercase;
+              letter-spacing:.5px}
+  .prompt-block{background:#F9FAFB;border:1px solid #E5E7EB;border-radius:6px;
+                padding:12px;font-size:12.5px;line-height:1.55;
+                font-family:ui-monospace,'SF Mono',Menlo,monospace;
+                margin-bottom:18px;white-space:pre-wrap}
+  .badge{display:inline-block;padding:3px 9px;border-radius:12px;
+         font-size:10.5px;font-weight:600;margin-left:6px}
+  .badge-ok{background:#D1FAE5;color:#065F46}
+  .badge-fail{background:#FEE2E2;color:#991B1B}
+  .error-block{background:#FFF7ED;border-left:3px solid #F97316;padding:10px 14px;
+                margin-bottom:18px;border-radius:4px;font-size:13px;color:#7C2D12}
+</style>
+</head>
+<body>
+<h1>bedroom_vanity_getting_ready_12 <span class="badge badge-ok">SUCCESS</span></h1>
+<div class="meta">
+  <span class="meta-pill"><strong>bedroom</strong></span>
+  <span class="meta-pill">placed_on_surface</span>
+  <span class="meta-pill">medium</span>
+  <span class="meta-pill">plan: plan_a</span>
+</div>
+
+
+
+<div class="stage-row">
+<div class="stage">
+  <div class="stage-label">Step 0 — Source persona.jpg</div>
+  <img src="../../../../assets/persona.jpg" alt="Source persona.jpg"
+       onerror="this.outerHTML='<div class=stage-empty>not generated</div>'">
+</div><div class="stage">
+  <div class="stage-label">Step 1 — Persona scene (no product)</div>
+  <img src="03_step1_persona.jpg" alt="Persona scene (no product)"
+       onerror="this.outerHTML='<div class=stage-empty>not generated</div>'">
+</div><div class="stage">
+  <div class="stage-label">Step 2 — Final composite</div>
+  <img src="05_step2_final.jpg" alt="Final composite"
+       onerror="this.outerHTML='<div class=stage-empty>not generated</div>'">
+</div>
+</div>
+
+<div class="prompts">
+  <h3>Step 1 prompt → fal-ai/flux-pulid (or kontext for Plan B)</h3>
+  <div class="prompt-block">A 25-year-old Mediterranean woman with sun-kissed deep-tan skin, green almond eyes, and brunette-with-blonde-balayage waves to her mid-back, captured in a candid amateur smartphone snapshot with natural skin texture and visible pores. She is wearing a pale blush pink linen robe loosely tied at the waist with a slim ribbon sash, the V-neckline open showing a thin white camisole strap underneath, hair clipped half-up in a claw clip with the lower half falling in soft waves, bare face mid-skincare-application. She sits on a small upholstered vanity stool in a bedroom vanity area, a round arched mirror mounted on a warm walnut vanity, arranged skincare bottles and a small ceramic dish with a gold tray on the vanity surface, a small linen-shaded lamp glowing warmly in the corner. Three-quarter angle to the camera, looking at her reflection in the mirror with a soft unhurried expression. Both hands are visible in the frame, not in her pockets, not behind her back, not cropped out of frame. Her right hand is lifted to her cheek mid-skincare-application, fingertips lightly pressing into her cheekbone. Her left hand rests gently on her thigh. The vanity surface area to her right between a ceramic skincare bottle and an open glass jar of cotton pads has empty space in the styled arrangement. Warm bedside lamp from the corner combined with soft morning daylight from a window slightly out of frame on the left, warm honeyed tones across the walnut vanity. Shot on Sony A7IV 35mm lens shallow depth of field. Real photograph, not AI-generated, no model pose, candid moment. Slow morning skincare moment soft and unhurried mood, palette of warm walnut, blush pink, soft amber lamp glow, ivory ceramics. Reference image is the persona — preserve her face, eye color, eye shape, brow shape, nose shape, lip shape, jaw line, and hair color exactly. Do not improvise her face.</div>
+
+  <h3>Step 2 prompt → fal-ai/nano-banana-2/edit</h3>
+  <div class="prompt-block">Take the persona reference photo as the locked source for her face, hair color and styling, body proportions, pale blush pink linen robe outfit, and the entire bedroom vanity scene including the round arched mirror, warm walnut vanity, ceramic skincare bottles, gold tray dish, and linen-shaded corner lamp — all of these must remain faithful to the reference. The Alluvi product is now placed on the walnut vanity surface to her right, nestled between the ceramic skincare bottle and the open glass jar of cotton pads, with the front face angled roughly three-quarters toward the camera so it reads as the visual anchor of the styled vanity arrangement. The product is approximately 7 inches wide and 3 inches tall, sized realistically relative to the surrounding skincare bottles and ceramic dish on the vanity. Do not enlarge the product beyond its actual proportions. Both hands must remain visible in the frame — her right hand stays lifted to her cheek mid-skincare-application with fingertips lightly pressing into her cheekbone, her left hand rests gently on her thigh. Do not hide either hand in pockets, behind her back, or crop them out of the frame. The Alluvi product packaging must match the product reference photo exactly — every text element, color, graphic, and certification badge as shown. Preserve the packaging&#x27;s natural white base color; the scene&#x27;s warm amber light should illuminate the white surface as light, not tint the white amber. Match the lighting direction of the persona scene: warm bedside lamp from the corner combined with soft morning daylight from a window slightly out of frame on the left, with a soft warm shadow falling toward the right across the walnut vanity surface.</div>
+</div>
+</body>
+</html>

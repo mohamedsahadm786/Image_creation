@@ -1,0 +1,25 @@
+{
+  "id": "bedroom_robe_with_product_13",
+  "category": "bedroom",
+  "archetype": "held_product_low",
+  "difficulty": "medium",
+  "scene": "Bedroom doorway leading to a softly-lit bathroom in the background, hardwood floor, a low cream-colored bench in front of the doorway with a folded white towel and a small ceramic mug. Soft morning light from windows throughout.",
+  "outfit": "Long cream waffle-knit robe tied loosely at the waist, the robe falling to mid-shin, V-neckline open with a thin white camisole strap underneath. Hair down in loose morning waves, slightly tousled. Bare face, glowy skin. Small gold studs.",
+  "pose": "Standing in the doorway facing slightly to her left, weight on her left leg, looking down at the box in her hand with a soft contemplative smile.",
+  "hand_assignment": {
+    "phone_hand": null,
+    "product_hand": "left",
+    "other_hand": "right",
+    "other_hand_does": "gently holds the edge of the doorframe"
+  },
+  "grip_or_placement": "Left hand at hip level, palm facing up, the box rests flat on her open palm with thumb gently on top to steady it, front face toward the camera. A relaxed casual hold, not a presentation grip.",
+  "lighting": "Soft warm morning daylight from windows on either side, balanced diffuse wash, gentle warm glow on the cream robe and on the box.",
+  "mood": "morning routine pause, considering the start of the day",
+  "palette": "cream waffle, warm wood, soft white, blush undertones",
+  "framing": "full body (head to mid-shin)",
+  "camera_height": "chest level",
+  "resolves_failure_modes": [
+    "open palm hold rendering — different from pinch grip"
+  ],
+  "notes": "Tests open-palm hold (rare grip type). The robe outfit is a deliberate contrast to all athletic scenarios."
+}

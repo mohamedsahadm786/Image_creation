@@ -1,0 +1,26 @@
+{
+  "id": "recovery_couch_evening_22",
+  "category": "recovery",
+  "archetype": "held_product_low",
+  "difficulty": "medium",
+  "scene": "Cream-upholstered modern sofa in a warmly-lit living room, a large soft throw blanket draped behind her, a small wooden side table beside the sofa with an unlit candle and a stainless steel water bottle. Floor lamp glowing softly in the upper-left corner. Window in the background with twilight blue dusk light filtering in.",
+  "outfit": "Heavyweight cashmere oatmeal-colored cropped lounge sweater, matching oatmeal cashmere wide-leg lounge pants, white slouchy crew socks. Hair in a low loose bun. Layered thin gold necklaces, no earrings. Bare face, glowy skin.",
+  "pose": "Sitting on the sofa with one leg tucked under her, the other foot on the floor, body angled three-quarters toward the camera, looking softly down at the box in her lap with a content smile.",
+  "hand_assignment": {
+    "phone_hand": null,
+    "product_hand": "both",
+    "other_hand": "both",
+    "other_hand_does": "holds the box together in her lap"
+  },
+  "grip_or_placement": "Both hands rest in her lap holding the box gently, palms partially facing up, thumbs on the front face on either side, fingers cradling the back. Box held flat horizontally with the front face up toward the camera at a soft tilt.",
+  "lighting": "Warm floor lamp light from the upper-left corner combined with a deep cool blue twilight from the window in the background. Mixed warm/cool mood lighting, warm wash on her face and on the box surface, cool ambient blue in the background.",
+  "mood": "end-of-day exhale, recovery evening",
+  "palette": "oatmeal cashmere, cream sofa, warm amber lamp, twilight blue",
+  "framing": "three-quarter (head to lap)",
+  "camera_height": "chest level",
+  "resolves_failure_modes": [
+    "two-handed lap hold rendering",
+    "warm/cool dual-source lighting Step 2 matching"
+  ],
+  "notes": "Most cinematic lighting in the set — warm lamp + cool twilight. Tests Step 2 lighting fidelity in a complex mixed-temperature scene."
+}

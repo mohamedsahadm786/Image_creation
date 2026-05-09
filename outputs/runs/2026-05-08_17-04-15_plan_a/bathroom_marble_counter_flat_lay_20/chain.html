@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>bathroom_marble_counter_flat_lay_20 — chain</title>
+<style>
+  *{box-sizing:border-box}
+  body{font-family:-apple-system,BlinkMacSystemFont,system-ui,sans-serif;
+       margin:0;padding:24px;background:#F4F6F8;color:#1F2937}
+  h1{margin:0 0 6px 0;font-size:18px}
+  .meta{color:#6B7280;font-size:13px;margin-bottom:24px}
+  .meta-pill{display:inline-block;background:#fff;padding:3px 10px;
+             border-radius:4px;border:1px solid #E5E7EB;margin-right:6px;font-size:12px}
+  .stage-row{display:grid;grid-template-columns:repeat(3,1fr);gap:14px;margin-bottom:28px}
+  .stage{background:#fff;border:1px solid #E5E7EB;border-radius:8px;overflow:hidden}
+  .stage-label{padding:10px 12px;border-bottom:1px solid #E5E7EB;font-size:12px;
+               font-weight:600;background:#F9FAFB}
+  .stage img{width:100%;display:block;aspect-ratio:9/16;object-fit:cover;background:#F3F4F6}
+  .stage-empty{aspect-ratio:9/16;background:#F3F4F6;display:flex;
+               align-items:center;justify-content:center;color:#9CA3AF;font-size:12px}
+  .prompts{background:#fff;border:1px solid #E5E7EB;border-radius:8px;padding:18px}
+  .prompts h3{margin:0 0 8px;font-size:13px;color:#374151;text-transform:uppercase;
+              letter-spacing:.5px}
+  .prompt-block{background:#F9FAFB;border:1px solid #E5E7EB;border-radius:6px;
+                padding:12px;font-size:12.5px;line-height:1.55;
+                font-family:ui-monospace,'SF Mono',Menlo,monospace;
+                margin-bottom:18px;white-space:pre-wrap}
+  .badge{display:inline-block;padding:3px 9px;border-radius:12px;
+         font-size:10.5px;font-weight:600;margin-left:6px}
+  .badge-ok{background:#D1FAE5;color:#065F46}
+  .badge-fail{background:#FEE2E2;color:#991B1B}
+  .error-block{background:#FFF7ED;border-left:3px solid #F97316;padding:10px 14px;
+                margin-bottom:18px;border-radius:4px;font-size:13px;color:#7C2D12}
+</style>
+</head>
+<body>
+<h1>bathroom_marble_counter_flat_lay_20 <span class="badge badge-ok">SUCCESS</span></h1>
+<div class="meta">
+  <span class="meta-pill"><strong>bathroom</strong></span>
+  <span class="meta-pill">flat_lay</span>
+  <span class="meta-pill">easy</span>
+  <span class="meta-pill">plan: plan_a</span>
+</div>
+
+
+
+<div class="stage-row">
+<div class="stage">
+  <div class="stage-label">Step 0 — (no persona — flat-lay scenario)</div>
+  <div class="stage-empty">no persona in this scenario</div>
+</div><div class="stage">
+  <div class="stage-label">Step 1 — Scene with empty product slot</div>
+  <img src="03_step1_persona.jpg" alt="Scene with empty product slot"
+       onerror="this.outerHTML='<div class=stage-empty>not generated</div>'">
+</div><div class="stage">
+  <div class="stage-label">Step 2 — Final composite</div>
+  <img src="05_step2_final.jpg" alt="Final composite"
+       onerror="this.outerHTML='<div class=stage-empty>not generated</div>'">
+</div>
+</div>
+
+<div class="prompts">
+  <h3>Step 1 prompt → fal-ai/flux-pulid (or kontext for Plan B)</h3>
+  <div class="prompt-block">An overhead flat-lay shot on a white marble bathroom counter with subtle grey veining. Around the central area: a small ceramic dish of round ivory cotton pads at the upper-left of the composition, a small amber-glass dropper bottle at the upper-right, a clear glass tumbler of water at the right edge with subtle condensation, a small folded white washcloth at the lower-left, a small dried lavender bundle draping across the lower edge of the frame, and a thin gold-handled facial roller resting at the lower-right. The center-right area of the composition is intentionally empty — clean marble surface with generous negative space, perfectly framed by the surrounding items in a relaxed asymmetric arrangement. Soft natural daylight from above, very gentle diffuse shadows cast outward from each object, warm bone tones across the marble, subtle warm glow. Shot on Sony A7IV 50mm lens directly overhead. Real photograph, not AI-generated, candid moment. Real surface texture and grain on the marble, clean evening ritual minimalist mood, palette of warm marble, amber glass, ivory cotton, dried lavender, brass gold. Minimalist editorial composition with deliberate emptiness at center-right.</div>
+
+  <h3>Step 2 prompt → fal-ai/nano-banana-2/edit</h3>
+  <div class="prompt-block">Take the persona reference photo as the locked source for the entire overhead flat-lay scene — the white marble counter with grey veining, the ceramic dish of cotton pads at upper-left, the amber-glass dropper bottle at upper-right, the clear glass tumbler of water at the right edge, the folded white washcloth at lower-left, the dried lavender bundle draping across the lower edge, and the thin gold-handled facial roller at lower-right — all of these must remain faithful to the reference. Place the Alluvi product at the center-right of the composition in the empty negative space on the marble, oriented horizontally with its long side parallel to the lower edge of the frame, front face up to the camera, nestled symmetrically among the surrounding items. The product is approximately 7 inches wide and 3 inches tall, sized realistically relative to the dropper bottle, cotton pads dish, and tumbler around it. Do not enlarge the product beyond its actual proportions. The Alluvi product packaging must match the product reference photo exactly — every text element, color, graphic, and certification badge as shown. Preserve the packaging&#x27;s natural white base color — only apply the scene&#x27;s directional lighting on top, do not tint the white to match the warm marble cast. Match the lighting direction of the scene: soft natural daylight from above, very gentle diffuse shadows cast outward from each object, warm bone tones across the marble, subtle warm glow.</div>
+</div>
+</body>
+</html>

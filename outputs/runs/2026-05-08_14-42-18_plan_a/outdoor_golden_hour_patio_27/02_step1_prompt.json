@@ -1,0 +1,45 @@
+{
+  "scenario_id": "outdoor_golden_hour_patio_27",
+  "step_1_image_prompt": "A 25-year-old Mediterranean woman with sun-kissed deep-tan skin, green almond eyes, and brunette-with-blonde-balayage waves to her mid-back. She is wearing a black square-neck ribbed cropped tank top and matching black mid-thigh tailored shorts, low-heeled brown leather sandals, a thin gold tennis bracelet on her right wrist, small gold huggie hoops, hair down in soft beach waves with a center part, subtle bronzy makeup with a soft glow. She stands on a modern minimalist patio at golden hour, a low concrete planter with small ornamental grasses behind her, a folded teak deck chair to her right with a cream linen throw draped over it, distant city skyline softly out of focus in the deep background, warm low-angle sunlight all around. Standing facing the camera at a slight three-quarter angle, weight on her right leg, looking directly at the camera with a relaxed confident smile. Her right hand is at upper-chest level, palm facing forward and angled slightly toward the camera, fingers in a relaxed pinch-ready position with thumb forward and index and middle fingers behind, ring and pinky tucked under, currently empty. Her left hand rests at her side. Strong warm golden-hour sunlight from a low angle on her right side, golden rim light across her right shoulder and right arm, deep amber tones across the patio, soft cool sky in the background. Shot on iPhone 15 Pro candid 35mm equivalent, real skin texture with sun-kissed warmth, golden-hour glow confident calm mood, palette of black tailored, warm gold, teak wood, deep amber, soft sky cool. Reference image is the persona — preserve her face, eye color, eye shape, brow shape, nose shape, lip shape, jaw line, and hair color exactly. Do not improvise her face.",
+  "word_count": 248,
+  "structure_breakdown": {
+    "sentence_1_identity_outfit": "A 25-year-old Mediterranean woman with sun-kissed deep-tan skin, green almond eyes, and brunette-with-blonde-balayage waves to her mid-back. She is wearing a black square-neck ribbed cropped tank top and matching black mid-thigh tailored shorts, low-heeled brown leather sandals, a thin gold tennis bracelet on her right wrist, small gold huggie hoops, hair down in soft beach waves with a center part, subtle bronzy makeup with a soft glow.",
+    "sentence_2_scene": "She stands on a modern minimalist patio at golden hour, a low concrete planter with small ornamental grasses behind her, a folded teak deck chair to her right with a cream linen throw draped over it, distant city skyline softly out of focus in the deep background, warm low-angle sunlight all around.",
+    "sentence_3_pose_empty_product_hand": "Standing facing the camera at a slight three-quarter angle, weight on her right leg, looking directly at the camera with a relaxed confident smile. Her right hand is at upper-chest level, palm facing forward and angled slightly toward the camera, fingers in a relaxed pinch-ready position with thumb forward and index and middle fingers behind, ring and pinky tucked under, currently empty. Her left hand rests at her side.",
+    "sentence_4_lighting": "Strong warm golden-hour sunlight from a low angle on her right side, golden rim light across her right shoulder and right arm, deep amber tones across the patio, soft cool sky in the background.",
+    "sentence_5_camera_mood_lock": "Shot on iPhone 15 Pro candid 35mm equivalent, real skin texture with sun-kissed warmth, golden-hour glow confident calm mood, palette of black tailored, warm gold, teak wood, deep amber, soft sky cool. Reference image is the persona — preserve her face, eye color, eye shape, brow shape, nose shape, lip shape, jaw line, and hair color exactly. Do not improvise her face."
+  },
+  "fal_pulid_params": {
+    "image_size": {
+      "width": 768,
+      "height": 1344
+    },
+    "num_inference_steps": 30,
+    "guidance_scale": 4.0,
+    "id_weight": 1.0,
+    "true_cfg": 1.5,
+    "negative_prompt": "extra limbs, deformed hands, mutated hands, bad anatomy, lowres, blurry, watermark, text, signature, extra fingers, fused fingers, distorted face, asymmetric eyes, unnatural skin texture, plastic skin",
+    "max_sequence_length": "256",
+    "enable_safety_checker": true
+  },
+  "product_slot": {
+    "type": "held",
+    "location_for_step_2": "Right hand at upper-chest level, palm angled slightly toward the camera with thumb forward and index and middle fingers behind, ring and pinky tucked under — Step 2 will composite the Alluvi box held in this pinch grip with thumb on the front face, index and middle fingers on the back, box angled slightly toward the camera so the front face catches the warm golden-hour rim light directly.",
+    "hand_used": "right",
+    "approximate_position_in_frame": "upper-center-right, ~35% from top, ~58% from left, at chest level"
+  },
+  "compliance_check": {
+    "no_product_in_prompt": true,
+    "no_placeholder_box_in_prompt": true,
+    "no_persona_appearance_drift": true,
+    "no_outfit_lock_to_reference": true,
+    "no_banned_phrases": true,
+    "no_medical_imagery": true,
+    "no_competitor_brands": true,
+    "compliance_clean": true
+  },
+  "id_weight_recommendation": {
+    "value": 1.0,
+    "reasoning": "Medium full mid-thigh-up framing where face is mid-importance and the strong warm directional light flatters the persona's features — default id_weight is sufficient to preserve identity while allowing the new black tailored outfit and patio scene to override the reference image."
+  }
+}

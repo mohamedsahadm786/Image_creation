@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>bedroom_bed_handheld_close_11 — chain</title>
+<style>
+  *{box-sizing:border-box}
+  body{font-family:-apple-system,BlinkMacSystemFont,system-ui,sans-serif;
+       margin:0;padding:24px;background:#F4F6F8;color:#1F2937}
+  h1{margin:0 0 6px 0;font-size:18px}
+  .meta{color:#6B7280;font-size:13px;margin-bottom:24px}
+  .meta-pill{display:inline-block;background:#fff;padding:3px 10px;
+             border-radius:4px;border:1px solid #E5E7EB;margin-right:6px;font-size:12px}
+  .stage-row{display:grid;grid-template-columns:repeat(3,1fr);gap:14px;margin-bottom:28px}
+  .stage{background:#fff;border:1px solid #E5E7EB;border-radius:8px;overflow:hidden}
+  .stage-label{padding:10px 12px;border-bottom:1px solid #E5E7EB;font-size:12px;
+               font-weight:600;background:#F9FAFB}
+  .stage img{width:100%;display:block;aspect-ratio:9/16;object-fit:cover;background:#F3F4F6}
+  .stage-empty{aspect-ratio:9/16;background:#F3F4F6;display:flex;
+               align-items:center;justify-content:center;color:#9CA3AF;font-size:12px}
+  .prompts{background:#fff;border:1px solid #E5E7EB;border-radius:8px;padding:18px}
+  .prompts h3{margin:0 0 8px;font-size:13px;color:#374151;text-transform:uppercase;
+              letter-spacing:.5px}
+  .prompt-block{background:#F9FAFB;border:1px solid #E5E7EB;border-radius:6px;
+                padding:12px;font-size:12.5px;line-height:1.55;
+                font-family:ui-monospace,'SF Mono',Menlo,monospace;
+                margin-bottom:18px;white-space:pre-wrap}
+  .badge{display:inline-block;padding:3px 9px;border-radius:12px;
+         font-size:10.5px;font-weight:600;margin-left:6px}
+  .badge-ok{background:#D1FAE5;color:#065F46}
+  .badge-fail{background:#FEE2E2;color:#991B1B}
+  .error-block{background:#FFF7ED;border-left:3px solid #F97316;padding:10px 14px;
+                margin-bottom:18px;border-radius:4px;font-size:13px;color:#7C2D12}
+</style>
+</head>
+<body>
+<h1>bedroom_bed_handheld_close_11 <span class="badge badge-ok">SUCCESS</span></h1>
+<div class="meta">
+  <span class="meta-pill"><strong>bedroom</strong></span>
+  <span class="meta-pill">held_product_high</span>
+  <span class="meta-pill">hard</span>
+  <span class="meta-pill">plan: plan_a</span>
+</div>
+
+
+
+<div class="stage-row">
+<div class="stage">
+  <div class="stage-label">Step 0 — Source persona.jpg</div>
+  <img src="../../../../assets/persona.jpg" alt="Source persona.jpg"
+       onerror="this.outerHTML='<div class=stage-empty>not generated</div>'">
+</div><div class="stage">
+  <div class="stage-label">Step 1 — Persona scene (no product)</div>
+  <img src="03_step1_persona.jpg" alt="Persona scene (no product)"
+       onerror="this.outerHTML='<div class=stage-empty>not generated</div>'">
+</div><div class="stage">
+  <div class="stage-label">Step 2 — Final composite</div>
+  <img src="05_step2_final.jpg" alt="Final composite"
+       onerror="this.outerHTML='<div class=stage-empty>not generated</div>'">
+</div>
+</div>
+
+<div class="prompts">
+  <h3>Step 1 prompt → fal-ai/flux-pulid (or kontext for Plan B)</h3>
+  <div class="prompt-block">A 25-year-old Mediterranean / Southern European woman with deep tan skin and a warm undertone, soft oval face with high natural cheekbones, green almond eyes with slightly downturned outer corners, full medium-brown brows, and a soft closed-mouth smile. Her hair is medium brunette with heavy sun-lightened blonde balayage through the mid-lengths and ends, mid-back length, soft natural waves with body. She has real skin texture with visible pores, a healthy glow, and naturally toned athletic proportions — not overbuilt. Captured in a candid amateur smartphone snapshot with natural skin texture and visible pores. She is wearing a pale ivory satin slip nightgown with thin spaghetti straps, slightly crumpled from sleep, top of the slip visible at the neckline, hair tousled from sleep with soft waves spread on the pillow and a few face-framing pieces, bare face with glowy fresh skin, no earrings. She lies on her back on a white pillow with a leopard-print pillowcase visible behind her head, white duvet pulled up to her shoulders, light wood headboard partially in frame, sheer white curtain on a window to the right. Photographed from above-front, soft sleepy half-smile at the camera. Both hands are visible in the frame, not hidden behind her body, not cropped out. Her right hand is raised in front of her face about twenty centimeters away, palm rotated toward her, fingers in a relaxed open grip position, currently empty. Her left hand rests near her chin, fingers lightly curled. Soft warm morning daylight from the window on the right, diffuse golden wash across her face and the pillow, no harsh shadows, gentle warm glow. Shot on iPhone 15 Pro overhead, slight tilt. Real photograph, not AI-generated, no model pose, candid moment. Playful first-thing-morning sleepy soft mood, palette of ivory satin, leopard tan, warm white, skin warmth. Reference image is the persona — face must match the reference precisely with no improvisation. Preserve every facial feature, eye color, hair color, and skin tone exactly. The face is the most important element of this image.</div>
+
+  <h3>Step 2 prompt → fal-ai/nano-banana-2/edit</h3>
+  <div class="prompt-block">Take the persona reference photo as the locked source for her face, hair color and styling, body proportions, ivory satin slip nightgown, and the entire bedroom scene including the leopard-print pillowcase, white duvet, light wood headboard, and sheer curtain — all of these must remain faithful to the reference, especially her face which dominates this close-up frame. She is now holding the Alluvi product in her raised right hand about twenty centimeters in front of her face: the box held vertically with thumb pressed against one side and four fingers wrapped around the opposite side, the front face of the box angled directly at the camera so the packaging is fully visible. The product is approximately 7 inches wide, sized realistically relative to her hand and her face. Her right arm and wrist may shift slightly to make the holding pose look natural and not stamped on. Both hands must remain visible in the frame — her right hand visibly grips the product in front of her face, her left hand rests near her chin with fingers lightly curled. Do not hide either hand behind the pillow, behind her body, or crop them out of the frame. The Alluvi product packaging must match the product reference photo exactly — every text element, color, graphic, and certification badge as shown. Preserve the packaging&#x27;s natural white base color; the warm morning light should illuminate the white surface as light, not tint the white golden. Match the lighting direction of the persona scene: soft warm morning daylight from the window on the right, diffuse golden wash, with a gentle soft shadow falling toward the left.</div>
+</div>
+</body>
+</html>

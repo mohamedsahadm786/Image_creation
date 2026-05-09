@@ -1,0 +1,9 @@
+{
+  "local_path": "outputs\\runs\\2026-05-08_17-01-20_plan_a\\pilates_reformer_mirror_06\\03_step1_persona.jpg",
+  "fal_url": "https://v3b.fal.media/files/b/0a996312/PnYK1bVkG4pIiwgGIDDg_.png",
+  "seed": 3223655253,
+  "request_id": "unknown",
+  "elapsed_seconds": 23.936593770980835,
+  "endpoint": "fal-ai/flux-pulid",
+  "cost_usd": 0.04
+}

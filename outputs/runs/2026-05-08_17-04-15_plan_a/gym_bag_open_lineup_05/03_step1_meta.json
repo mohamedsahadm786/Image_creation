@@ -1,0 +1,9 @@
+{
+  "local_path": "outputs\\runs\\2026-05-08_17-04-15_plan_a\\gym_bag_open_lineup_05\\03_step1_persona.jpg",
+  "fal_url": "https://v3b.fal.media/files/b/0a996354/sOhaBqgyyYaMCUmkORent.png",
+  "seed": 1395651147,
+  "request_id": "unknown",
+  "elapsed_seconds": 23.987540245056152,
+  "endpoint": "fal-ai/flux-pulid",
+  "cost_usd": 0.04
+}

@@ -31,30 +31,13 @@ data/*.db-journal
 cache/
 cache/*.json
 
-# ─── Generated outputs (any depth) ───────────────
-# Matches every folder named "outputs" anywhere in the tree
-outputs/
-**/outputs/
-**/outputs/**
+# ─── Generated outputs ───────────────────────────
+# Ignore root /outputs/ contents EXCEPT outputs/runs/ (kept for sharing)
+/outputs/*
+!/outputs/runs/
 
-# Explicit experiment output paths (belt-and-suspenders)
-outputs/runs/
+# Ignore every outputs/ folder under experiments/ entirely
 experiments/**/outputs/
-experiments/**/batch_runner/outputs/
-experiments/step2_flux2_klein_9b/outputs/
-experiments/step2_flux2_klein_9b/batch_runner/outputs/
-experiments/step2_qwen_edit_2511/outputs/
-experiments/step2_qwen_edit_2511/batch_runner/outputs/
-experiments/step2_qwen_edit_2511/qwen_tuned_prompt/outputs/
-experiments/step2_qwen_edit_2511/qwen_tuned_prompt/batch_runner/outputs/
-
-# Generated media inside any outputs folder
-**/outputs/**/*.png
-**/outputs/**/*.jpg
-**/outputs/**/*.jpeg
-**/outputs/**/*.webp
-**/outputs/**/*.mp4
-**/outputs/**/*.mov
 
 # ─── IDE ─────────────────────────────────────────
 .vscode/

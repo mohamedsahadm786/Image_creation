@@ -1,0 +1,11 @@
+{
+  "run_id": "2026-05-08_14-42-18_plan_a",
+  "timestamp": "2026-05-08_14-42-18",
+  "plan": "plan_a",
+  "pilot_mode": false,
+  "total_scenarios": 1,
+  "successful": 1,
+  "failed": 0,
+  "total_cost_usd": 0.08,
+  "duration_seconds": 95
+}

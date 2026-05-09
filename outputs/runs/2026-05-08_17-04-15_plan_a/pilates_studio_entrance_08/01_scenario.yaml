@@ -1,0 +1,25 @@
+{
+  "id": "pilates_studio_entrance_08",
+  "category": "pilates",
+  "archetype": "held_product_high",
+  "difficulty": "medium",
+  "scene": "Entrance hallway of a premium pilates studio, warm wood floor, a sage- green wall on the right, a tall mirror behind her on the left wall reflecting the studio interior. A small wooden bench against the right wall with a rolled cream towel and a small straw tote bag on it. Soft morning light through the front door at the far end.",
+  "outfit": "Pale buttery yellow ribbed seamless tank top, matching pale yellow high- waist bike shorts, white slip-on canvas sneakers, a small gold cuff bracelet on her right wrist. Hair in a low loose bun at the nape of her neck. Subtle gold huggie earrings.",
+  "pose": "Walking toward the camera at a slight three-quarter angle, mid-stride, one foot just leaving the floor, the other planted, looking slightly off- camera to her right with a soft natural smile.",
+  "hand_assignment": {
+    "phone_hand": null,
+    "product_hand": "right",
+    "other_hand": "left",
+    "other_hand_does": "holds the strap of a small straw tote bag at her left side"
+  },
+  "grip_or_placement": "Right hand at chest level held slightly forward of her body, thumb on the front face of the box, four fingers wrapping the back edge, box held at a relaxed angle three-quarters toward the camera.",
+  "lighting": "Soft warm morning daylight from the open front door at the end of the hallway, golden cast on the wood floor, warm rim light on her right side.",
+  "mood": "arriving fresh, calm energy",
+  "palette": "pale buttery yellow, warm wood, sage green, cream",
+  "framing": "full body (head to mid-shin)",
+  "camera_height": "slightly below her eye line, looking up gently",
+  "resolves_failure_modes": [
+    "outfit lock — pastel yellow strongly different from white reference"
+  ],
+  "notes": "Tests motion / mid-stride composition. Outfit color is deliberately saturated to test outfit override."
+}

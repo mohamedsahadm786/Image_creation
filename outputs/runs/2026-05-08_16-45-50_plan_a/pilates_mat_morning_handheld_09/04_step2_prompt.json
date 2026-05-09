@@ -1,0 +1,35 @@
+{
+  "scenario_id": "pilates_mat_morning_handheld_09",
+  "step_2_image_prompt": "Take the persona reference photo as the locked source for her face, green almond eyes, brunette-with-blonde-balayage waves, sun-kissed Mediterranean skin, dusty pink sports bra and matching high-waist leggings, gold anklet, bare feet, and the entire pilates studio scene including the cream mat, warm wood floor, and sage-green reformer in the background — all of these must remain faithful to the reference. She is now cradling the Alluvi product across both hands in her lap: both palms facing up and slightly together, fingers lightly cupped under the box, the box resting flat across her fingertips with the front face tilted slightly upward toward the camera, both thumbs resting on either side of the front face framing it symmetrically. The product is approximately 7 inches wide, sized realistically relative to her hands and lap. Her wrist angles and finger curl may shift slightly to physically cradle the box naturally and not look stamped on. Both hands must remain visible cradling the product together in her lap. Do not hide either hand behind the box, behind her knees, or crop them out of the frame. The Alluvi product packaging must match the product reference photo exactly — every text element, color, graphic, and certification badge as shown. Preserve the packaging's natural white base color, only apply the scene's directional lighting on top. Match the lighting direction of the persona scene: bright soft morning daylight from the tall window on her right, warm bone tones across the wood floor and mat, gentle warm wash on her right side and on the box surface, with a soft shadow falling toward her lower-left.",
+  "word_count": 257,
+  "structure_breakdown": {
+    "sentence_1_identity_and_scene_lock": "Take the persona reference photo as the locked source for her face, green almond eyes, brunette-with-blonde-balayage waves, sun-kissed Mediterranean skin, dusty pink sports bra and matching high-waist leggings, gold anklet, bare feet, and the entire pilates studio scene including the cream mat, warm wood floor, and sage-green reformer in the background — all of these must remain faithful to the reference.",
+    "sentence_2_product_holding_pose": "She is now cradling the Alluvi product across both hands in her lap: both palms facing up and slightly together, fingers lightly cupped under the box, the box resting flat across her fingertips with the front face tilted slightly upward toward the camera, both thumbs resting on either side of the front face framing it symmetrically. The product is approximately 7 inches wide, sized realistically relative to her hands and lap. Her wrist angles and finger curl may shift slightly to physically cradle the box naturally and not look stamped on.",
+    "sentence_3_hand_visibility_rule": "Both hands must remain visible cradling the product together in her lap. Do not hide either hand behind the box, behind her knees, or crop them out of the frame.",
+    "sentence_4_product_fidelity_and_lighting": "The Alluvi product packaging must match the product reference photo exactly — every text element, color, graphic, and certification badge as shown. Preserve the packaging's natural white base color, only apply the scene's directional lighting on top. Match the lighting direction of the persona scene: bright soft morning daylight from the tall window on her right, warm bone tones across the wood floor and mat, gentle warm wash on her right side and on the box surface, with a soft shadow falling toward her lower-left."
+  },
+  "fal_nano_banana_params": {
+    "aspect_ratio": "9:16",
+    "resolution": "1K",
+    "num_images": 1,
+    "output_format": "png",
+    "safety_tolerance": "4"
+  },
+  "image_inputs_required": {
+    "persona_scene_role": "Step 1 output — the locked persona, outfit, and scene",
+    "product_reference_role": "assets/product.jpg — the Alluvi Tirzepatide packaging reference",
+    "product_reference_path": "assets/product.jpg"
+  },
+  "compliance_check": {
+    "no_model_specific_syntax": true,
+    "no_packaging_text_described": true,
+    "no_packaging_design_described": true,
+    "identity_locked_explicitly": true,
+    "posture_explicitly_free_for_holding": true,
+    "hand_visibility_rule_present": true,
+    "scale_anchor_present": true,
+    "lighting_direction_only": true,
+    "white_base_preservation_present": true,
+    "compliance_clean": true
+  }
+}

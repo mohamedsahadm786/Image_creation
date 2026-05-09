@@ -1,0 +1,26 @@
+{
+  "id": "gym_post_workout_mirror_01",
+  "category": "gym",
+  "archetype": "held_with_phone",
+  "difficulty": "hard",
+  "scene": "Modern commercial gym, large floor-to-ceiling mirror wall, treadmills and cable machines softly out of focus behind her, large windows in the background letting in late-afternoon golden-hour light. Polished concrete floor.",
+  "outfit": "Matte black ribbed seamless sports bra with thin straps, matching high-waist seamless black leggings, low-cut black ankle socks just visible above the leggings, no shoes (gym mirror selfie style). Hair pulled into a slick high ponytail with a few face-framing pieces left out. Small gold huggie hoops. Minimal no-makeup makeup with a touch of gloss.",
+  "pose": "Standing facing the mirror at a slight three-quarter angle, weight on her right hip, left foot slightly forward, posture relaxed and confident, soft smile.",
+  "hand_assignment": {
+    "phone_hand": "left",
+    "product_hand": "right",
+    "other_hand": "left (holds phone)",
+    "other_hand_does": "holds phone at face level capturing the mirror reflection"
+  },
+  "grip_or_placement": "Right hand at upper-chest level, thumb on the front face of the box near the top edge, index and middle fingers on the back of the box, ring and pinky tucked under, box angled forty-five degrees toward the mirror so the front face is clearly visible.",
+  "lighting": "Mixed gym lighting — cool overhead fluorescents combined with warm window backlight from late-afternoon sun streaming in behind her. Subtle rim light on her shoulders and hair, neutral light on the box surface with a warm window-side rim.",
+  "mood": "post-workout earned, slightly winded, composed",
+  "palette": "bone white, concrete grey, warm window glow, charcoal black",
+  "framing": "medium full (mid-thigh up)",
+  "camera_height": "chest level",
+  "resolves_failure_modes": [
+    "phone+product hand confusion (Phase 1 image 3)",
+    "stamped product without grip mechanics (Phase 1 image 1)"
+  ],
+  "notes": "Hardest scenario in the gym set — explicit two-hand assignment is critical. The mirror reflection means the product front face must point toward the mirror, not toward the camera directly."
+}

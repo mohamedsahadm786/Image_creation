@@ -1,0 +1,25 @@
+{
+  "id": "hero_plant_botanical_30",
+  "category": "hero_flat_lay",
+  "archetype": "flat_lay",
+  "difficulty": "easy",
+  "scene": "Overhead flat-lay on a warm cream linen-textured surface (linen tablecloth or similar). The Alluvi box sits at the center, surrounded by botanical elements: a few large green monstera leaves arranged at the upper edge, a single sprig of eucalyptus draped across the lower- left, a small bundle of dried rose stems at the upper-right corner, and three small smooth river stones along the right edge.",
+  "outfit": null,
+  "pose": null,
+  "hand_assignment": {
+    "phone_hand": null,
+    "product_hand": null,
+    "other_hand": null,
+    "other_hand_does": "persona not in frame"
+  },
+  "grip_or_placement": "The Alluvi box sits at the center of the composition, front face up to the camera, oriented horizontally. The botanical elements frame it organically without crowding the box itself.",
+  "lighting": "Bright soft natural daylight from above, even diffuse wash, very gentle shadows, warm cream tones on the linen surface, gentle warm glow on the box.",
+  "mood": "botanical wellness editorial, organic premium",
+  "palette": "warm cream linen, deep monstera green, sage eucalyptus, dried rose, river stone grey",
+  "framing": "overhead flat-lay",
+  "camera_height": "directly overhead",
+  "resolves_failure_modes": [
+    "hero flat-lay with organic botanical elements — different texture vocabulary"
+  ],
+  "notes": "Final hero shot. Tests product rendering against organic botanical surroundings vs. the cleaner marble/wood hero shots."
+}

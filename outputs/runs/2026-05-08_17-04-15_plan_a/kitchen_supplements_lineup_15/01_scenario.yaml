@@ -1,0 +1,25 @@
+{
+  "id": "kitchen_supplements_lineup_15",
+  "category": "kitchen",
+  "archetype": "object_in_lineup",
+  "difficulty": "easy",
+  "scene": "Modern minimalist kitchen, white marble countertop with grey veining, light wood lower cabinets visible. The countertop holds an arranged lineup left-to-right: a clear glass of water, an amber-glass dropper bottle, a small ceramic dish with three large capsule supplements, the Alluvi box, an AG-style green powder canister, and a tall stainless steel water bottle. A neat morning supplement arrangement.",
+  "outfit": null,
+  "pose": null,
+  "hand_assignment": {
+    "phone_hand": null,
+    "product_hand": null,
+    "other_hand": null,
+    "other_hand_does": "persona not in frame"
+  },
+  "grip_or_placement": "The Alluvi box sits at the center of the lineup, front face directly toward the camera, positioned slightly forward of the other items so it reads as the visual centerpiece. Other supplements flank it symmetrically.",
+  "lighting": "Bright soft morning daylight from a large window behind the items, casting them in a clean front-lit wash with subtle backlight rim. White marble reflects light evenly. Gentle warm glow on the box.",
+  "mood": "clinical clean morning routine, organized",
+  "palette": "white marble, light wood, amber glass, soft greens, blue and white box accent",
+  "framing": "eye-level horizontal (lineup viewed straight-on)",
+  "camera_height": "countertop level (slightly below the items)",
+  "resolves_failure_modes": [
+    "easy validation — product as part of a styled lineup"
+  ],
+  "notes": "No persona. Tests product as part of a wellness-stack arrangement. The product front face is the dominant visual element of the lineup."
+}

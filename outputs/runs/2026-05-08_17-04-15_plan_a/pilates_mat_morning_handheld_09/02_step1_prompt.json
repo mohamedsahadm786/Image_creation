@@ -1,0 +1,45 @@
+{
+  "scenario_id": "pilates_mat_morning_handheld_09",
+  "step_1_image_prompt": "A 25-year-old Mediterranean woman with sun-kissed deep-tan skin, green almond eyes, and brunette-with-blonde-balayage waves to her mid-back, captured in a candid amateur smartphone snapshot with natural skin texture and visible pores. She is wearing a soft dusty pink seamless sports bra with crossback straps, matching dusty pink high-waist leggings, a thin gold anklet on her left ankle, hair down in soft beach waves with a center part, no makeup with glowy fresh skin, bare feet. She sits in a sunlit pilates studio on a cream-colored mat unrolled on a warm wood floor, a sage-green reformer softly out of focus in the background, a tall window on her right flooding the room with morning light. Sitting cross-legged on the mat, posture upright, looking softly down toward her lap with a contemplative closed-mouth smile. Both hands rest in her lap, palms facing up and slightly together in a gentle cradle position, fingertips lightly touching, thumbs resting parallel to each other, currently empty. Bright soft morning daylight from a tall window on her right, warm bone tones across the wood floor and mat, gentle warm wash on her right side. Shot on iPhone 15 Pro 35mm equivalent from slightly below her eye line. Real photograph, not AI-generated, no model pose, candid moment. Morning intention setting peaceful mood, palette of dusty pink, warm wood, cream mat, sage green. Reference image is the persona — preserve her face, eye color, eye shape, brow shape, nose shape, lip shape, jaw line, and hair color exactly. Do not improvise her face.",
+  "word_count": 247,
+  "structure_breakdown": {
+    "sentence_1_identity_outfit": "A 25-year-old Mediterranean woman with sun-kissed deep-tan skin, green almond eyes, and brunette-with-blonde-balayage waves to her mid-back, captured in a candid amateur smartphone snapshot with natural skin texture and visible pores. She is wearing a soft dusty pink seamless sports bra with crossback straps, matching dusty pink high-waist leggings, a thin gold anklet on her left ankle, hair down in soft beach waves with a center part, no makeup with glowy fresh skin, bare feet.",
+    "sentence_2_scene": "She sits in a sunlit pilates studio on a cream-colored mat unrolled on a warm wood floor, a sage-green reformer softly out of focus in the background, a tall window on her right flooding the room with morning light.",
+    "sentence_3_pose_empty_product_hand": "Sitting cross-legged on the mat, posture upright, looking softly down toward her lap with a contemplative closed-mouth smile. Both hands rest in her lap, palms facing up and slightly together in a gentle cradle position, fingertips lightly touching, thumbs resting parallel to each other, currently empty.",
+    "sentence_4_lighting": "Bright soft morning daylight from a tall window on her right, warm bone tones across the wood floor and mat, gentle warm wash on her right side.",
+    "sentence_5_camera_mood_lock": "Shot on iPhone 15 Pro 35mm equivalent from slightly below her eye line. Real photograph, not AI-generated, no model pose, candid moment. Morning intention setting peaceful mood, palette of dusty pink, warm wood, cream mat, sage green. Reference image is the persona — preserve her face, eye color, eye shape, brow shape, nose shape, lip shape, jaw line, and hair color exactly. Do not improvise her face."
+  },
+  "fal_pulid_params": {
+    "image_size": {
+      "width": 768,
+      "height": 1344
+    },
+    "num_inference_steps": 30,
+    "guidance_scale": 3.5,
+    "id_weight": 1.0,
+    "true_cfg": 1.5,
+    "negative_prompt": "extra limbs, deformed hands, mutated hands, bad anatomy, lowres, blurry, watermark, text, signature, extra fingers, fused fingers, distorted face, asymmetric eyes, unnatural skin texture, plastic skin, AI-generated look, model pose, perfect symmetry, smooth airbrushed skin, glossy plastic skin, illustration, 3D render, CGI, doll-like features, magazine retouching",
+    "max_sequence_length": "256",
+    "enable_safety_checker": true
+  },
+  "step_2_brief": {
+    "archetype": "held_product_low",
+    "intended_hand_for_product": "both",
+    "intended_grip_or_placement": "Both hands cradle the Alluvi box in her lap, palms facing up and slightly together, the box resting on her fingertips with the front face angled toward the camera at a slight upward tilt. Thumbs rest on either side of the front face.",
+    "intended_product_position": "Step 2 will composite the Alluvi box resting in her lap on her cradled fingertips, front face angled upward toward the camera so the slightly-below eye-line camera captures the full label, with both thumbs framing the front face on either side."
+  },
+  "compliance_check": {
+    "no_product_in_prompt": true,
+    "no_placeholder_box_in_prompt": true,
+    "no_persona_appearance_drift": true,
+    "no_outfit_lock_to_reference": true,
+    "no_banned_phrases": true,
+    "no_medical_imagery": true,
+    "no_competitor_brands": true,
+    "compliance_clean": true
+  },
+  "id_weight_recommendation": {
+    "value": 1.0,
+    "reasoning": "id_weight at fal API cap (1.0). true_cfg at default 1.5 — three-quarter framing head to crossed knees with face mid-importance, default sufficient alongside the saturated dusty pink outfit override which strongly counteracts the white sports bra reference lock."
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "scenario_id": "outdoor_smoothie_bar_26",
+  "step_1_image_prompt": "A 25-year-old Mediterranean woman with sun-kissed deep-tan skin, green almond eyes, and brunette-with-blonde-balayage waves to her mid-back, captured in a candid amateur smartphone snapshot with natural skin texture and visible pores. She is wearing a white cotton wrap top with a tie at the waist tied loosely on the side, high-waist tailored linen wide-leg trousers in soft sand color, woven flat sandals just barely visible, hair down in soft natural waves, small gold studs and a layered thin gold necklace, subtle bronzy makeup. She stands at an outdoor smoothie bar with a polished wood counter, an open bookcase of plant-based cookbooks behind her, lush green ferns hanging above, a tall glass of green smoothie and a small ceramic ramekin of granola on the counter in front of her. Standing at the counter, body angled three-quarters toward the camera, looking softly down at the green smoothie with a small smile. Both hands are visible in the frame, not in her pockets, not behind her back, not cropped out of frame. Both hands rest lightly on the wood counter edge in front of her, fingers relaxed. Bright natural daylight from above and the sides, slightly diffused by the canopy of ferns, warm wash across her face and the wood counter. Shot on iPhone 15 Pro 35mm equivalent. Real photograph, not AI-generated, no model pose, candid moment. Morning smoothie ritual bright energetic mood, palette of warm wood, sand linen, white cotton, deep green ferns, vibrant green smoothie. Reference image is the persona — preserve her face, eye color, eye shape, brow shape, nose shape, lip shape, jaw line, and hair color exactly. Do not improvise her face.",
+  "word_count": 257,
+  "structure_breakdown": {
+    "sentence_1_identity_outfit": "A 25-year-old Mediterranean woman with sun-kissed deep-tan skin, green almond eyes, and brunette-with-blonde-balayage waves to her mid-back, captured in a candid amateur smartphone snapshot with natural skin texture and visible pores. She is wearing a white cotton wrap top with a tie at the waist tied loosely on the side, high-waist tailored linen wide-leg trousers in soft sand color, woven flat sandals just barely visible, hair down in soft natural waves, small gold studs and a layered thin gold necklace, subtle bronzy makeup.",
+    "sentence_2_scene": "She stands at an outdoor smoothie bar with a polished wood counter, an open bookcase of plant-based cookbooks behind her, lush green ferns hanging above, a tall glass of green smoothie and a small ceramic ramekin of granola on the counter in front of her.",
+    "sentence_3_pose_empty_product_hand": "Standing at the counter, body angled three-quarters toward the camera, looking softly down at the green smoothie with a small smile. Both hands are visible in the frame, not in her pockets, not behind her back, not cropped out of frame. Both hands rest lightly on the wood counter edge in front of her, fingers relaxed.",
+    "sentence_4_lighting": "Bright natural daylight from above and the sides, slightly diffused by the canopy of ferns, warm wash across her face and the wood counter.",
+    "sentence_5_camera_mood_lock": "Shot on iPhone 15 Pro 35mm equivalent. Real photograph, not AI-generated, no model pose, candid moment. Morning smoothie ritual bright energetic mood, palette of warm wood, sand linen, white cotton, deep green ferns, vibrant green smoothie. Reference image is the persona — preserve her face, eye color, eye shape, brow shape, nose shape, lip shape, jaw line, and hair color exactly. Do not improvise her face."
+  },
+  "fal_pulid_params": {
+    "image_size": {
+      "width": 768,
+      "height": 1344
+    },
+    "num_inference_steps": 30,
+    "guidance_scale": 3.5,
+    "id_weight": 1.0,
+    "true_cfg": 1.5,
+    "negative_prompt": "extra limbs, deformed hands, mutated hands, bad anatomy, lowres, blurry, watermark, text, signature, extra fingers, fused fingers, distorted face, asymmetric eyes, unnatural skin texture, plastic skin, AI-generated look, model pose, perfect symmetry, smooth airbrushed skin, glossy plastic skin, illustration, 3D render, CGI, doll-like features, magazine retouching",
+    "max_sequence_length": "256",
+    "enable_safety_checker": true
+  },
+  "step_2_brief": {
+    "archetype": "placed_on_surface",
+    "intended_hand_for_product": "none",
+    "intended_grip_or_placement": "The Alluvi box sits on the wood counter directly in front of her, between the green smoothie glass and the granola ramekin, front face angled three-quarters toward the camera. It is part of her morning smoothie-bar arrangement.",
+    "intended_product_position": "Step 2 will composite the Alluvi box on the wood counter surface between the tall green smoothie glass and the small ceramic granola ramekin, front face angled three-quarters toward the camera, catching the warm diffused daylight from above with a soft natural shadow on the wood."
+  },
+  "compliance_check": {
+    "no_product_in_prompt": true,
+    "no_placeholder_box_in_prompt": true,
+    "no_persona_appearance_drift": true,
+    "no_outfit_lock_to_reference": true,
+    "no_banned_phrases": true,
+    "no_medical_imagery": true,
+    "no_competitor_brands": true,
+    "compliance_clean": true
+  },
+  "id_weight_recommendation": {
+    "value": 1.0,
+    "reasoning": "id_weight at fal API cap (1.0). true_cfg at default 1.5 — three-quarter waist-up framing where face is mid-importance, default is sufficient alongside the white cotton wrap top and sand linen outfit override which dramatically differs from the reference photo's athletic register."
+  }
+}

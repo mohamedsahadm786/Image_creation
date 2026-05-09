@@ -1,0 +1,45 @@
+{
+  "scenario_id": "bedroom_vanity_getting_ready_12",
+  "step_1_image_prompt": "A 25-year-old Mediterranean woman with sun-kissed deep-tan skin, green almond eyes, and brunette-with-blonde-balayage waves to her mid-back, captured in a candid amateur smartphone snapshot with natural skin texture and visible pores. She is wearing a pale blush pink linen robe loosely tied at the waist with a slim ribbon sash, the V-neckline open showing a thin white camisole strap underneath, hair clipped half-up in a claw clip with the lower half falling in soft waves, bare face mid-skincare-application. She sits on a small upholstered vanity stool in a bedroom vanity area, a round arched mirror mounted on a warm walnut vanity, arranged skincare bottles and a small ceramic dish with a gold tray on the vanity surface, a small linen-shaded lamp glowing warmly in the corner. Three-quarter angle to the camera, looking at her reflection in the mirror with a soft unhurried expression. Both hands are visible in the frame, not in her pockets, not behind her back, not cropped out of frame. Her right hand is lifted to her cheek mid-skincare-application, fingertips lightly pressing into her cheekbone. Her left hand rests gently on her thigh. The vanity surface area to her right between a ceramic skincare bottle and an open glass jar of cotton pads has empty space in the styled arrangement. Warm bedside lamp from the corner combined with soft morning daylight from a window slightly out of frame on the left, warm honeyed tones across the walnut vanity. Shot on Sony A7IV 35mm lens shallow depth of field. Real photograph, not AI-generated, no model pose, candid moment. Slow morning skincare moment soft and unhurried mood, palette of warm walnut, blush pink, soft amber lamp glow, ivory ceramics. Reference image is the persona — preserve her face, eye color, eye shape, brow shape, nose shape, lip shape, jaw line, and hair color exactly. Do not improvise her face.",
+  "word_count": 285,
+  "structure_breakdown": {
+    "sentence_1_identity_outfit": "A 25-year-old Mediterranean woman with sun-kissed deep-tan skin, green almond eyes, and brunette-with-blonde-balayage waves to her mid-back, captured in a candid amateur smartphone snapshot with natural skin texture and visible pores. She is wearing a pale blush pink linen robe loosely tied at the waist with a slim ribbon sash, the V-neckline open showing a thin white camisole strap underneath, hair clipped half-up in a claw clip with the lower half falling in soft waves, bare face mid-skincare-application.",
+    "sentence_2_scene": "She sits on a small upholstered vanity stool in a bedroom vanity area, a round arched mirror mounted on a warm walnut vanity, arranged skincare bottles and a small ceramic dish with a gold tray on the vanity surface, a small linen-shaded lamp glowing warmly in the corner.",
+    "sentence_3_pose_empty_product_hand": "Three-quarter angle to the camera, looking at her reflection in the mirror with a soft unhurried expression. Both hands are visible in the frame, not in her pockets, not behind her back, not cropped out of frame. Her right hand is lifted to her cheek mid-skincare-application, fingertips lightly pressing into her cheekbone. Her left hand rests gently on her thigh. The vanity surface area to her right between a ceramic skincare bottle and an open glass jar of cotton pads has empty space in the styled arrangement.",
+    "sentence_4_lighting": "Warm bedside lamp from the corner combined with soft morning daylight from a window slightly out of frame on the left, warm honeyed tones across the walnut vanity.",
+    "sentence_5_camera_mood_lock": "Shot on Sony A7IV 35mm lens shallow depth of field. Real photograph, not AI-generated, no model pose, candid moment. Slow morning skincare moment soft and unhurried mood, palette of warm walnut, blush pink, soft amber lamp glow, ivory ceramics. Reference image is the persona — preserve her face, eye color, eye shape, brow shape, nose shape, lip shape, jaw line, and hair color exactly. Do not improvise her face."
+  },
+  "fal_pulid_params": {
+    "image_size": {
+      "width": 768,
+      "height": 1344
+    },
+    "num_inference_steps": 30,
+    "guidance_scale": 3.5,
+    "id_weight": 1.0,
+    "true_cfg": 1.5,
+    "negative_prompt": "extra limbs, deformed hands, mutated hands, bad anatomy, lowres, blurry, watermark, text, signature, extra fingers, fused fingers, distorted face, asymmetric eyes, unnatural skin texture, plastic skin, AI-generated look, model pose, perfect symmetry, smooth airbrushed skin, glossy plastic skin, illustration, 3D render, CGI, doll-like features, magazine retouching",
+    "max_sequence_length": "256",
+    "enable_safety_checker": true
+  },
+  "step_2_brief": {
+    "archetype": "placed_on_surface",
+    "intended_hand_for_product": "none",
+    "intended_grip_or_placement": "The Alluvi box sits on the vanity surface to her right, positioned between a ceramic skincare bottle and an open glass jar of cotton pads, front face angled three-quarters toward the camera. The box is the visual anchor of the vanity surface arrangement.",
+    "intended_product_position": "Step 2 will composite the Alluvi box onto the walnut vanity surface to her right, nestled between the ceramic skincare bottle and the open glass jar of cotton pads, front face angled three-quarters toward the camera so the warm lamp light catches the front of the box."
+  },
+  "compliance_check": {
+    "no_product_in_prompt": true,
+    "no_placeholder_box_in_prompt": true,
+    "no_persona_appearance_drift": true,
+    "no_outfit_lock_to_reference": true,
+    "no_banned_phrases": true,
+    "no_medical_imagery": true,
+    "no_competitor_brands": true,
+    "compliance_clean": true
+  },
+  "id_weight_recommendation": {
+    "value": 1.0,
+    "reasoning": "id_weight at fal API cap (1.0). true_cfg at default 1.5 — three-quarter head-to-waist framing with face mid-importance and reflected in the mirror, default sufficient alongside the major outfit override (blush linen robe) and warm intimate vanity scene."
+  }
+}

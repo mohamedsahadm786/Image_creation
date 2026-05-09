@@ -1,0 +1,25 @@
+{
+  "id": "bedroom_bedside_flat_lay_14",
+  "category": "bedroom",
+  "archetype": "flat_lay",
+  "difficulty": "easy",
+  "scene": "Overhead flat-lay on a warm walnut bedside table. The table holds an open hardcover book with a small dried-flower bookmark, a small ceramic mug of matcha with steam still visible, a small brass alarm clock, the Alluvi box, a single sprig of eucalyptus, and the corner of a folded cream waffle-knit blanket draping into the lower edge of the frame.",
+  "outfit": null,
+  "pose": null,
+  "hand_assignment": {
+    "phone_hand": null,
+    "product_hand": null,
+    "other_hand": null,
+    "other_hand_does": "persona not in frame"
+  },
+  "grip_or_placement": "The Alluvi box sits at the center-right of the composition with its front face up to the camera, slightly overlapping the edge of the open book, the matcha mug to the upper-left, the brass alarm clock at the upper-right, eucalyptus sprig along the lower-left edge.",
+  "lighting": "Soft natural morning daylight from above-right, throwing long gentle shadows across the walnut surface, warm honeyed tones, gentle warm glow on the box's front face.",
+  "mood": "bedside ritual, slow morning",
+  "palette": "walnut, cream, sage green, soft amber, matcha green",
+  "framing": "overhead flat-lay",
+  "camera_height": "directly overhead",
+  "resolves_failure_modes": [
+    "easy validation case — bedroom-context flat-lay"
+  ],
+  "notes": "Easiest bedroom scenario. No persona. Validates product fidelity in a warm-toned flat-lay (different from gym's cool flat-lay)."
+}

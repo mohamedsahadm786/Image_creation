@@ -1,0 +1,45 @@
+{
+  "scenario_id": "bathroom_marble_counter_flat_lay_20",
+  "step_1_image_prompt": "An overhead flat-lay shot on a white marble bathroom counter with subtle grey veining. Around the central area: a small ceramic dish of round ivory cotton pads at the upper-left of the composition, a small amber-glass dropper bottle at the upper-right, a clear glass tumbler of water at the right edge with subtle condensation, a small folded white washcloth at the lower-left, a small dried lavender bundle draping across the lower edge of the frame, and a thin gold-handled facial roller resting at the lower-right. The center-right area of the composition is intentionally empty — clean marble surface with generous negative space, perfectly framed by the surrounding items in a relaxed asymmetric arrangement. Soft natural daylight from above, very gentle diffuse shadows cast outward from each object, warm bone tones across the marble, subtle warm glow. Shot on Sony A7IV 50mm lens directly overhead. Real photograph, not AI-generated, candid moment. Real surface texture and grain on the marble, clean evening ritual minimalist mood, palette of warm marble, amber glass, ivory cotton, dried lavender, brass gold. Minimalist editorial composition with deliberate emptiness at center-right.",
+  "word_count": 188,
+  "structure_breakdown": {
+    "sentence_1_identity_outfit": "(no persona — flat-lay scenario, sentence omitted)",
+    "sentence_2_scene": "An overhead flat-lay shot on a white marble bathroom counter with subtle grey veining. Around the central area: a small ceramic dish of round ivory cotton pads at the upper-left of the composition, a small amber-glass dropper bottle at the upper-right, a clear glass tumbler of water at the right edge with subtle condensation, a small folded white washcloth at the lower-left, a small dried lavender bundle draping across the lower edge of the frame, and a thin gold-handled facial roller resting at the lower-right.",
+    "sentence_3_pose_empty_product_hand": "The center-right area of the composition is intentionally empty — clean marble surface with generous negative space, perfectly framed by the surrounding items in a relaxed asymmetric arrangement.",
+    "sentence_4_lighting": "Soft natural daylight from above, very gentle diffuse shadows cast outward from each object, warm bone tones across the marble, subtle warm glow.",
+    "sentence_5_camera_mood_lock": "Shot on Sony A7IV 50mm lens directly overhead. Real photograph, not AI-generated, candid moment. Real surface texture and grain on the marble, clean evening ritual minimalist mood, palette of warm marble, amber glass, ivory cotton, dried lavender, brass gold. Minimalist editorial composition with deliberate emptiness at center-right."
+  },
+  "fal_pulid_params": {
+    "image_size": {
+      "width": 768,
+      "height": 1344
+    },
+    "num_inference_steps": 30,
+    "guidance_scale": 3.5,
+    "id_weight": 0.5,
+    "true_cfg": 1.5,
+    "negative_prompt": "extra limbs, deformed hands, mutated hands, bad anatomy, lowres, blurry, watermark, text, signature, distorted, plastic surfaces, oversaturated, AI-generated look, illustration, 3D render, CGI, person in frame, face, hands",
+    "max_sequence_length": "256",
+    "enable_safety_checker": true
+  },
+  "step_2_brief": {
+    "archetype": "flat_lay",
+    "intended_hand_for_product": "none",
+    "intended_grip_or_placement": "The Alluvi box sits at the center-right of the composition with its front face up to the camera, surrounded symmetrically by the other skincare items. The lavender bundle drapes across the lower edge.",
+    "intended_product_position": "Step 2 will composite the Alluvi box at the center-right of the empty negative space on the marble counter, oriented horizontally with its long side parallel to the lower edge of the frame, front face up to the camera, nestled symmetrically among the dropper bottle, cotton pads, washcloth, water tumbler, lavender bundle, and gold-handled facial roller."
+  },
+  "compliance_check": {
+    "no_product_in_prompt": true,
+    "no_placeholder_box_in_prompt": true,
+    "no_persona_appearance_drift": true,
+    "no_outfit_lock_to_reference": true,
+    "no_banned_phrases": true,
+    "no_medical_imagery": true,
+    "no_competitor_brands": true,
+    "compliance_clean": true
+  },
+  "id_weight_recommendation": {
+    "value": 0.5,
+    "reasoning": "No persona in frame — id_weight lowered from 1.0 to 0.5 to avoid PuLID forcing any partial face/hand artifact into the empty center-right area where the product will be composited in Step 2."
+  }
+}

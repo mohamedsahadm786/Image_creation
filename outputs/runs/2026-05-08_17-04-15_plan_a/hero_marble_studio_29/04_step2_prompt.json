@@ -1,0 +1,35 @@
+{
+  "scenario_id": "hero_marble_studio_29",
+  "step_2_image_prompt": "Take the persona reference photo as the locked source for the entire overhead flat-lay scene — the polished white marble surface with subtle grey veining, the small ceramic dish of dried rose petals at the upper-left, the clear glass tumbler of water at the upper-right, the thin gold chain necklace coiled at the lower-left, and the sprig of dried lavender at the lower-right — all of these elements and their exact positions must remain faithful to the reference. Place the Alluvi product at the exact center of the composition, oriented horizontally with its long side parallel to the lower edge of the frame, front face up to the camera, perfectly centered between the surrounding props with even negative space on all sides. The product is approximately 7 inches wide, sized realistically in proportion to the surrounding props — the dish, glass, necklace, and lavender sprig. Do not enlarge the product. No hands, fingers, or body parts should appear in the frame — this remains a clean overhead flat-lay with the product as the only added element. The Alluvi product packaging must match the product reference photo exactly — every text element, color, graphic, and certification badge as shown. Preserve the packaging's natural white base color, only apply the scene's directional lighting on top. Match the lighting direction of the scene: soft even natural daylight from above, with very gentle diffuse shadows falling outward from the box onto the marble.",
+  "word_count": 232,
+  "structure_breakdown": {
+    "sentence_1_identity_and_scene_lock": "Take the persona reference photo as the locked source for the entire overhead flat-lay scene — the polished white marble surface with subtle grey veining, the small ceramic dish of dried rose petals at the upper-left, the clear glass tumbler of water at the upper-right, the thin gold chain necklace coiled at the lower-left, and the sprig of dried lavender at the lower-right — all of these elements and their exact positions must remain faithful to the reference.",
+    "sentence_2_product_holding_pose": "Place the Alluvi product at the exact center of the composition, oriented horizontally with its long side parallel to the lower edge of the frame, front face up to the camera, perfectly centered between the surrounding props with even negative space on all sides. The product is approximately 7 inches wide, sized realistically in proportion to the surrounding props — the dish, glass, necklace, and lavender sprig. Do not enlarge the product.",
+    "sentence_3_hand_visibility_rule": "No hands, fingers, or body parts should appear in the frame — this remains a clean overhead flat-lay with the product as the only added element.",
+    "sentence_4_product_fidelity_and_lighting": "The Alluvi product packaging must match the product reference photo exactly — every text element, color, graphic, and certification badge as shown. Preserve the packaging's natural white base color, only apply the scene's directional lighting on top. Match the lighting direction of the scene: soft even natural daylight from above, with very gentle diffuse shadows falling outward from the box onto the marble."
+  },
+  "fal_nano_banana_params": {
+    "aspect_ratio": "9:16",
+    "resolution": "1K",
+    "num_images": 1,
+    "output_format": "png",
+    "safety_tolerance": "4"
+  },
+  "image_inputs_required": {
+    "persona_scene_role": "Step 1 output — the locked flat-lay scene with surrounding props",
+    "product_reference_role": "assets/product.jpg — the Alluvi Tirzepatide packaging reference",
+    "product_reference_path": "assets/product.jpg"
+  },
+  "compliance_check": {
+    "no_model_specific_syntax": true,
+    "no_packaging_text_described": true,
+    "no_packaging_design_described": true,
+    "identity_locked_explicitly": true,
+    "posture_explicitly_free_for_holding": true,
+    "hand_visibility_rule_present": true,
+    "scale_anchor_present": true,
+    "lighting_direction_only": true,
+    "white_base_preservation_present": true,
+    "compliance_clean": true
+  }
+}

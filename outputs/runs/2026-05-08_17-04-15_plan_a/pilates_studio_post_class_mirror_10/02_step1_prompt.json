@@ -1,0 +1,45 @@
+{
+  "scenario_id": "pilates_studio_post_class_mirror_10",
+  "step_1_image_prompt": "A 25-year-old Mediterranean / Southern European woman with deep tan skin and a warm undertone, soft oval face with high natural cheekbones, green almond eyes with slightly downturned outer corners, full medium-brown brows, and a soft closed-mouth smile. Her hair is medium brunette with heavy sun-lightened blonde balayage through the mid-lengths and ends, mid-back length, soft natural waves with body, captured in a candid amateur smartphone snapshot with natural skin texture and visible pores. She is wearing a slate grey seamless ribbed cropped long-sleeve top with thumbholes and matching slate grey high-waist seamless leggings, a thin silver chain necklace, small silver hoops, hair pulled into a low slick ponytail with a small gold clip securing it, bare feet, subtle natural makeup. She stands in a premium pilates studio in front of a tall floor-to-ceiling mirror, sage-green reformer reflected behind her, warm marble floor, exposed brick wall on the right side, tall window on her left. Standing in three-quarter angle to the mirror, weight on her right leg, posture confident and relaxed, soft poised expression directly engaging the camera. Both hands are visible in the frame, not in her pockets, not behind her back, not cropped out of frame. Her left hand rests lightly on her left hip. Her right arm hangs naturally at her side. Soft warm late-afternoon daylight pours through the tall window on her left, warm bone tones across the marble floor, subtle rim light on her left shoulder. Shot on iPhone 15 Pro 35mm equivalent, chest-up framing. Real photograph, not AI-generated, no model pose, candid moment. Post-class polished mid-thirties poised mood, palette of slate grey, warm marble bone, sage green, soft amber. Reference image is the persona — face must match the reference precisely with no improvisation. Preserve every facial feature, eye color, hair color, and skin tone exactly. The face is the most important element of this image.",
+  "word_count": 297,
+  "structure_breakdown": {
+    "sentence_1_identity_outfit": "A 25-year-old Mediterranean / Southern European woman with deep tan skin and a warm undertone, soft oval face with high natural cheekbones, green almond eyes with slightly downturned outer corners, full medium-brown brows, and a soft closed-mouth smile. Her hair is medium brunette with heavy sun-lightened blonde balayage through the mid-lengths and ends, mid-back length, soft natural waves with body, captured in a candid amateur smartphone snapshot with natural skin texture and visible pores. She is wearing a slate grey seamless ribbed cropped long-sleeve top with thumbholes and matching slate grey high-waist seamless leggings, a thin silver chain necklace, small silver hoops, hair pulled into a low slick ponytail with a small gold clip securing it, bare feet, subtle natural makeup.",
+    "sentence_2_scene": "She stands in a premium pilates studio in front of a tall floor-to-ceiling mirror, sage-green reformer reflected behind her, warm marble floor, exposed brick wall on the right side, tall window on her left.",
+    "sentence_3_pose_empty_product_hand": "Standing in three-quarter angle to the mirror, weight on her right leg, posture confident and relaxed, soft poised expression directly engaging the camera. Both hands are visible in the frame, not in her pockets, not behind her back, not cropped out of frame. Her left hand rests lightly on her left hip. Her right arm hangs naturally at her side.",
+    "sentence_4_lighting": "Soft warm late-afternoon daylight pours through the tall window on her left, warm bone tones across the marble floor, subtle rim light on her left shoulder.",
+    "sentence_5_camera_mood_lock": "Shot on iPhone 15 Pro 35mm equivalent, chest-up framing. Real photograph, not AI-generated, no model pose, candid moment. Post-class polished mid-thirties poised mood, palette of slate grey, warm marble bone, sage green, soft amber. Reference image is the persona — face must match the reference precisely with no improvisation. Preserve every facial feature, eye color, hair color, and skin tone exactly. The face is the most important element of this image."
+  },
+  "fal_pulid_params": {
+    "image_size": {
+      "width": 768,
+      "height": 1344
+    },
+    "num_inference_steps": 30,
+    "guidance_scale": 3.5,
+    "id_weight": 1.0,
+    "true_cfg": 1.7,
+    "negative_prompt": "extra limbs, deformed hands, mutated hands, bad anatomy, lowres, blurry, watermark, text, signature, extra fingers, fused fingers, distorted face, asymmetric eyes, unnatural skin texture, plastic skin, AI-generated look, model pose, perfect symmetry, smooth airbrushed skin, glossy plastic skin, illustration, 3D render, CGI, doll-like features, magazine retouching",
+    "max_sequence_length": "256",
+    "enable_safety_checker": true
+  },
+  "step_2_brief": {
+    "archetype": "held_product_high",
+    "intended_hand_for_product": "right",
+    "intended_grip_or_placement": "Right hand at upper-chest level, box held in a clear pinch grip — thumb on the front face near the bottom edge, index and middle fingers on the back, ring and pinky tucked under, box angled slightly toward the camera (not toward the mirror) for direct camera engagement.",
+    "intended_product_position": "Step 2 will raise her right arm from its resting position at her side to upper-chest level and shape the hand into a pinch grip holding the Alluvi box angled toward the camera. Her body posture and shoulder line may shift slightly to accommodate the natural lifted-arm pose."
+  },
+  "compliance_check": {
+    "no_product_in_prompt": true,
+    "no_placeholder_box_in_prompt": true,
+    "no_persona_appearance_drift": true,
+    "no_outfit_lock_to_reference": true,
+    "no_banned_phrases": true,
+    "no_medical_imagery": true,
+    "no_competitor_brands": true,
+    "compliance_clean": true
+  },
+  "id_weight_recommendation": {
+    "value": 1.0,
+    "reasoning": "id_weight at fal API cap (1.0). true_cfg raised to 1.7 because face is dominant at chest-up medium close-up framing — stronger amplification of the verbatim full face descriptor is needed to lock identity at this scale where any deviation is highly visible."
+  }
+}
