@@ -9,7 +9,7 @@ UGC ad image generation for the Alluvi Tirzepatide 40mg peptide brand. Generates
 ---
 
 ## Quick Start
-
+**FLUX PuLID + QWEN_2511**
 ```powershell
 
 # Create virtual environment
@@ -28,7 +28,6 @@ pip install -r requirements.txt
 # Validate setup
 python preflight.py
 
-
 # Run all 30 scenarios
 python -m experiments.step2_qwen_edit_2511.qwen_tuned_prompt.batch_runner.run_batch_full
 ```
@@ -40,6 +39,7 @@ For comparison go to this directory - `experiments/step2_qwen_edit_2511/qwen_tun
 ---
 
 **Another Flow is**
+**FLUX PuLID + QWEN_2511 + Multiple Product images (LLM will pick the angle of the product)**
 
 ```powershell
 
@@ -54,6 +54,7 @@ For comparison go to this directory - `experiments/step2_qwen_edit_2511/qwen_tun
 ---
 
 **Third Flow is**
+**FLUX PuLID + FLUX_KLEIN 9B**
 
 ```powershell
 
