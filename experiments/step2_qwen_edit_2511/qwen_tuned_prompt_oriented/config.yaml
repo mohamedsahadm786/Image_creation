@@ -1,0 +1,47 @@
+# config.yaml — qwen_tuned_prompt_oriented experiment
+#
+# Same Qwen API as the parent qwen_tuned_prompt experiment, plus a hidden
+# orientation-picker layer between Step 2 prompt generation and Qwen call.
+#
+# Pipeline per scenario:
+#   1. Opus 4.7 + master_prompt_step2_qwen.md  -> step_2_image_prompt (orientation-agnostic)
+#   2. Opus 4.7 + orientation_picker_prompt.md -> orientation choice (horizontal/vertical/45_right/45_left)
+#   3. Look up assets/product_<orientation>.jpg
+#   4. Qwen API call with persona + chosen product file
+#   5. HTML viewer shows the picked orientation as a badge
+
+experiment_name: step2_qwen_edit_2511_with_qwen_tuned_prompt_oriented
+model_label: "Qwen-Image-Edit-2511 (qwen-tuned prompt + smart orientation)"
+
+step_2:
+  endpoint: fal-ai/qwen-image-edit-2511
+  cost_per_image_usd: 0.04            # Qwen API call
+
+  # Per-scenario Opus prompt regeneration cost (rough estimate):
+  # ~8K input tokens * $15/M = $0.12; ~800 output tokens * $75/M = $0.06; total ~$0.18
+  cost_per_prompt_opus_usd: 0.18
+
+  # Per-scenario orientation-picker Opus call (much cheaper — short input + tiny output):
+  # ~600 input tokens * $15/M = $0.009; ~80 output tokens * $75/M = $0.006; total ~$0.02
+  cost_per_picker_opus_usd: 0.02
+
+  # Combined per-scenario cost: ~$0.24
+  # 30-scenario batch: ~$7.20
+
+  defaults:
+    image_size:
+      width: 768
+      height: 1344
+    num_images: 1
+    output_format: "png"
+    enable_safety_checker: true
+
+# Map from picker orientation labels to the product reference files.
+# Files live in assets/ at the project root. The picker chooses one of these
+# four labels; the runner reads the map and uploads the matching file as
+# image_urls[1] in the Qwen API call.
+product_orientation_files:
+  horizontal: "assets/product_horizontal.jpg"
+  vertical:   "assets/product_vertical.jpg"
+  45_right:   "assets/product_45_right.jpg"
+  45_left:    "assets/product_45_left.jpg"
