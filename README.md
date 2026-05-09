@@ -4,7 +4,6 @@ UGC ad image generation for the Alluvi Tirzepatide 40mg peptide brand. Generates
 
 **Contain multiple flows. each of the flow have their own README.md file'. BTW, To run the final Flow, read the below content. That is the latest one**
 
-**Goal:** 300 images per day in production.
 
 
 ---
