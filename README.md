@@ -35,7 +35,7 @@ python -m experiments.step2_qwen_edit_2511.qwen_tuned_prompt.batch_runner.run_ba
 
 Outputs go to `experiments\step2_qwen_edit_2511\qwen_tuned_prompt\batch_runner\outputs\/<timestamp>_full/`. Each scenario folder has a `chain.html` viewer showing Step 0 (source persona), Step 1 (PuLID scene), and Step 2 (final composite).
 
-For comparison go to this directory - experiments/step2_qwen_edit_2511/qwen_tuned_prompt_oriented/batch_runner/outputs/2026-05-09_20-07-27_full/overview.html
+For comparison go to this directory - `experiments/step2_qwen_edit_2511/qwen_tuned_prompt/batch_runner/outputs/2026-05-09_20-07-27_full/overview.html`
 
 ---
 
@@ -49,9 +49,24 @@ python -m experiments.step2_qwen_edit_2511.qwen_tuned_prompt_oriented.batch_runn
 
 Outputs go to `experiments\step2_qwen_edit_2511\qwen_tuned_prompt_oriented\batch_runner\outputs\/<timestamp>_full/`. Each scenario folder has a `chain.html` viewer showing Step 0 (source persona), Step 1 (PuLID scene), and Step 2 (final composite).
 
-For comparison go to this directory - experiments/step2_qwen_edit_2511/qwen_tuned_prompt_oriented/batch_runner/outputs/2026-05-09_20-07-27_full/overview.html
+For comparison go to this directory - `experiments/step2_qwen_edit_2511/qwen_tuned_prompt_oriented/batch_runner/outputs/2026-05-09_20-07-27_full/overview.html`
 
 ---
+
+**Third Flow is**
+
+```powershell
+
+# Run all 30 scenarios
+python -m experiments.step2_flux2_klein_9b.flux_tuned_prompt.batch_runner.run_batch_full
+```
+
+Outputs go to `experiments\step2_flux2_klein_9b\flux_tuned_prompt\batch_runner\outputs\/<timestamp>_full/`. Each scenario folder has a `chain.html` viewer showing Step 0 (source persona), Step 1 (PuLID scene), and Step 2 (final composite).
+
+For comparison go to this directory - `experiments/step2_flux2_klein_9b/flux_tuned_prompt/batch_runner/outputs/2026-05-09_20-07-27_full/overview.html`
+
+---
+
 
 ## Architecture
 
