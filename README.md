@@ -2,16 +2,29 @@
 
 UGC ad image generation for the Alluvi Tirzepatide 40mg peptide brand. Generates photoreal lifestyle images of a locked synthetic persona holding/showcasing the product across 30 hand-curated scenarios.
 
+**Contain multiple flows. each of the flow have their own README.md file'. BTW, To run the final Flow, read the below content. That is the latest one**
+
 **Goal:** 300 images per day in production.
-**Current status:** Phase 1 (Plan A — PuLID + Nano Banana 2). Architecture locked, pilot batch validated. Ready to scale.
+
 
 ---
 
 ## Quick Start
 
 ```powershell
+
+# Create virtual environment
+python -m venv venv
+
+
 # Activate venv
 .venv\Scripts\Activate.ps1
+
+# Upgrade pip
+python -m pip install --upgrade pip
+
+# Install requirements
+pip install -r requirements.txt
 
 # Validate setup
 python preflight.py
@@ -20,10 +33,10 @@ python preflight.py
 python -m pipelines.run_plan_a --only outdoor_golden_hour_patio_27
 
 # Run all 30 scenarios
-python -m pipelines.run_plan_a
+python -m experiments.step2_qwen_edit_2511.qwen_tuned_prompt_oriented.batch_runner.run_batch_full
 ```
 
-Outputs go to `outputs/runs/{timestamp}_plan_a/`. Each scenario folder has a `chain.html` viewer showing Step 0 (source persona), Step 1 (PuLID scene), and Step 2 (final composite).
+Outputs go to `experiments\step2_qwen_edit_2511\qwen_tuned_prompt_oriented\batch_runner\outputs\/<timestamp>_full/`. Each scenario folder has a `chain.html` viewer showing Step 0 (source persona), Step 1 (PuLID scene), and Step 2 (final composite).
 
 ---
 
