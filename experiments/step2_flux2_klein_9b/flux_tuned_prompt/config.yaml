@@ -1,0 +1,53 @@
+# config.yaml — flux_tuned_prompt experiment
+#
+# FLUX-2 Klein 9B Base Edit with FLUX-tuned master prompt.
+# Single product image (assets/product.jpg) — no orientation picker.
+#
+# Pipeline per scenario:
+#   1. Opus 4.7 + master_prompt_step2_flux.md → step_2_image_prompt + negative_prompt
+#   2. FLUX-2 Klein 9B Base Edit call with persona + assets/product.jpg
+#   3. HTML viewer shows generation result + prompt diff vs NB baseline
+
+experiment_name: step2_flux2_klein_9b_with_flux_tuned_prompt
+model_label: "FLUX-2 Klein 9B Base Edit (flux-tuned prompt)"
+
+step_2:
+  endpoint: fal-ai/flux-2/klein/9b/base/edit
+
+  # Per-scenario cost estimate.
+  # 9b/base/edit pricing varies by megapixel (input + output).
+  # 1MP input + 1MP output at ~$0.025/MP * 2 = ~$0.05/image
+  # (Pricing may vary; this is a conservative estimate.)
+  cost_per_image_usd: 0.05
+
+  # Per-scenario Opus prompt regeneration cost (rough estimate):
+  # FLUX prompts are shorter (~250 words vs Qwen's ~400), so output tokens
+  # are smaller. Estimate ~$0.15 per call (slightly less than Qwen's $0.18).
+  cost_per_prompt_opus_usd: 0.15
+
+  # Combined per-scenario cost: ~$0.20
+  # 30-scenario batch: ~$6.00
+
+  defaults:
+    # 9:16 aspect ratio for TikTok native
+    image_size:
+      width: 768
+      height: 1344
+    num_images: 1
+
+    # Guidance scale: default for FLUX-2 Klein is 5.0; we set 6.0 for
+    # slightly stricter prompt adherence on product photography.
+    # Higher = stricter adherence; lower = more creative freedom.
+    guidance_scale: 6.0
+
+    # Inference steps: 9b/base/edit default is 28. Higher = better quality
+    # but slower. 28 is the documented sweet spot.
+    num_inference_steps: 28
+
+    # acceleration: "regular" (default), "low", "medium", "high".
+    # Higher acceleration = faster but may reduce quality.
+    # Leave as default unless we need real-time generation.
+    acceleration: "regular"
+
+    output_format: "png"
+    enable_safety_checker: true
