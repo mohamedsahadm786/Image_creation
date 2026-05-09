@@ -1,0 +1,41 @@
+# plan_a.yaml — Plan A: PuLID Step 1 + Nano Banana 2 Step 2 (DEFAULT)
+
+plan_name: plan_a
+
+step_1:
+  endpoint: fal-ai/flux-pulid
+  cost_per_image_usd: 0.04
+  # IMPORTANT: id_weight is capped at 1.0 by the fal API.
+  # Identity preservation is split across:
+  #   - reference_image_url (persona.jpg)
+  #   - id_weight (1.0 max)
+  #   - true_cfg amplifying the verbatim face descriptor in the prompt
+  defaults:
+    image_size:
+      width: 768
+      height: 1344
+    num_inference_steps: 30
+    guidance_scale: 3.5         # was 4.0 — lowered for more candid texture
+    id_weight: 1.0              # HARD CAP — fal rejects values above 1.0
+    true_cfg: 1.5               # back to 1.5 — second-strongest identity knob since id_weight capped
+    max_sequence_length: "256"
+    enable_safety_checker: true
+    negative_prompt: >-
+      extra limbs, deformed hands, mutated hands, bad anatomy, lowres, blurry,
+      watermark, text, signature, extra fingers, fused fingers, distorted face,
+      asymmetric eyes, unnatural skin texture, plastic skin, AI-generated look,
+      model pose, perfect symmetry, smooth airbrushed skin, glossy plastic skin,
+      illustration, 3D render, CGI, doll-like features, magazine retouching
+
+step_2:
+  endpoint: fal-ai/nano-banana-2/edit
+  cost_per_image_usd: 0.04
+  defaults:
+    aspect_ratio: "9:16"
+    resolution: "1K"
+    num_images: 1
+    output_format: "png"
+    safety_tolerance: "4"
+    enable_thinking: "high"
+
+estimated_total_cost_per_image_usd: 0.08

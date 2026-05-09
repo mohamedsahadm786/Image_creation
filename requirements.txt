@@ -1,0 +1,20 @@
+# ─── Core LLM clients ─────────────────────────────
+anthropic>=0.40.0
+fal-client>=0.5.6
+
+# ─── HTTP / utilities ─────────────────────────────
+requests>=2.31.0
+python-dotenv>=1.0.0
+
+# ─── YAML / JSON ──────────────────────────────────
+pyyaml>=6.0
+jsonschema>=4.20.0
+
+# ─── Image handling ───────────────────────────────
+Pillow>=10.0.0
+
+# ─── Excel + reporting ────────────────────────────
+openpyxl>=3.1.0
+
+# ─── Database ─────────────────────────────────────
+# sqlite3 is built into Python stdlib — no install needed

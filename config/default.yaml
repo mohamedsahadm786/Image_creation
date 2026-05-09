@@ -1,0 +1,21 @@
+# default.yaml — base configuration shared by all plans
+
+# Output directory base
+outputs_dir: outputs/runs
+
+# Database path (SQLite)
+db_path: data/alluvi.db
+
+# Upload cache (persona.jpg / product.jpg fal URLs persisted across runs)
+fal_uploads_cache: cache/fal_uploads.json
+
+# Pilot mode: which scenarios to run when --pilot flag is set
+# (resolved by scenario_loader.filter_pilot_scenarios)
+pilot_mode_description: "3 hero flat-lays + 2 easy non-hero scenarios"
+
+# Per-scenario timeout (seconds) — kills runaway requests
+per_scenario_timeout_s: 300
+
+# Retry policy on transient errors (network, fal 5xx)
+max_retries_per_step: 2
+retry_backoff_seconds: 5

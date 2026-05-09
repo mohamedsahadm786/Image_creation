@@ -1,0 +1,42 @@
+# config.yaml — FLUX-2-Klein-9B Step 2 swap experiment
+#
+# Backup #1 (open source) per the Image Edit Arena Feb 2026 ranking.
+# Apache 2.0 license, ELO 1232, ranked #15 globally — basically tied with
+# Qwen-Image-Edit-2511 (ELO 1239) but using a different model architecture
+# (BFL rectified flow transformer vs Alibaba MMDiT). Useful as a backup
+# precisely BECAUSE the failure modes will differ from Qwen.
+#
+# Endpoint chosen: distilled 9B Edit (fal-ai/flux-2/klein/9b/edit).
+# Per fal's official guidance: "Start with the Distilled variant for most
+# production use cases where speed matters." Fixed 4-step inference,
+# sub-second per call.
+
+experiment_name: step2_flux2_klein_9b
+model_label: "FLUX-2-Klein-9B"
+
+step_2:
+  endpoint: fal-ai/flux-2/klein/9b/edit
+  cost_per_image_usd: 0.025   # approximate; FLUX 2 Klein bills per megapixel,
+                              # ~$0.018-0.025 for 768x1344 (~1MP) — verify on fal pricing
+
+  defaults:
+    # Output dimensions matched to PuLID Step 1 (768x1344, 9:16 vertical for TikTok)
+    image_size:
+      width: 768
+      height: 1344
+
+    num_images: 1
+    output_format: "png"
+    enable_safety_checker: true
+
+    # Optional knobs — distilled variant uses fixed 4-step inference,
+    # so num_inference_steps is intentionally NOT set here (it'd be ignored).
+    # Leave guidance_scale unset — distilled is calibrated.
+    #
+    # negative_prompt: "..."
+    # seed: 42
+
+# Notes:
+# - Same image_urls order as Qwen and Nano Banana: [step_1_scene_url, product_url]
+# - The 9B Edit accepts up to 4 reference images; we use 2 (scene + product)
+# - Prompt fed verbatim from the baseline Plan A run — true apples-to-apples

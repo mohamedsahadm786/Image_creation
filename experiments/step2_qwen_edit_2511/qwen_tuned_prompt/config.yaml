@@ -1,0 +1,34 @@
+# config.yaml — qwen_tuned_prompt experiment
+#
+# This experiment regenerates the Step 2 prompt via Opus 4.7 using the new
+# Qwen-tuned master prompt (master_prompt_step2_qwen.md), then runs
+# fal-ai/qwen-image-edit-2511 with that new prompt. The result is compared
+# A/B/C against:
+#   - the existing Nano Banana baseline image (copied from a Plan A run)
+#   - the existing Qwen image generated with the OLD NB-shaped prompt
+#     (copied from the previous step2_qwen_edit_2511/batch_runner outputs)
+
+experiment_name: step2_qwen_edit_2511_with_qwen_tuned_prompt
+model_label: "Qwen-Image-Edit-2511 (qwen-tuned prompt)"
+
+step_2:
+  endpoint: fal-ai/qwen-image-edit-2511
+  cost_per_image_usd: 0.04           # Qwen API call
+
+  # Per-scenario Opus prompt regeneration cost (rough estimate):
+  # Input ~8K tokens (master prompt + scenario + step_1 output + static context)
+  #   × $15/M = $0.12
+  # Output ~800 tokens × $75/M = $0.06
+  # Total per scenario ~$0.18
+  cost_per_prompt_opus_usd: 0.18
+
+  # Combined per-scenario cost: ~$0.22
+  # 30-scenario batch: ~$6.60
+
+  defaults:
+    image_size:
+      width: 768
+      height: 1344
+    num_images: 1
+    output_format: "png"
+    enable_safety_checker: true

@@ -1,0 +1,40 @@
+# config.yaml — Qwen-Image-Edit-2511 Step 2 swap experiment
+#
+# This experiment swaps fal-ai/nano-banana-2/edit (Step 2) for
+# fal-ai/qwen-image-edit-2511 (Apache 2.0 open-weight editor) and tests
+# whether output quality holds.
+#
+# Step 1 (PuLID) and the Opus-generated Step 2 prompt are NOT changed —
+# this isolates the model swap as the only variable.
+
+experiment_name: step2_qwen_edit_2511
+model_label: "Qwen-Image-Edit-2511"
+
+step_2:
+  endpoint: fal-ai/qwen-image-edit-2511
+  cost_per_image_usd: 0.04   # approximate; check fal pricing for exact billing
+
+  defaults:
+    # Output dimensions matched to PuLID Step 1 (768x1344, 9:16 vertical for TikTok)
+    image_size:
+      width: 768
+      height: 1344
+
+    num_images: 1
+    output_format: "png"
+    enable_safety_checker: true
+
+    # Optional knobs — Qwen-Image-Edit-2511 supports these but we leave them
+    # at fal's defaults for the first comparison run. Tune later if needed.
+    #
+    # num_inference_steps: 30
+    # guidance_scale: 4.0
+    # acceleration: "none"          # "none" | "regular" | "high"
+    # negative_prompt: "..."
+
+# Notes:
+# - Nano Banana 2's `aspect_ratio` and `enable_thinking` parameters are
+#   model-specific and intentionally NOT mapped into Qwen calls.
+# - We pass image_urls in the SAME order as the existing pipeline:
+#   [step_1_scene_url, product_url]. This matches the prompt's
+#   "persona reference photo / product reference photo" wording.
