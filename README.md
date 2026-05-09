@@ -29,8 +29,6 @@ pip install -r requirements.txt
 # Validate setup
 python preflight.py
 
-# Run a single scenario (testing)
-python -m pipelines.run_plan_a --only outdoor_golden_hour_patio_27
 
 # Run all 30 scenarios
 python -m experiments.step2_qwen_edit_2511.qwen_tuned_prompt_oriented.batch_runner.run_batch_full
